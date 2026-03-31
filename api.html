@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Clan API Viewer</title>
+</head>
+<body>
+
+<h1>Clan Member Data</h1>
+
+<pre id="output">Loading...</pre>
+
 <script>
 const params = new URLSearchParams(window.location.search);
 const memberIndex = parseInt(params.get("member")) || 1;
@@ -41,3 +52,6 @@ async function loadData() {
 
 loadData();
 </script>
+
+</body>
+</html>

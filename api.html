@@ -1,8 +1,12 @@
 <script>
 const apiURL = "https://roboninon.win/api/v1/priconne/clan/489663?key=yEmk6fTXsyr4GOjEMwTM15Jt";
-const CACHE_KEY = "clan_api_cache";
-const CACHE_TIME_KEY = "clan_api_cache_time";
+const CACHE_KEY = "clan_members_cache";
+const CACHE_TIME_KEY = "clan_members_cache_time";
 const ONE_HOUR = 60 * 60 * 1000;
+
+// Get member index from URL
+const params = new URLSearchParams(window.location.search);
+const memberIndex = parseInt(params.get("member")) || 1;
 
 async function loadData() {
   const now = Date.now();
@@ -10,34 +14,53 @@ async function loadData() {
   const cachedData = localStorage.getItem(CACHE_KEY);
   const cachedTime = localStorage.getItem(CACHE_TIME_KEY);
 
-  // Use cache if within 1 hour
+  let members;
+
   if (cachedData && cachedTime && (now - cachedTime < ONE_HOUR)) {
     console.log("Using cached data");
-    const data = JSON.parse(cachedData);
-    displayData(data);
+    members = JSON.parse(cachedData);
+  } else {
+    console.log("Fetching new data from API...");
+    try {
+      const response = await fetch(apiURL);
+      const data = await response.json();
+
+      console.log("FULL API:", data);
+
+      // ✅ Your API is already an array of members
+      members = data;
+
+      // Save ONLY members
+      try {
+        localStorage.setItem(CACHE_KEY, JSON.stringify(members));
+        localStorage.setItem(CACHE_TIME_KEY, now);
+      } catch (e) {
+        console.warn("Cache too large, skipping cache");
+      }
+
+    } catch (err) {
+      console.error(err);
+      document.getElementById("output").textContent = "Error fetching API";
+      return;
+    }
+  }
+
+  displayMember(members);
+}
+
+function displayMember(members) {
+  const output = document.getElementById("output");
+
+  if (!output) return;
+
+  const member = members[memberIndex - 1];
+
+  if (!member) {
+    output.textContent = "Invalid member index";
     return;
   }
 
-  // Otherwise fetch new data
-  console.log("Fetching new data from API...");
-  try {
-    const response = await fetch(apiURL);
-    const data = await response.json();
-
-    // Save to cache
-    localStorage.setItem(CACHE_KEY, JSON.stringify(data));
-    localStorage.setItem(CACHE_TIME_KEY, now);
-
-    displayData(data);
-  } catch (err) {
-    console.error(err);
-    document.getElementById("output").textContent = "Error: " + err;
-  }
-}
-
-function displayData(data) {
-  console.log("API DATA:", data);
-  document.getElementById("output").textContent = JSON.stringify(data, null, 2);
+  output.textContent = JSON.stringify(member, null, 2);
 }
 
 loadData();

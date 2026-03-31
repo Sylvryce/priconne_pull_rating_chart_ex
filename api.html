@@ -1,51 +1,31 @@
 <script>
 const apiURL = "https://roboninon.win/api/v1/priconne/clan/489663?key=yEmk6fTXsyr4GOjEMwTM15Jt";
-const CACHE_KEY = "clan_members_cache";
-const CACHE_TIME_KEY = "clan_members_cache_time";
-const ONE_HOUR = 60 * 60 * 1000;
 
 // Get member index from URL
 const params = new URLSearchParams(window.location.search);
 const memberIndex = parseInt(params.get("member")) || 1;
 
 async function loadData() {
-  const now = Date.now();
+  console.log("Fetching data from API...");
 
-  const cachedData = localStorage.getItem(CACHE_KEY);
-  const cachedTime = localStorage.getItem(CACHE_TIME_KEY);
+  try {
+    const response = await fetch(apiURL);
+    const data = await response.json();
 
-  let members;
+    console.log("FULL API:", data);
 
-  if (cachedData && cachedTime && (now - cachedTime < ONE_HOUR)) {
-    console.log("Using cached data");
-    members = JSON.parse(cachedData);
-  } else {
-    console.log("Fetching new data from API...");
-    try {
-      const response = await fetch(apiURL);
-      const data = await response.json();
+    const members = data;
 
-      console.log("FULL API:", data);
+    displayMember(members);
 
-      // ✅ Your API is already an array of members
-      members = data;
+  } catch (err) {
+    console.error(err);
 
-      // Save ONLY members
-      try {
-        localStorage.setItem(CACHE_KEY, JSON.stringify(members));
-        localStorage.setItem(CACHE_TIME_KEY, now);
-      } catch (e) {
-        console.warn("Cache too large, skipping cache");
-      }
-
-    } catch (err) {
-      console.error(err);
-      document.getElementById("output").textContent = "Error fetching API";
-      return;
+    const output = document.getElementById("output");
+    if (output) {
+      output.textContent = "Error fetching API";
     }
   }
-
-  displayMember(members);
 }
 
 function displayMember(members) {

@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Clan API Viewer</title>
+  <meta charset="UTF-8">
+  <title>API Viewer</title>
 </head>
 <body>
-
-<h1>Clan Member Data</h1>
 
 <pre id="output">Loading...</pre>
 
@@ -37,6 +36,7 @@ async function loadData() {
 
     if (!output) return;
 
+    // Display raw JSON only
     output.textContent = JSON.stringify(data, null, 2);
 
   } catch (err) {

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Clan API Test</title>
+</head>
+<body>
+
+<pre id="output">Loading...</pre>
+
+<script>
+const apiURL = "https://roboninon.win/api/v1/priconne/clan/489663?key=yEmk6fTXsyr4GOjEMwTM15Jt";
+
+fetch(apiURL)
+  .then(res => res.json())
+  .then(data => {
+    console.log("API DATA:", data);
+    document.getElementById("output").textContent = JSON.stringify(data, null, 2);
+  })
+  .catch(err => {
+    console.error(err);
+    document.getElementById("output").textContent = "Error: " + err;
+  });
+</script>
+
+</body>
+</html>

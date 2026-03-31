@@ -46,7 +46,7 @@ jobs:
 
             fs.writeFileSync(
               filename,
-              JSON.stringify(member, null, 2)
+              JSON.stringify(member) // ✅ minified JSON
             );
           });
 

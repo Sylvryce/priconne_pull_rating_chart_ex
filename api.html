@@ -1,46 +1,42 @@
 <script>
-const apiURL = "https://roboninon.win/api/v1/priconne/clan/489663?key=yEmk6fTXsyr4GOjEMwTM15Jt";
-
-// Get member index from URL
 const params = new URLSearchParams(window.location.search);
 const memberIndex = parseInt(params.get("member")) || 1;
 
-async function loadData() {
-  console.log("Fetching data from API...");
+// Convert to 2-digit format (01, 02, etc.)
+const memberId = String(memberIndex).padStart(2, '0');
 
+// Build file path
+const fileURL = `members/member_${memberId}.json`;
+
+async function loadData() {
   try {
-    const response = await fetch(apiURL);
+    console.log("Loading:", fileURL);
+
+    const response = await fetch(fileURL);
+
+    if (!response.ok) {
+      throw new Error("File not found");
+    }
+
     const data = await response.json();
 
-    console.log("FULL API:", data);
+    console.log("Member data:", data);
 
-    const members = data;
+    const output = document.getElementById("output");
 
-    displayMember(members);
+    if (!output) return;
+
+    output.textContent = JSON.stringify(data, null, 2);
 
   } catch (err) {
     console.error(err);
 
     const output = document.getElementById("output");
+
     if (output) {
-      output.textContent = "Error fetching API";
+      output.textContent = "Error loading member data";
     }
   }
-}
-
-function displayMember(members) {
-  const output = document.getElementById("output");
-
-  if (!output) return;
-
-  const member = members[memberIndex - 1];
-
-  if (!member) {
-    output.textContent = "Invalid member index";
-    return;
-  }
-
-  output.textContent = JSON.stringify(member, null, 2);
 }
 
 loadData();

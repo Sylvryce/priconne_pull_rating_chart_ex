@@ -109,7 +109,40 @@
   const grid = document.getElementById("grid");
   let selectedBox = null;
 
-  // CREATE GRID WITH STATIC NAMES
+  /* ------------------ SAVE / LOAD ------------------ */
+
+  function saveData() {
+    const data = [];
+
+    document.querySelectorAll(".box").forEach(box => {
+      data.push({
+        name: box.querySelector(".name").textContent,
+        workers: box.querySelector(".tags1").textContent,
+        task: box.querySelector(".tags2").textContent
+      });
+    });
+
+    localStorage.setItem("gridData", JSON.stringify(data));
+  }
+
+  function loadData() {
+    const saved = localStorage.getItem("gridData");
+    if (!saved) return;
+
+    const data = JSON.parse(saved);
+    const boxes = document.querySelectorAll(".box");
+
+    data.forEach((item, index) => {
+      if (!boxes[index]) return;
+
+      boxes[index].querySelector(".name").textContent = item.name;
+      boxes[index].querySelector(".tags1").textContent = item.workers;
+      boxes[index].querySelector(".tags2").textContent = item.task;
+    });
+  }
+
+  /* ------------------ GRID ------------------ */
+
   for (let i = 1; i <= 30; i++) {
     const box = document.createElement("div");
     box.className = "box";
@@ -132,7 +165,8 @@
     grid.appendChild(box);
   }
 
-  // WORKERS (MULTI SELECT)
+  /* ------------------ WORKERS ------------------ */
+
   const workerOptions = document.querySelectorAll(".worker");
 
   workerOptions.forEach(option => {
@@ -151,10 +185,13 @@
       }
 
       tagsDiv.textContent = current.join(", ");
+
+      saveData();
     });
   });
 
-  // TASK (SINGLE SELECT WITH TOGGLE)
+  /* ------------------ TASK ------------------ */
+
   const taskOptions = document.querySelectorAll(".task");
 
   taskOptions.forEach(option => {
@@ -164,14 +201,19 @@
       const taskDiv = selectedBox.querySelector(".tags2");
       const newTask = option.textContent;
 
-      // If clicking the same task again → unassign
       if (taskDiv.textContent === newTask) {
         taskDiv.textContent = "Unassigned";
       } else {
         taskDiv.textContent = newTask;
       }
+
+      saveData();
     });
   });
+
+  /* ------------------ INIT ------------------ */
+
+  loadData();
 </script>
 
 </body>

@@ -73,13 +73,6 @@
   .option:hover {
     background-color: #ddd;
   }
-
-  #saveBtn {
-    padding: 10px;
-    width: 100%;
-    font-size: 16px;
-    cursor: pointer;
-  }
 </style>
 </head>
 
@@ -90,8 +83,6 @@
   <div class="grid" id="grid"></div>
 
   <div class="panel">
-
-    <button id="saveBtn">💾 Save</button>
 
     <div class="panel-section">
       <h3>Workers (Multi-select)</h3>
@@ -152,7 +143,6 @@ document.querySelectorAll(".worker").forEach(option => {
     }
 
     tagsDiv.textContent = current.join(", ");
-    saveToGitHub();
   });
 });
 
@@ -169,8 +159,6 @@ document.querySelectorAll(".task").forEach(option => {
     } else {
       taskDiv.textContent = newTask;
     }
-
-    saveToGitHub();
   });
 });
 
@@ -191,53 +179,9 @@ async function loadSharedData() {
     });
 
   } catch (err) {
-    console.error(err);
+    console.error("Failed to load data:", err);
   }
 }
-
-/* SAVE TO GITHUB */
-async function saveToGitHub() {
-  const token = "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"; // 🔴 REPLACE THIS
-
-  const owner = "Sylvryce";
-  const repo = "priconne_pull_rating_chart_ex";
-  const path = "grid-app/data.json";
-
-  const apiUrl = `https://api.github.com/repos/${owner}/${repo}/contents/${path}`;
-
-  const boxes = document.querySelectorAll(".box");
-
-  const data = Array.from(boxes).map(box => ({
-    name: box.querySelector(".name").textContent,
-    workers: box.querySelector(".tags1").textContent,
-    task: box.querySelector(".tags2").textContent
-  }));
-
-  const getRes = await fetch(apiUrl, {
-    headers: { Authorization: `Bearer ${token}` }
-  });
-
-  const getData = await getRes.json();
-  const sha = getData.sha;
-
-  await fetch(apiUrl, {
-    method: "PUT",
-    headers: {
-      Authorization: `Bearer ${token}`,
-      "Content-Type": "application/json"
-    },
-    body: JSON.stringify({
-      message: "Update grid data",
-      content: btoa(JSON.stringify(data, null, 2)),
-      sha: sha
-    })
-  });
-
-  console.log("Saved!");
-}
-
-/* SAVE BUTTON */
-document.getElementById("saveBtn").addEventListener("click", saveToGitHub);
 
 /* INIT */
 loadSharedData();

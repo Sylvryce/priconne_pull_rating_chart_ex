@@ -21,24 +21,18 @@ jobs:
       - name: Fetch API and split
         run: |
           mkdir -p members
-
           curl -s "https://roboninon.win/api/v1/priconne/clan/489663?key=yEmk6fTXsyr4GOjEMwTM15Jt" > data.json
-
           echo "=== RAW DATA PREVIEW ==="
           head -c 500 data.json
-
+          node crawl.js
           node << 'EOF'
           const fs = require('fs');
-
           const raw = fs.readFileSync('data.json', 'utf8');
-
           if (!raw || raw.length < 10) {
             console.log("ERROR: Empty API response");
             process.exit(1);
           }
-
           const data = JSON.parse(raw);
-
           console.log("Members found:", data.length);
 
           data.forEach((member, index) => {

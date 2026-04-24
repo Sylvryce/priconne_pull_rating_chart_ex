@@ -16,13 +16,13 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          path: master
           persist-credentials: true
+          path: dist
 
       - name: Fetch API and split
         run: |
           mkdir -p members
-          ls
+          node dist/scripts/crawl.js
           curl -s "https://roboninon.win/api/v1/priconne/clan/489663?key=yEmk6fTXsyr4GOjEMwTM15Jt" > data.json
           echo "=== RAW DATA PREVIEW ==="
           head -c 500 data.json

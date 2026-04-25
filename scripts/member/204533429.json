@@ -4,7 +4,7 @@
     "user_name": "Main",
     "user_comment": "Discord：　sylvryce",
     "team_level": 376,
-    "user_stamina": 162,
+    "user_stamina": 206,
     "max_stamina": 434,
     "team_exp": 1374633,
     "favorite_unit_id": 109901,
@@ -12303,11 +12303,63 @@
       "ex_equip_slot": [
         {
           "slot": 1,
-          "serial_id": 10686
+          "serial_id": 13734,
+          "sub_status": [
+            {
+              "slot_number": 1,
+              "status": 13,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 2,
+              "status": 13,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 3,
+              "status": 13,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 4,
+              "status": 13,
+              "step": 5,
+              "is_lock": 1
+            }
+          ]
         },
         {
           "slot": 2,
-          "serial_id": 13804
+          "serial_id": 11906,
+          "sub_status": [
+            {
+              "slot_number": 1,
+              "status": 13,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 2,
+              "status": 13,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 3,
+              "status": 13,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 4,
+              "status": 13,
+              "step": 5,
+              "is_lock": 1
+            }
+          ]
         },
         {
           "slot": 3,
@@ -32338,33 +32390,7 @@
       "ex_equip_slot": [
         {
           "slot": 1,
-          "serial_id": 13734,
-          "sub_status": [
-            {
-              "slot_number": 1,
-              "status": 13,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 2,
-              "status": 13,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 3,
-              "status": 13,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 4,
-              "status": 13,
-              "step": 5,
-              "is_lock": 1
-            }
-          ]
+          "serial_id": 10686
         },
         {
           "slot": 2,
@@ -33756,33 +33782,7 @@
         },
         {
           "slot": 2,
-          "serial_id": 11906,
-          "sub_status": [
-            {
-              "slot_number": 1,
-              "status": 13,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 2,
-              "status": 13,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 3,
-              "status": 13,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 4,
-              "status": 13,
-              "step": 5,
-              "is_lock": 1
-            }
-          ]
+          "serial_id": 13804
         },
         {
           "slot": 3,
@@ -39314,11 +39314,11 @@
     },
     {
       "deck_number": 2,
-      "unit_id_1": 136501,
-      "unit_id_2": 105901,
-      "unit_id_3": 105501,
-      "unit_id_4": 134001,
-      "unit_id_5": 135001,
+      "unit_id_1": 137101,
+      "unit_id_2": 110301,
+      "unit_id_3": 131001,
+      "unit_id_4": 124501,
+      "unit_id_5": 132001,
       "general_property_1": null,
       "general_property_2": null,
       "general_property_3": null,
@@ -39330,7 +39330,7 @@
       "unit_id_1": 114701,
       "unit_id_2": 138301,
       "unit_id_3": 103201,
-      "unit_id_4": 130201,
+      "unit_id_4": 111701,
       "unit_id_5": 102801,
       "general_property_1": null,
       "general_property_2": null,
@@ -43506,7 +43506,7 @@
     {
       "type": 2,
       "id": 90003,
-      "stock": 701
+      "stock": 1733
     },
     {
       "type": 2,
@@ -81857,7 +81857,7 @@
       ]
     }
   ],
-  "present_count": 8,
+  "present_count": 33,
   "clan_like_count": 1,
   "dispatch_units": [
     {
@@ -81870,7 +81870,7 @@
       "dispatch_count": 0,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 6899390,
+      "current_dispatch_bonus": 6959992,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -81886,7 +81886,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 6170337,
+      "current_dispatch_bonus": 6224536,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -81903,7 +81903,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 1044390,
+      "current_dispatch_bonus": 1103683,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -81919,7 +81919,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 23910,
+      "current_dispatch_bonus": 82664,
       "connect_rank": 0,
       "connect_rank_limit": 3
     }
@@ -82070,5 +82070,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1777110522
+  "last_modified": 1777126396
 }

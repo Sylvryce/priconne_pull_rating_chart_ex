@@ -53,7 +53,7 @@ jobs:
           git config user.email "actions@github.com"
 
           git add members
-          git add member
+          git add scripts/member
 
           git commit -m "Update member JSON files" || echo "No changes"
 

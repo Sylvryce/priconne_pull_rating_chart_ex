@@ -4,7 +4,7 @@
     "user_name": "Shini",
     "user_comment": "しにえ",
     "team_level": 376,
-    "user_stamina": 47,
+    "user_stamina": 110,
     "max_stamina": 434,
     "team_exp": 1374633,
     "favorite_unit_id": 102901,
@@ -22,7 +22,7 @@
     "paid_jewel": 0
   },
   "user_gold": {
-    "gold_id_free": 649583260,
+    "gold_id_free": 650533260,
     "gold_id_pay": 0
   },
   "user_gold_bank_info": {
@@ -38660,11 +38660,11 @@
     },
     {
       "deck_number": 14,
-      "unit_id_1": 138001,
-      "unit_id_2": 123301,
-      "unit_id_3": 1,
-      "unit_id_4": 138801,
-      "unit_id_5": 129301,
+      "unit_id_1": 1,
+      "unit_id_2": 112401,
+      "unit_id_3": 138201,
+      "unit_id_4": 134601,
+      "unit_id_5": 116001,
       "general_property_1": null,
       "general_property_2": null,
       "general_property_3": null,
@@ -39629,7 +39629,7 @@
     {
       "type": 2,
       "id": 25202,
-      "stock": 1042
+      "stock": 1050
     },
     {
       "type": 2,
@@ -39639,7 +39639,7 @@
     {
       "type": 2,
       "id": 25204,
-      "stock": 1100
+      "stock": 1105
     },
     {
       "type": 2,
@@ -42774,12 +42774,12 @@
     {
       "type": 2,
       "id": 90005,
-      "stock": 23328
+      "stock": 23330
     },
     {
       "type": 2,
       "id": 90006,
-      "stock": 266158
+      "stock": 266188
     },
     {
       "type": 2,
@@ -47491,7 +47491,7 @@
     {
       "type": 4,
       "id": 11022037,
-      "stock": 586
+      "stock": 590
     },
     {
       "type": 4,
@@ -80049,8 +80049,16 @@
   ],
   "user_clan_battle_ex_equip_restriction": [
     {
+      "serial_id": 1,
+      "unit_id": 116001
+    },
+    {
       "serial_id": 3,
       "unit_id": 138001
+    },
+    {
+      "serial_id": 7,
+      "unit_id": 138201
     },
     {
       "serial_id": 8,
@@ -80061,8 +80069,16 @@
       "unit_id": 138301
     },
     {
+      "serial_id": 10,
+      "unit_id": 112401
+    },
+    {
       "serial_id": 214,
       "unit_id": 138001
+    },
+    {
+      "serial_id": 277,
+      "unit_id": 116001
     },
     {
       "serial_id": 400,
@@ -80071,6 +80087,10 @@
     {
       "serial_id": 558,
       "unit_id": 138801
+    },
+    {
+      "serial_id": 754,
+      "unit_id": 112401
     },
     {
       "serial_id": 1093,
@@ -80085,12 +80105,40 @@
       "unit_id": 129301
     },
     {
+      "serial_id": 1455,
+      "unit_id": 138201
+    },
+    {
+      "serial_id": 1593,
+      "unit_id": 134601
+    },
+    {
       "serial_id": 1677,
       "unit_id": 100101
     },
     {
+      "serial_id": 4162,
+      "unit_id": 116001
+    },
+    {
       "serial_id": 4164,
       "unit_id": 138301
+    },
+    {
+      "serial_id": 4275,
+      "unit_id": 112401
+    },
+    {
+      "serial_id": 5363,
+      "unit_id": 134601
+    },
+    {
+      "serial_id": 5492,
+      "unit_id": 138201
+    },
+    {
+      "serial_id": 5511,
+      "unit_id": 134601
     },
     {
       "serial_id": 5870,
@@ -90874,7 +90922,7 @@
       ]
     }
   ],
-  "present_count": 14,
+  "present_count": 19,
   "clan_like_count": 1,
   "dispatch_units": [
     {
@@ -90887,7 +90935,7 @@
       "dispatch_count": 9,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 55440472,
+      "current_dispatch_bonus": 55524014,
       "connect_rank": 6,
       "connect_rank_limit": 6
     },
@@ -90901,7 +90949,7 @@
       "dispatch_count": 13,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 50956838,
+      "current_dispatch_bonus": 51040300,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -90917,7 +90965,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 62037524,
+      "current_dispatch_bonus": 62124641,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -90933,7 +90981,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 29349148,
+      "current_dispatch_bonus": 29437440,
       "connect_rank": 15,
       "connect_rank_limit": 15
     }
@@ -91091,5 +91139,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1777289004
+  "last_modified": 1777311716
 }

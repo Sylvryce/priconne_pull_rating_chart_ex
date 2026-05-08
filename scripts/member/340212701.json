@@ -4,7 +4,7 @@
     "user_name": "Kishi",
     "user_comment": "Kiran☆　｜　Discord：kishi4824",
     "team_level": 376,
-    "user_stamina": 300,
+    "user_stamina": 397,
     "max_stamina": 434,
     "team_exp": 1374633,
     "favorite_unit_id": 101201,
@@ -43360,12 +43360,12 @@
     {
       "type": 2,
       "id": 25011,
-      "stock": 37115
+      "stock": 2115
     },
     {
       "type": 2,
       "id": 25012,
-      "stock": 43869
+      "stock": 3869
     },
     {
       "type": 2,
@@ -43375,12 +43375,12 @@
     {
       "type": 2,
       "id": 25014,
-      "stock": 35548
+      "stock": 548
     },
     {
       "type": 2,
       "id": 25015,
-      "stock": 28601
+      "stock": 3601
     },
     {
       "type": 2,
@@ -43400,7 +43400,7 @@
     {
       "type": 2,
       "id": 25202,
-      "stock": 1355
+      "stock": 1455
     },
     {
       "type": 2,
@@ -46520,7 +46520,7 @@
     {
       "type": 2,
       "id": 90003,
-      "stock": 472158
+      "stock": 472168
     },
     {
       "type": 2,
@@ -46635,7 +46635,7 @@
     {
       "type": 2,
       "id": 97001,
-      "stock": 2930
+      "stock": 1430
     },
     {
       "type": 2,
@@ -86002,14 +86002,14 @@
       "max_stock_count": 30
     },
     "recover_challenge_count": {
-      "recovery": 3,
+      "recovery": 6,
       "recovery_max_count": 1,
       "cost": [
         50
       ]
     },
     "very_hard_recover_challenge_count": {
-      "recovery": 3,
+      "recovery": 6,
       "recovery_max_count": 1,
       "cost": [
         50
@@ -86278,13 +86278,12 @@
   "max_storage_num": 200,
   "campaign_list": [
     3274,
-    3362,
-    3363,
-    3364,
-    3365,
-    3366,
-    3367,
-    3368,
+    3369,
+    3370,
+    3371,
+    3372,
+    3373,
+    3374,
     5049,
     5050,
     5051,
@@ -86295,10 +86294,10 @@
     5129,
     5131,
     5132,
-    5133,
-    5134
+    5135,
+    5136
   ],
-  "can_free_gacha": 0,
+  "can_free_gacha": 1,
   "can_campaign_gacha": 0,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
@@ -93100,11 +93099,11 @@
     "talent_level_info_list": [
       {
         "talent_id": 1,
-        "total_point": 3458654
+        "total_point": 3463654
       },
       {
         "talent_id": 2,
-        "total_point": 3488654
+        "total_point": 3493654
       },
       {
         "talent_id": 3,
@@ -93632,7 +93631,7 @@
       "enhance_level_4": 1
     }
   ],
-  "princess_knight_rank_exp": 58609620,
+  "princess_knight_rank_exp": 58744620,
   "seven_story_list": [
     {
       "event_id": 10201,
@@ -94783,10 +94782,21 @@
       ]
     }
   ],
-  "daily_reset_time": 1778184000,
+  "daily_reset_time": 1778270400,
   "login_bonus_list": {
     "first": [],
-    "normal": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 1197,
+        "rap": 1,
+        "count_num": 12,
+        "type": "normal",
+        "reward_type": 2,
+        "reward_id": 25015,
+        "reward_count": 10000
+      }
+    ],
     "campaign": [],
     "lottery": [],
     "adv": [],
@@ -94794,6 +94804,8 @@
     "birthday": [],
     "story_read_process": []
   },
+  "receive_caravan_dice_count": 1,
+  "receive_labyrinth_passport_count": 1,
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -94813,8 +94825,8 @@
       ]
     }
   ],
-  "present_count": 8,
-  "clan_like_count": 1,
+  "present_count": 11,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 103801,
@@ -94828,7 +94840,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 87560818,
+      "current_dispatch_bonus": 87708577,
       "connect_rank": 3,
       "connect_rank_limit": 3
     },
@@ -94844,7 +94856,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 28968706,
+      "current_dispatch_bonus": 29120939,
       "connect_rank": 6,
       "connect_rank_limit": 6
     },
@@ -94858,7 +94870,7 @@
       "dispatch_count": 41,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 25743671,
+      "current_dispatch_bonus": 25878176,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -94874,7 +94886,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 10813576,
+      "current_dispatch_bonus": 10946610,
       "connect_rank": 15,
       "connect_rank_limit": 15
     }
@@ -95082,5 +95094,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1778176996
+  "last_modified": 1778211873
 }

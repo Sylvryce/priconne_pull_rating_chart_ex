@@ -4,7 +4,7 @@
     "user_name": "Qz",
     "user_comment": "よろしくお願いします。",
     "team_level": 376,
-    "user_stamina": 177,
+    "user_stamina": 969,
     "max_stamina": 434,
     "team_exp": 1374633,
     "favorite_unit_id": 134301,
@@ -14,7 +14,7 @@
       "emblem_id": 11001349,
       "ex_value": 0
     },
-    "stamina_full_recovery_time": 1778502671
+    "stamina_full_recovery_time": 1778478416
   },
   "user_jewel": {
     "jewel": 750,
@@ -26,7 +26,7 @@
     "gold_id_pay": 0
   },
   "user_gold_bank_info": {
-    "bank_gold": 12094296698,
+    "bank_gold": 12095776698,
     "highest_bank_gold": 12543561154
   },
   "unit_list": [
@@ -31867,7 +31867,16 @@
           "enhancement_pt": 1800
         }
       ],
-      "unique_equip_slot": [],
+      "unique_equip_slot": [
+        {
+          "id": 133231,
+          "is_slot": 0,
+          "enhancement_level": 0,
+          "enhancement_pt": 0,
+          "rank": 0,
+          "is_specialized": 0
+        }
+      ],
       "ex_equip_slot": [
         {
           "slot": 1,
@@ -31985,7 +31994,16 @@
           "enhancement_pt": 1800
         }
       ],
-      "unique_equip_slot": [],
+      "unique_equip_slot": [
+        {
+          "id": 133251,
+          "is_slot": 0,
+          "enhancement_level": 0,
+          "enhancement_pt": 0,
+          "rank": 0,
+          "is_specialized": 0
+        }
+      ],
       "ex_equip_slot": [
         {
           "slot": 1,
@@ -42820,12 +42838,12 @@
     {
       "type": 2,
       "id": 20003,
-      "stock": 1663
+      "stock": 1682
     },
     {
       "type": 2,
       "id": 20004,
-      "stock": 177659
+      "stock": 177681
     },
     {
       "type": 2,
@@ -42860,7 +42878,7 @@
     {
       "type": 2,
       "id": 23001,
-      "stock": 147611
+      "stock": 147679
     },
     {
       "type": 2,
@@ -46140,7 +46158,7 @@
     {
       "type": 2,
       "id": 90002,
-      "stock": 98740
+      "stock": 98850
     },
     {
       "type": 2,
@@ -46150,7 +46168,7 @@
     {
       "type": 2,
       "id": 90004,
-      "stock": 99184
+      "stock": 99204
     },
     {
       "type": 2,
@@ -46265,12 +46283,12 @@
     {
       "type": 2,
       "id": 99009,
-      "stock": 76
+      "stock": 77
     },
     {
       "type": 2,
       "id": 99013,
-      "stock": 78
+      "stock": 79
     },
     {
       "type": 2,
@@ -76094,12 +76112,12 @@
     5135,
     5136
   ],
-  "can_free_gacha": 0,
+  "can_free_gacha": 1,
   "can_campaign_gacha": 0,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
     {
-      "gacha_id": "70151",
+      "gacha_id": "70152",
       "remain_exec_count": 3
     }
   ],
@@ -86804,7 +86822,7 @@
       ]
     }
   ],
-  "daily_reset_time": 1778443200,
+  "daily_reset_time": 1778529600,
   "login_bonus_list": {
     "first": [],
     "normal": [],
@@ -86834,8 +86852,8 @@
       ]
     }
   ],
-  "present_count": 11,
-  "clan_like_count": 1,
+  "present_count": 22,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 136501,
@@ -86847,7 +86865,7 @@
       "dispatch_count": 0,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 3199299,
+      "current_dispatch_bonus": 3451546,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -86864,7 +86882,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 14879876,
+      "current_dispatch_bonus": 15203908,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -86881,7 +86899,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 3880785,
+      "current_dispatch_bonus": 4186766,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -86897,7 +86915,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 3793371,
+      "current_dispatch_bonus": 4092462,
       "connect_rank": 0,
       "connect_rank_limit": 3
     }
@@ -86915,7 +86933,7 @@
   },
   "csc": {
     "weekly": {
-      "count": 11150,
+      "count": 0,
       "max": 15000
     }
   },
@@ -87039,6 +87057,12 @@
       "remaining_count": 0,
       "start_time": 1777518000,
       "end_time": 1779418799
+    },
+    {
+      "id": 273,
+      "remaining_count": 1,
+      "start_time": 1778468400,
+      "end_time": 1779418799
     }
   ],
   "errm": 250,
@@ -87100,5 +87124,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1778410335
+  "last_modified": 1778478421
 }

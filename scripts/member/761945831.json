@@ -4,7 +4,7 @@
     "user_name": "Snow",
     "user_comment": "Discord：sylvryce",
     "team_level": 376,
-    "user_stamina": 174,
+    "user_stamina": 358,
     "max_stamina": 434,
     "team_exp": 1374633,
     "favorite_unit_id": 112301,
@@ -26,7 +26,7 @@
     "gold_id_pay": 0
   },
   "user_gold_bank_info": {
-    "bank_gold": 11960413305,
+    "bank_gold": 11961133305,
     "highest_bank_gold": 12114061518
   },
   "unit_list": [
@@ -31159,7 +31159,16 @@
           "enhancement_pt": 1800
         }
       ],
-      "unique_equip_slot": [],
+      "unique_equip_slot": [
+        {
+          "id": 133231,
+          "is_slot": 0,
+          "enhancement_level": 0,
+          "enhancement_pt": 0,
+          "rank": 0,
+          "is_specialized": 0
+        }
+      ],
       "ex_equip_slot": [
         {
           "slot": 1,
@@ -31395,7 +31404,16 @@
           "enhancement_pt": 1800
         }
       ],
-      "unique_equip_slot": [],
+      "unique_equip_slot": [
+        {
+          "id": 133251,
+          "is_slot": 0,
+          "enhancement_level": 0,
+          "enhancement_pt": 0,
+          "rank": 0,
+          "is_specialized": 0
+        }
+      ],
       "ex_equip_slot": [
         {
           "slot": 1,
@@ -42223,7 +42241,7 @@
     {
       "type": 2,
       "id": 22002,
-      "stock": 7
+      "stock": 11
     },
     {
       "type": 2,
@@ -45183,7 +45201,7 @@
     {
       "type": 2,
       "id": 90002,
-      "stock": 99790
+      "stock": 99930
     },
     {
       "type": 2,
@@ -70979,12 +70997,12 @@
     5135,
     5136
   ],
-  "can_free_gacha": 0,
+  "can_free_gacha": 1,
   "can_campaign_gacha": 0,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
     {
-      "gacha_id": "70151",
+      "gacha_id": "70152",
       "remain_exec_count": 3
     }
   ],
@@ -81946,17 +81964,41 @@
       ]
     }
   ],
-  "daily_reset_time": 1778443200,
+  "daily_reset_time": 1778529600,
   "login_bonus_list": {
     "first": [],
-    "normal": [],
-    "campaign": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 812,
+        "rap": 1,
+        "count_num": 2,
+        "type": "normal",
+        "reward_type": 2,
+        "reward_id": 25012,
+        "reward_count": 10000
+      }
+    ],
+    "campaign": [
+      {
+        "campaign_id": 40021,
+        "total_count": 1,
+        "rap": 1,
+        "count_num": 1,
+        "type": "campaign",
+        "reward_type": 2,
+        "reward_id": 29002,
+        "reward_count": 1
+      }
+    ],
     "lottery": [],
     "adv": [],
     "countdown": [],
     "birthday": [],
     "story_read_process": []
   },
+  "receive_caravan_dice_count": 1,
+  "receive_labyrinth_passport_count": 1,
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -81976,8 +82018,8 @@
       ]
     }
   ],
-  "present_count": 4,
-  "clan_like_count": 1,
+  "present_count": 16,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 109901,
@@ -81991,7 +82033,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 17544100,
+      "current_dispatch_bonus": 17822244,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -82007,7 +82049,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 17522078,
+      "current_dispatch_bonus": 17799873,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -82024,7 +82066,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 5934431,
+      "current_dispatch_bonus": 6229659,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -82041,7 +82083,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 8533676,
+      "current_dispatch_bonus": 8831117,
       "connect_rank": 0,
       "connect_rank_limit": 3
     }
@@ -82059,7 +82101,7 @@
   },
   "csc": {
     "weekly": {
-      "count": 11160,
+      "count": 0,
       "max": 15000
     }
   },
@@ -82183,6 +82225,12 @@
       "remaining_count": 0,
       "start_time": 1777518000,
       "end_time": 1779418799
+    },
+    {
+      "id": 273,
+      "remaining_count": 1,
+      "start_time": 1778468400,
+      "end_time": 1779418799
     }
   ],
   "errm": 250,
@@ -82244,5 +82292,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1778410259
+  "last_modified": 1778476512
 }

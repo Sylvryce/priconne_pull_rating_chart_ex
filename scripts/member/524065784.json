@@ -4,7 +4,7 @@
     "user_name": "Dracox",
     "user_comment": "Dracox＃2126　EX　Global　player",
     "team_level": 376,
-    "user_stamina": 65,
+    "user_stamina": 176,
     "max_stamina": 434,
     "team_exp": 1374633,
     "favorite_unit_id": 137901,
@@ -88664,7 +88664,7 @@
     5135,
     5136
   ],
-  "can_free_gacha": 0,
+  "can_free_gacha": 1,
   "can_campaign_gacha": 0,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
@@ -98469,17 +98469,40 @@
       ]
     }
   ],
-  "daily_reset_time": 1778529600,
+  "daily_reset_time": 1778616000,
   "login_bonus_list": {
     "first": [],
-    "normal": [],
-    "campaign": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 1123,
+        "rap": 1,
+        "count_num": 13,
+        "type": "normal",
+        "reward_type": 2,
+        "reward_id": 25021,
+        "reward_count": 5000
+      }
+    ],
+    "campaign": [
+      {
+        "campaign_id": 40021,
+        "total_count": 2,
+        "rap": 1,
+        "count_num": 2,
+        "type": "campaign",
+        "reward_type": 8,
+        "reward_id": 91002,
+        "reward_count": 100
+      }
+    ],
     "lottery": [],
     "adv": [],
     "countdown": [],
     "birthday": [],
     "story_read_process": []
   },
+  "receive_caravan_dice_count": 1,
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -98499,8 +98522,8 @@
       ]
     }
   ],
-  "present_count": 7,
-  "clan_like_count": 1,
+  "present_count": 19,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 130101,
@@ -98514,7 +98537,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 140832508,
+      "current_dispatch_bonus": 140987525,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -98530,7 +98553,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 35756543,
+      "current_dispatch_bonus": 35910910,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -98544,7 +98567,7 @@
       "dispatch_count": 14,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 33963072,
+      "current_dispatch_bonus": 34116569,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -98558,7 +98581,7 @@
       "dispatch_count": 8,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 18476428,
+      "current_dispatch_bonus": 18625031,
       "connect_rank": 15,
       "connect_rank_limit": 15
     }
@@ -98781,5 +98804,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1778493025
+  "last_modified": 1778532924
 }

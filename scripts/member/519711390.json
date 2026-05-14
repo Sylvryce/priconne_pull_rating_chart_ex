@@ -4,7 +4,7 @@
     "user_name": "AngrySky",
     "user_comment": "よろしくお願いします。",
     "team_level": 376,
-    "user_stamina": 46,
+    "user_stamina": 278,
     "max_stamina": 434,
     "team_exp": 1374633,
     "favorite_unit_id": 113401,
@@ -39557,10 +39557,10 @@
     {
       "deck_number": 54,
       "unit_id_1": 114701,
-      "unit_id_2": 111701,
+      "unit_id_2": 128801,
       "unit_id_3": 139201,
-      "unit_id_4": 131901,
-      "unit_id_5": 123101,
+      "unit_id_4": 105901,
+      "unit_id_5": 101101,
       "general_property_1": null,
       "general_property_2": null,
       "general_property_3": null,
@@ -76373,7 +76373,7 @@
     5135,
     5136
   ],
-  "can_free_gacha": 0,
+  "can_free_gacha": 1,
   "can_campaign_gacha": 0,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
@@ -81976,23 +81976,23 @@
     "talent_level_info_list": [
       {
         "talent_id": 1,
-        "total_point": 3003654
-      },
-      {
-        "talent_id": 2,
-        "total_point": 3023654
-      },
-      {
-        "talent_id": 3,
         "total_point": 3018654
       },
       {
+        "talent_id": 2,
+        "total_point": 3028654
+      },
+      {
+        "talent_id": 3,
+        "total_point": 3023654
+      },
+      {
         "talent_id": 4,
-        "total_point": 2943654
+        "total_point": 2948654
       },
       {
         "talent_id": 5,
-        "total_point": 3013654
+        "total_point": 3018654
       }
     ],
     "talent_skill_last_enhanced_page_node_list": [
@@ -83567,17 +83567,41 @@
       ]
     }
   ],
-  "daily_reset_time": 1778702400,
+  "daily_reset_time": 1778788800,
   "login_bonus_list": {
     "first": [],
-    "normal": [],
-    "campaign": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 811,
+        "rap": 1,
+        "count_num": 1,
+        "type": "normal",
+        "reward_type": 2,
+        "reward_id": 25011,
+        "reward_count": 10000
+      }
+    ],
+    "campaign": [
+      {
+        "campaign_id": 40021,
+        "total_count": 4,
+        "rap": 1,
+        "count_num": 4,
+        "type": "campaign",
+        "reward_type": 8,
+        "reward_id": 91002,
+        "reward_count": 100
+      }
+    ],
     "lottery": [],
     "adv": [],
     "countdown": [],
     "birthday": [],
     "story_read_process": []
   },
+  "receive_caravan_dice_count": 1,
+  "receive_labyrinth_passport_count": 1,
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -83597,8 +83621,8 @@
       ]
     }
   ],
-  "present_count": 5,
-  "clan_like_count": 1,
+  "present_count": 19,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 133701,
@@ -83612,7 +83636,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 25292104,
+      "current_dispatch_bonus": 25596568,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -83626,7 +83650,7 @@
       "dispatch_count": 0,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 26750955,
+      "current_dispatch_bonus": 27072980,
       "connect_rank": 6,
       "connect_rank_limit": 6
     },
@@ -83642,7 +83666,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 37387427,
+      "current_dispatch_bonus": 37697202,
       "connect_rank": 6,
       "connect_rank_limit": 6
     },
@@ -83658,7 +83682,7 @@
       "unique_equipped_list": [
         0
       ],
-      "current_dispatch_bonus": 16579952,
+      "current_dispatch_bonus": 16885253,
       "connect_rank": 15,
       "connect_rank_limit": 15
     }
@@ -83866,5 +83890,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1778683256
+  "last_modified": 1778766724
 }

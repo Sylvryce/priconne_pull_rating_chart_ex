@@ -4,7 +4,7 @@
     "user_name": "GasClone",
     "user_comment": "May　the　void　guide　you",
     "team_level": 379,
-    "user_stamina": 278,
+    "user_stamina": 408,
     "max_stamina": 437,
     "team_exp": 1387908,
     "favorite_unit_id": 131201,
@@ -22,11 +22,11 @@
     "paid_jewel": 250
   },
   "user_gold": {
-    "gold_id_free": 992735631,
+    "gold_id_free": 972535631,
     "gold_id_pay": 0
   },
   "user_gold_bank_info": {
-    "bank_gold": 10346494276,
+    "bank_gold": 10393444154,
     "highest_bank_gold": 11684113601
   },
   "unit_list": [
@@ -32161,7 +32161,7 @@
         },
         {
           "slot": 3,
-          "serial_id": 18491
+          "serial_id": 15867
         }
       ],
       "cb_ex_equip_slot": [
@@ -32331,7 +32331,33 @@
         },
         {
           "slot": 3,
-          "serial_id": 21856
+          "serial_id": 18491,
+          "sub_status": [
+            {
+              "slot_number": 1,
+              "status": 2,
+              "step": 5,
+              "is_lock": 0
+            },
+            {
+              "slot_number": 2,
+              "status": 2,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 3,
+              "status": 2,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 4,
+              "status": 2,
+              "step": 5,
+              "is_lock": 1
+            }
+          ]
         }
       ],
       "cb_ex_equip_slot": [
@@ -41084,7 +41110,7 @@
     {
       "type": 2,
       "id": 26202,
-      "stock": 42603690
+      "stock": 40583690
     },
     {
       "type": 2,
@@ -67017,7 +67043,33 @@
       "ex_equipment_id": 4303511,
       "enhancement_pt": 0,
       "rank": 0,
-      "protection_flag": 1
+      "protection_flag": 1,
+      "sub_status": [
+        {
+          "slot_number": 1,
+          "status": 2,
+          "step": 5,
+          "is_lock": 0
+        },
+        {
+          "slot_number": 2,
+          "status": 2,
+          "step": 5,
+          "is_lock": 1
+        },
+        {
+          "slot_number": 3,
+          "status": 2,
+          "step": 5,
+          "is_lock": 1
+        },
+        {
+          "slot_number": 4,
+          "status": 2,
+          "step": 5,
+          "is_lock": 1
+        }
+      ]
     },
     {
       "serial_id": 18492,
@@ -89950,23 +90002,23 @@
     "talent_level_info_list": [
       {
         "talent_id": 1,
-        "total_point": 3233654
+        "total_point": 3238654
       },
       {
         "talent_id": 2,
-        "total_point": 3198654
+        "total_point": 3203654
       },
       {
         "talent_id": 3,
-        "total_point": 3288654
+        "total_point": 3293654
       },
       {
         "talent_id": 4,
-        "total_point": 3268654
+        "total_point": 3273654
       },
       {
         "talent_id": 5,
-        "total_point": 3253654
+        "total_point": 3258654
       }
     ],
     "talent_skill_last_enhanced_page_node_list": [
@@ -91689,10 +91741,21 @@
       ]
     }
   ],
-  "daily_reset_time": 1779393600,
+  "daily_reset_time": 1779480000,
   "login_bonus_list": {
     "first": [],
-    "normal": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 848,
+        "rap": 1,
+        "count_num": 8,
+        "type": "normal",
+        "reward_type": 2,
+        "reward_id": 25021,
+        "reward_count": 5000
+      }
+    ],
     "campaign": [],
     "lottery": [],
     "adv": [],
@@ -91700,6 +91763,7 @@
     "birthday": [],
     "story_read_process": []
   },
+  "receive_caravan_dice_count": 1,
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -91719,24 +91783,22 @@
       ]
     }
   ],
-  "present_count": 24,
+  "present_count": 37,
   "clan_like_count": 0,
   "dispatch_units": [
     {
-      "unit_id": 106401,
-      "evolution": 6,
-      "level": 389,
+      "unit_id": 134901,
+      "evolution": 5,
+      "level": 394,
       "promotion_level": 40,
       "position": 1,
-      "dispatch_start_time": 1776959905,
-      "dispatch_count": 0,
+      "dispatch_start_time": 1779358081,
+      "dispatch_count": 20,
       "dispatch_status": 1,
-      "unique_equipped_list": [
-        1
-      ],
-      "current_dispatch_bonus": 10599815,
-      "connect_rank": 6,
-      "connect_rank_limit": 6
+      "unique_equipped_list": [],
+      "current_dispatch_bonus": 10680734,
+      "connect_rank": 15,
+      "connect_rank_limit": 15
     },
     {
       "unit_id": 105701,
@@ -91750,23 +91812,25 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 10654386,
+      "current_dispatch_bonus": 10861231,
       "connect_rank": 9,
       "connect_rank_limit": 9
     },
     {
-      "unit_id": 134901,
-      "evolution": 5,
-      "level": 394,
+      "unit_id": 106401,
+      "evolution": 6,
+      "level": 389,
       "promotion_level": 40,
       "position": 3,
-      "dispatch_start_time": 1774534069,
-      "dispatch_count": 34,
+      "dispatch_start_time": 1779358076,
+      "dispatch_count": 0,
       "dispatch_status": 1,
-      "unique_equipped_list": [],
-      "current_dispatch_bonus": 36349809,
-      "connect_rank": 15,
-      "connect_rank_limit": 15
+      "unique_equipped_list": [
+        1
+      ],
+      "current_dispatch_bonus": 205607,
+      "connect_rank": 6,
+      "connect_rank_limit": 6
     },
     {
       "unit_id": 124801,
@@ -91780,7 +91844,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 43739579,
+      "current_dispatch_bonus": 43920792,
       "connect_rank": 0,
       "connect_rank_limit": 3
     }
@@ -91994,5 +92058,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1779358038
+  "last_modified": 1779404596
 }

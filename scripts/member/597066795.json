@@ -4,7 +4,7 @@
     "user_name": "MeiB",
     "user_comment": "よろしくお願いします。",
     "team_level": 379,
-    "user_stamina": 225,
+    "user_stamina": 371,
     "max_stamina": 437,
     "team_exp": 1387908,
     "favorite_unit_id": 129301,
@@ -5441,11 +5441,11 @@
       "ex_equip_slot": [
         {
           "slot": 1,
-          "serial_id": 2788
+          "serial_id": 8603
         },
         {
           "slot": 2,
-          "serial_id": 4502
+          "serial_id": 9991
         },
         {
           "slot": 3,
@@ -6450,15 +6450,15 @@
       "ex_equip_slot": [
         {
           "slot": 1,
-          "serial_id": 0
+          "serial_id": 2100
         },
         {
           "slot": 2,
-          "serial_id": 0
+          "serial_id": 7299
         },
         {
           "slot": 3,
-          "serial_id": 0
+          "serial_id": 1250
         }
       ],
       "cb_ex_equip_slot": [
@@ -19337,15 +19337,15 @@
       "ex_equip_slot": [
         {
           "slot": 1,
-          "serial_id": 0
+          "serial_id": 1926
         },
         {
           "slot": 2,
-          "serial_id": 0
+          "serial_id": 7362
         },
         {
           "slot": 3,
-          "serial_id": 0
+          "serial_id": 16410
         }
       ],
       "cb_ex_equip_slot": [
@@ -28372,7 +28372,33 @@
       "ex_equip_slot": [
         {
           "slot": 1,
-          "serial_id": 1050
+          "serial_id": 9673,
+          "sub_status": [
+            {
+              "slot_number": 1,
+              "status": 13,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 2,
+              "status": 13,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 3,
+              "status": 13,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 4,
+              "status": 13,
+              "step": 5,
+              "is_lock": 1
+            }
+          ]
         },
         {
           "slot": 2,
@@ -28743,33 +28769,7 @@
       "ex_equip_slot": [
         {
           "slot": 1,
-          "serial_id": 9673,
-          "sub_status": [
-            {
-              "slot_number": 1,
-              "status": 13,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 2,
-              "status": 13,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 3,
-              "status": 13,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 4,
-              "status": 13,
-              "step": 5,
-              "is_lock": 1
-            }
-          ]
+          "serial_id": 1050
         },
         {
           "slot": 2,
@@ -30738,7 +30738,7 @@
       "ex_equip_slot": [
         {
           "slot": 1,
-          "serial_id": 2113
+          "serial_id": 6822
         },
         {
           "slot": 2,
@@ -30746,7 +30746,7 @@
         },
         {
           "slot": 3,
-          "serial_id": 8522
+          "serial_id": 3097
         }
       ],
       "cb_ex_equip_slot": [
@@ -48299,7 +48299,7 @@
     {
       "type": 2,
       "id": 99013,
-      "stock": 97
+      "stock": 96
     },
     {
       "type": 2,
@@ -76340,7 +76340,7 @@
     },
     "talent_quest": {
       "daily_bonus_use_limit_count": 0,
-      "daily_clear_limit_count": 15,
+      "daily_clear_limit_count": 10,
       "recovery_max_count": 1,
       "recovery_cost": 50
     },
@@ -76372,14 +76372,11 @@
   },
   "max_storage_num": 1200,
   "campaign_list": [
-    3237,
-    3238,
-    3274,
-    3375,
-    3376,
     3377,
-    3378,
-    3379,
+    3380,
+    3381,
+    3382,
+    3383,
     5049,
     5050,
     5051,
@@ -76390,10 +76387,10 @@
     5129,
     5131,
     5132,
-    5137,
-    5138
+    5139,
+    5140
   ],
-  "can_free_gacha": 0,
+  "can_free_gacha": 1,
   "can_campaign_gacha": 0,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
@@ -87123,10 +87120,21 @@
       ]
     }
   ],
-  "daily_reset_time": 1779480000,
+  "daily_reset_time": 1779566400,
   "login_bonus_list": {
     "first": [],
-    "normal": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 1546,
+        "rap": 1,
+        "count_num": 1,
+        "type": "normal",
+        "reward_type": 2,
+        "reward_id": 25011,
+        "reward_count": 10000
+      }
+    ],
     "campaign": [],
     "lottery": [],
     "adv": [],
@@ -87134,6 +87142,8 @@
     "birthday": [],
     "story_read_process": []
   },
+  "receive_caravan_dice_count": 1,
+  "receive_labyrinth_passport_count": 1,
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -87153,8 +87163,8 @@
       ]
     }
   ],
-  "present_count": 38,
-  "clan_like_count": 1,
+  "present_count": 40,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 107501,
@@ -87169,7 +87179,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 12885342,
+      "current_dispatch_bonus": 13136775,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -87183,7 +87193,7 @@
       "dispatch_count": 4,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 22397960,
+      "current_dispatch_bonus": 22598858,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -87199,7 +87209,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 11692431,
+      "current_dispatch_bonus": 11920588,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -87216,7 +87226,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 5855343,
+      "current_dispatch_bonus": 6085332,
       "connect_rank": 0,
       "connect_rank_limit": 3
     }
@@ -87358,12 +87368,6 @@
       "end_time": 1898575199
     },
     {
-      "id": 261,
-      "remaining_count": 1,
-      "start_time": 1777518000,
-      "end_time": 1779479999
-    },
-    {
       "id": 274,
       "remaining_count": 1,
       "start_time": 1778814000,
@@ -87428,5 +87432,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1779465459
+  "last_modified": 1779517957
 }

@@ -4,7 +4,7 @@
     "user_name": "Sylv※愛の印",
     "user_comment": "よろしくお願いします。",
     "team_level": 379,
-    "user_stamina": 180,
+    "user_stamina": 333,
     "max_stamina": 437,
     "team_exp": 1387908,
     "favorite_unit_id": 136101,
@@ -50159,11 +50159,6 @@
     },
     {
       "type": 2,
-      "id": 97001,
-      "stock": 5
-    },
-    {
-      "type": 2,
       "id": 99009,
       "stock": 77
     },
@@ -76362,7 +76357,7 @@
     },
     "talent_quest": {
       "daily_bonus_use_limit_count": 0,
-      "daily_clear_limit_count": 15,
+      "daily_clear_limit_count": 10,
       "recovery_max_count": 1,
       "recovery_cost": 50
     },
@@ -76394,14 +76389,11 @@
   },
   "max_storage_num": 200,
   "campaign_list": [
-    3237,
-    3238,
-    3274,
-    3375,
-    3376,
     3377,
-    3378,
-    3379,
+    3380,
+    3381,
+    3382,
+    3383,
     5049,
     5050,
     5051,
@@ -76412,10 +76404,10 @@
     5129,
     5131,
     5132,
-    5137,
-    5138
+    5139,
+    5140
   ],
-  "can_free_gacha": 0,
+  "can_free_gacha": 1,
   "can_campaign_gacha": 0,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
@@ -87247,10 +87239,21 @@
       ]
     }
   ],
-  "daily_reset_time": 1779480000,
+  "daily_reset_time": 1779566400,
   "login_bonus_list": {
     "first": [],
-    "normal": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 1695,
+        "rap": 1,
+        "count_num": 15,
+        "type": "normal",
+        "reward_type": 2,
+        "reward_id": 24001,
+        "reward_count": 1
+      }
+    ],
     "campaign": [],
     "lottery": [],
     "adv": [],
@@ -87258,6 +87261,8 @@
     "birthday": [],
     "story_read_process": []
   },
+  "receive_caravan_dice_count": 1,
+  "receive_labyrinth_passport_count": 1,
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -87277,8 +87282,8 @@
       ]
     }
   ],
-  "present_count": 39,
-  "clan_like_count": 1,
+  "present_count": 40,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 107501,
@@ -87293,7 +87298,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 13474154,
+      "current_dispatch_bonus": 13740124,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -87310,7 +87315,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 12572813,
+      "current_dispatch_bonus": 12820992,
       "connect_rank": 6,
       "connect_rank_limit": 6
     },
@@ -87327,7 +87332,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 7481785,
+      "current_dispatch_bonus": 7732940,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -87343,7 +87348,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 7303938,
+      "current_dispatch_bonus": 7549124,
       "connect_rank": 0,
       "connect_rank_limit": 3
     }
@@ -87475,12 +87480,6 @@
       "end_time": 1898575199
     },
     {
-      "id": 261,
-      "remaining_count": 1,
-      "start_time": 1777518000,
-      "end_time": 1779479999
-    },
-    {
       "id": 274,
       "remaining_count": 0,
       "start_time": 1778814000,
@@ -87546,5 +87545,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1779450197
+  "last_modified": 1779505332
 }

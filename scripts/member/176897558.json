@@ -4,7 +4,7 @@
     "user_name": "Illicium　",
     "user_comment": "よろしくお願いします。",
     "team_level": 379,
-    "user_stamina": 377,
+    "user_stamina": 393,
     "max_stamina": 437,
     "team_exp": 1387908,
     "favorite_unit_id": 120801,
@@ -22,7 +22,7 @@
     "paid_jewel": 0
   },
   "user_gold": {
-    "gold_id_free": 721305297,
+    "gold_id_free": 722255297,
     "gold_id_pay": 0
   },
   "user_gold_bank_info": {
@@ -42757,7 +42757,7 @@
     {
       "type": 2,
       "id": 22002,
-      "stock": 123
+      "stock": 124
     },
     {
       "type": 2,
@@ -42832,7 +42832,7 @@
     {
       "type": 2,
       "id": 25202,
-      "stock": 2001
+      "stock": 2009
     },
     {
       "type": 2,
@@ -42842,7 +42842,7 @@
     {
       "type": 2,
       "id": 25204,
-      "stock": 1709
+      "stock": 1714
     },
     {
       "type": 2,
@@ -45932,12 +45932,12 @@
     {
       "type": 2,
       "id": 90005,
-      "stock": 10140
+      "stock": 10142
     },
     {
       "type": 2,
       "id": 90006,
-      "stock": 60035
+      "stock": 60105
     },
     {
       "type": 2,
@@ -49554,7 +49554,7 @@
     {
       "type": 4,
       "id": 12028037,
-      "stock": 230
+      "stock": 234
     },
     {
       "type": 4,
@@ -71300,8 +71300,28 @@
   ],
   "user_clan_battle_ex_equip_restriction": [
     {
+      "serial_id": 1,
+      "unit_id": 101001
+    },
+    {
       "serial_id": 2,
       "unit_id": 180601
+    },
+    {
+      "serial_id": 5,
+      "unit_id": 116701
+    },
+    {
+      "serial_id": 41,
+      "unit_id": 139301
+    },
+    {
+      "serial_id": 84,
+      "unit_id": 139301
+    },
+    {
+      "serial_id": 98,
+      "unit_id": 101001
     },
     {
       "serial_id": 118,
@@ -71316,12 +71336,28 @@
       "unit_id": 133801
     },
     {
+      "serial_id": 167,
+      "unit_id": 129701
+    },
+    {
       "serial_id": 171,
       "unit_id": 139101
     },
     {
+      "serial_id": 178,
+      "unit_id": 129701
+    },
+    {
       "serial_id": 308,
       "unit_id": 139101
+    },
+    {
+      "serial_id": 406,
+      "unit_id": 116701
+    },
+    {
+      "serial_id": 409,
+      "unit_id": 101001
     },
     {
       "serial_id": 410,
@@ -71334,6 +71370,10 @@
     {
       "serial_id": 467,
       "unit_id": 139101
+    },
+    {
+      "serial_id": 493,
+      "unit_id": 116701
     },
     {
       "serial_id": 802,
@@ -71372,6 +71412,10 @@
       "unit_id": 129501
     },
     {
+      "serial_id": 6039,
+      "unit_id": 129701
+    },
+    {
       "serial_id": 7837,
       "unit_id": 133801
     },
@@ -71394,6 +71438,10 @@
     {
       "serial_id": 16813,
       "unit_id": 138001
+    },
+    {
+      "serial_id": 16822,
+      "unit_id": 139301
     }
   ],
   "shop": {
@@ -80213,7 +80261,7 @@
       },
       {
         "talent_id": 4,
-        "total_point": 3398654
+        "total_point": 3408654
       },
       {
         "talent_id": 5,
@@ -81985,7 +82033,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 13814233,
+      "current_dispatch_bonus": 13839298,
       "connect_rank": 6,
       "connect_rank_limit": 6
     },
@@ -81999,7 +82047,7 @@
       "dispatch_count": 1,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 2149871,
+      "current_dispatch_bonus": 2171212,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -82016,7 +82064,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 4478660,
+      "current_dispatch_bonus": 4503132,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -82033,14 +82081,17 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 3351146,
+      "current_dispatch_bonus": 3374547,
       "connect_rank": 6,
       "connect_rank_limit": 6
     }
   ],
   "clan_battle": {
     "now_open": 1,
-    "is_interval": 0
+    "is_interval": 1,
+    "mode_change_limit_time": 1782183599,
+    "mode_change_limit_start_time": 1781751600,
+    "mode_change_limit_remind_time": 1782097199
   },
   "voice": {
     "birthday": 1224,
@@ -82227,5 +82278,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1780149800
+  "last_modified": 1780155482
 }

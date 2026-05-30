@@ -4,7 +4,7 @@
     "user_name": "ミヌバ",
     "user_comment": "＃1　sakanaction　fan",
     "team_level": 379,
-    "user_stamina": 295,
+    "user_stamina": 348,
     "max_stamina": 437,
     "team_exp": 1387908,
     "favorite_unit_id": 126101,
@@ -22,7 +22,7 @@
     "paid_jewel": 810
   },
   "user_gold": {
-    "gold_id_free": 998440306,
+    "gold_id_free": 999390306,
     "gold_id_pay": 0
   },
   "user_gold_bank_info": {
@@ -44902,11 +44902,11 @@
     },
     {
       "deck_number": 14,
-      "unit_id_1": 136501,
-      "unit_id_2": 135601,
-      "unit_id_3": 1,
-      "unit_id_4": 135301,
-      "unit_id_5": 134001,
+      "unit_id_1": 1,
+      "unit_id_2": 133801,
+      "unit_id_3": 139101,
+      "unit_id_4": 129001,
+      "unit_id_5": 139001,
       "general_property_1": null,
       "general_property_2": null,
       "general_property_3": null,
@@ -45831,7 +45831,7 @@
     {
       "type": 2,
       "id": 25202,
-      "stock": 2322
+      "stock": 2330
     },
     {
       "type": 2,
@@ -45841,7 +45841,7 @@
     {
       "type": 2,
       "id": 25204,
-      "stock": 1809
+      "stock": 1814
     },
     {
       "type": 2,
@@ -48981,12 +48981,12 @@
     {
       "type": 2,
       "id": 90005,
-      "stock": 19876
+      "stock": 19878
     },
     {
       "type": 2,
       "id": 90006,
-      "stock": 236814
+      "stock": 236844
     },
     {
       "type": 2,
@@ -52343,7 +52343,7 @@
     {
       "type": 4,
       "id": 11046036,
-      "stock": 349
+      "stock": 353
     },
     {
       "type": 4,
@@ -77320,12 +77320,24 @@
   ],
   "user_clan_battle_ex_equip_restriction": [
     {
+      "serial_id": 1515,
+      "unit_id": 129001
+    },
+    {
       "serial_id": 1886,
       "unit_id": 131601
     },
     {
       "serial_id": 2042,
       "unit_id": 135601
+    },
+    {
+      "serial_id": 3015,
+      "unit_id": 129001
+    },
+    {
+      "serial_id": 4017,
+      "unit_id": 129001
     },
     {
       "serial_id": 4288,
@@ -77344,6 +77356,10 @@
       "unit_id": 131601
     },
     {
+      "serial_id": 5564,
+      "unit_id": 133801
+    },
+    {
       "serial_id": 5657,
       "unit_id": 129501
     },
@@ -77360,6 +77376,10 @@
       "unit_id": 111501
     },
     {
+      "serial_id": 6632,
+      "unit_id": 133801
+    },
+    {
       "serial_id": 7286,
       "unit_id": 135601
     },
@@ -77374,6 +77394,18 @@
     {
       "serial_id": 9319,
       "unit_id": 134001
+    },
+    {
+      "serial_id": 9847,
+      "unit_id": 139101
+    },
+    {
+      "serial_id": 9891,
+      "unit_id": 139001
+    },
+    {
+      "serial_id": 9964,
+      "unit_id": 133801
     },
     {
       "serial_id": 10495,
@@ -77414,6 +77446,22 @@
     {
       "serial_id": 14359,
       "unit_id": 136501
+    },
+    {
+      "serial_id": 15356,
+      "unit_id": 139001
+    },
+    {
+      "serial_id": 16081,
+      "unit_id": 139001
+    },
+    {
+      "serial_id": 16083,
+      "unit_id": 139101
+    },
+    {
+      "serial_id": 16212,
+      "unit_id": 139101
     }
   ],
   "shop": {
@@ -88248,7 +88296,7 @@
       "dispatch_count": 0,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 19500066,
+      "current_dispatch_bonus": 19571320,
       "connect_rank": 6,
       "connect_rank_limit": 6
     },
@@ -88262,7 +88310,7 @@
       "dispatch_count": 6,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 23153776,
+      "current_dispatch_bonus": 23226857,
       "connect_rank": 9,
       "connect_rank_limit": 9
     },
@@ -88278,7 +88326,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 1141681,
+      "current_dispatch_bonus": 1217470,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -88295,14 +88343,17 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 23586300,
+      "current_dispatch_bonus": 23666140,
       "connect_rank": 15,
       "connect_rank_limit": 15
     }
   ],
   "clan_battle": {
     "now_open": 1,
-    "is_interval": 0
+    "is_interval": 1,
+    "mode_change_limit_time": 1782183599,
+    "mode_change_limit_start_time": 1781751600,
+    "mode_change_limit_remind_time": 1782097199
   },
   "voice": {
     "birthday": 121,
@@ -88503,5 +88554,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1780143107
+  "last_modified": 1780162151
 }

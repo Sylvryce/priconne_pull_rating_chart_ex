@@ -4,7 +4,7 @@
     "user_name": "Vpp",
     "user_comment": "VI／EN　",
     "team_level": 379,
-    "user_stamina": 215,
+    "user_stamina": 344,
     "max_stamina": 437,
     "team_exp": 1387908,
     "favorite_unit_id": 135301,
@@ -47093,7 +47093,7 @@
     {
       "type": 2,
       "id": 23001,
-      "stock": 191032
+      "stock": 191020
     },
     {
       "type": 2,
@@ -47188,7 +47188,7 @@
     {
       "type": 2,
       "id": 26202,
-      "stock": 29272440
+      "stock": 29932440
     },
     {
       "type": 2,
@@ -51043,7 +51043,7 @@
     {
       "type": 2,
       "id": 90013,
-      "stock": 84190
+      "stock": 86980
     },
     {
       "type": 2,
@@ -71247,7 +71247,7 @@
     5139,
     5140
   ],
-  "can_free_gacha": 0,
+  "can_free_gacha": 1,
   "can_campaign_gacha": 0,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
@@ -76896,10 +76896,6 @@
     "cleared_floor_num": 780,
     "last_login_schedule_id": 1057,
     "max_cleared_ex_quest_id": 72570780
-  },
-  "drj": {
-    "start_time": 1779591600,
-    "end_time": 1780239599
   },
   "user_my_party": [
     {
@@ -82747,10 +82743,21 @@
       ]
     }
   ],
-  "daily_reset_time": 1780257600,
+  "daily_reset_time": 1780344000,
   "login_bonus_list": {
     "first": [],
-    "normal": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 2566,
+        "rap": 1,
+        "count_num": 1,
+        "type": "normal",
+        "reward_type": 2,
+        "reward_id": 25011,
+        "reward_count": 10000
+      }
+    ],
     "campaign": [],
     "lottery": [],
     "adv": [],
@@ -82758,6 +82765,7 @@
     "birthday": [],
     "story_read_process": []
   },
+  "receive_caravan_dice_count": 1,
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -82777,8 +82785,8 @@
       ]
     }
   ],
-  "present_count": 70,
-  "clan_like_count": 1,
+  "present_count": 71,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 107501,
@@ -82793,7 +82801,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 16750505,
+      "current_dispatch_bonus": 16974280,
       "connect_rank": 3,
       "connect_rank_limit": 3
     },
@@ -82807,7 +82815,7 @@
       "dispatch_count": 1,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 604169,
+      "current_dispatch_bonus": 783489,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -82824,7 +82832,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 35993960,
+      "current_dispatch_bonus": 36183703,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -82838,7 +82846,7 @@
       "dispatch_count": 9,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 6260959,
+      "current_dispatch_bonus": 6432094,
       "connect_rank": 15,
       "connect_rank_limit": 15
     }
@@ -82856,7 +82864,7 @@
   },
   "csc": {
     "weekly": {
-      "count": 12258,
+      "count": 0,
       "max": 15000
     }
   },
@@ -82997,7 +83005,7 @@
       "unit_id": 138301,
       "position": 2,
       "support_start_time": 1777898438,
-      "friend_support_reward": 7500000
+      "friend_support_reward": 8000000
     }
   ],
   "force_release_chapter": 2209,
@@ -83009,5 +83017,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1780235834
+  "last_modified": 1780282029
 }

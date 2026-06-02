@@ -4,7 +4,7 @@
     "user_name": "Shiro",
     "user_comment": "a",
     "team_level": 379,
-    "user_stamina": 220,
+    "user_stamina": 349,
     "max_stamina": 437,
     "team_exp": 1387908,
     "favorite_unit_id": 135301,
@@ -44387,7 +44387,7 @@
     {
       "type": 2,
       "id": 99013,
-      "stock": 99
+      "stock": 98
     },
     {
       "type": 2,
@@ -77068,7 +77068,7 @@
     5139,
     5140
   ],
-  "can_free_gacha": 0,
+  "can_free_gacha": 1,
   "can_campaign_gacha": 0,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
@@ -87484,10 +87484,21 @@
       ]
     }
   ],
-  "daily_reset_time": 1780344000,
+  "daily_reset_time": 1780430400,
   "login_bonus_list": {
     "first": [],
-    "normal": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 1389,
+        "rap": 1,
+        "count_num": 9,
+        "type": "normal",
+        "reward_type": 8,
+        "reward_id": 91002,
+        "reward_count": 80
+      }
+    ],
     "campaign": [],
     "lottery": [],
     "adv": [],
@@ -87514,8 +87525,8 @@
       ]
     }
   ],
-  "present_count": 17,
-  "clan_like_count": 1,
+  "present_count": 20,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 101601,
@@ -87530,7 +87541,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 15979721,
+      "current_dispatch_bonus": 16188940,
       "connect_rank": 6,
       "connect_rank_limit": 6
     },
@@ -87547,7 +87558,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 16171260,
+      "current_dispatch_bonus": 16382988,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -87564,7 +87575,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 15733860,
+      "current_dispatch_bonus": 15939863,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -87581,7 +87592,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 15633487,
+      "current_dispatch_bonus": 15838176,
       "connect_rank": 0,
       "connect_rank_limit": 3
     }
@@ -87741,5 +87752,7 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1780322599
+  "add_present_count": 1,
+  "upper_limit_flag": true,
+  "last_modified": 1780369077
 }

@@ -4,7 +4,7 @@
     "user_name": "Qz",
     "user_comment": "よろしくお願いします。",
     "team_level": 379,
-    "user_stamina": 166,
+    "user_stamina": 336,
     "max_stamina": 437,
     "team_exp": 1387908,
     "favorite_unit_id": 134301,
@@ -26,7 +26,7 @@
     "gold_id_pay": 0
   },
   "user_gold_bank_info": {
-    "bank_gold": 12766936790,
+    "bank_gold": 12758636790,
     "highest_bank_gold": 12768552490
   },
   "unit_list": [
@@ -888,7 +888,7 @@
         },
         {
           "slot": 2,
-          "serial_id": 14690,
+          "serial_id": 14091,
           "sub_status": [
             {
               "slot_number": 1,
@@ -899,7 +899,7 @@
             {
               "slot_number": 2,
               "status": 1,
-              "step": 5,
+              "step": 4,
               "is_lock": 1
             },
             {
@@ -11279,7 +11279,7 @@
         },
         {
           "slot": 3,
-          "serial_id": 15601
+          "serial_id": 15727
         }
       ],
       "cb_ex_equip_slot": [
@@ -23309,15 +23309,93 @@
       "ex_equip_slot": [
         {
           "slot": 1,
-          "serial_id": 9978
+          "serial_id": 9651,
+          "sub_status": [
+            {
+              "slot_number": 1,
+              "status": 12,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 2,
+              "status": 12,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 3,
+              "status": 12,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 4,
+              "status": 12,
+              "step": 5,
+              "is_lock": 1
+            }
+          ]
         },
         {
           "slot": 2,
-          "serial_id": 15938
+          "serial_id": 14690,
+          "sub_status": [
+            {
+              "slot_number": 1,
+              "status": 1,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 2,
+              "status": 1,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 3,
+              "status": 1,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 4,
+              "status": 1,
+              "step": 5,
+              "is_lock": 1
+            }
+          ]
         },
         {
           "slot": 3,
-          "serial_id": 15727
+          "serial_id": 15601,
+          "sub_status": [
+            {
+              "slot_number": 1,
+              "status": 5,
+              "step": 5,
+              "is_lock": 0
+            },
+            {
+              "slot_number": 2,
+              "status": 1,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 3,
+              "status": 1,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 4,
+              "status": 1,
+              "step": 5,
+              "is_lock": 1
+            }
+          ]
         }
       ],
       "cb_ex_equip_slot": [
@@ -34895,33 +34973,7 @@
       "ex_equip_slot": [
         {
           "slot": 1,
-          "serial_id": 9651,
-          "sub_status": [
-            {
-              "slot_number": 1,
-              "status": 12,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 2,
-              "status": 12,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 3,
-              "status": 12,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 4,
-              "status": 12,
-              "step": 5,
-              "is_lock": 1
-            }
-          ]
+          "serial_id": 9978
         },
         {
           "slot": 2,
@@ -42179,11 +42231,11 @@
     },
     {
       "deck_number": 2,
-      "unit_id_1": 103401,
-      "unit_id_2": 134501,
-      "unit_id_3": 132001,
-      "unit_id_4": 135001,
-      "unit_id_5": 129001,
+      "unit_id_1": 134301,
+      "unit_id_2": 0,
+      "unit_id_3": 0,
+      "unit_id_4": 0,
+      "unit_id_5": 0,
       "general_property_1": null,
       "general_property_2": null,
       "general_property_3": null,
@@ -43146,7 +43198,7 @@
     {
       "type": 2,
       "id": 20004,
-      "stock": 182556
+      "stock": 182558
     },
     {
       "type": 2,
@@ -43186,7 +43238,7 @@
     {
       "type": 2,
       "id": 23001,
-      "stock": 150203
+      "stock": 150211
     },
     {
       "type": 2,
@@ -43281,7 +43333,7 @@
     {
       "type": 2,
       "id": 26202,
-      "stock": 15592320
+      "stock": 14762320
     },
     {
       "type": 2,
@@ -46486,12 +46538,12 @@
     {
       "type": 2,
       "id": 90003,
-      "stock": 98534
+      "stock": 98799
     },
     {
       "type": 2,
       "id": 90004,
-      "stock": 98350
+      "stock": 98407
     },
     {
       "type": 2,
@@ -73711,7 +73763,33 @@
       "ex_equipment_id": 4301517,
       "enhancement_pt": 0,
       "rank": 0,
-      "protection_flag": 2
+      "protection_flag": 2,
+      "sub_status": [
+        {
+          "slot_number": 1,
+          "status": 5,
+          "step": 5,
+          "is_lock": 0
+        },
+        {
+          "slot_number": 2,
+          "status": 1,
+          "step": 5,
+          "is_lock": 1
+        },
+        {
+          "slot_number": 3,
+          "status": 1,
+          "step": 5,
+          "is_lock": 1
+        },
+        {
+          "slot_number": 4,
+          "status": 1,
+          "step": 5,
+          "is_lock": 1
+        }
+      ]
     },
     {
       "serial_id": 15602,
@@ -78174,7 +78252,7 @@
     5139,
     5140
   ],
-  "can_free_gacha": 0,
+  "can_free_gacha": 1,
   "can_campaign_gacha": 0,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
@@ -88955,10 +89033,21 @@
       ]
     }
   ],
-  "daily_reset_time": 1780430400,
+  "daily_reset_time": 1780516800,
   "login_bonus_list": {
     "first": [],
-    "normal": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 1181,
+        "rap": 1,
+        "count_num": 11,
+        "type": "normal",
+        "reward_type": 8,
+        "reward_id": 91002,
+        "reward_count": 80
+      }
+    ],
     "campaign": [],
     "lottery": [],
     "adv": [],
@@ -88985,8 +89074,8 @@
       ]
     }
   ],
-  "present_count": 23,
-  "clan_like_count": 1,
+  "present_count": 36,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 136501,
@@ -88998,7 +89087,7 @@
       "dispatch_count": 0,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 31729,
+      "current_dispatch_bonus": 262897,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -89015,7 +89104,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 40505,
+      "current_dispatch_bonus": 336310,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -89031,7 +89120,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 37062,
+      "current_dispatch_bonus": 307245,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -89048,7 +89137,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 37246,
+      "current_dispatch_bonus": 308866,
       "connect_rank": 0,
       "connect_rank_limit": 3
     }
@@ -89209,5 +89298,7 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1780393527
+  "add_present_count": 1,
+  "upper_limit_flag": true,
+  "last_modified": 1780454881
 }

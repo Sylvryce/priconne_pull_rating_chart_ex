@@ -4,7 +4,7 @@
     "user_name": "MeiB",
     "user_comment": "よろしくお願いします。",
     "team_level": 379,
-    "user_stamina": 179,
+    "user_stamina": 325,
     "max_stamina": 437,
     "team_exp": 1387908,
     "favorite_unit_id": 129301,
@@ -77983,10 +77983,8 @@
   "max_storage_num": 1200,
   "campaign_list": [
     3275,
-    3399,
-    3400,
-    3409,
-    3410,
+    3411,
+    3412,
     5049,
     5050,
     5051,
@@ -78000,7 +77998,7 @@
     5139,
     5140
   ],
-  "can_free_gacha": 0,
+  "can_free_gacha": 1,
   "can_campaign_gacha": 0,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
@@ -88778,10 +88776,21 @@
       ]
     }
   ],
-  "daily_reset_time": 1780516800,
+  "daily_reset_time": 1780603200,
   "login_bonus_list": {
     "first": [],
-    "normal": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 1558,
+        "rap": 1,
+        "count_num": 13,
+        "type": "normal",
+        "reward_type": 2,
+        "reward_id": 25021,
+        "reward_count": 5000
+      }
+    ],
     "campaign": [],
     "lottery": [],
     "adv": [],
@@ -88808,8 +88817,8 @@
       ]
     }
   ],
-  "present_count": 48,
-  "clan_like_count": 1,
+  "present_count": 58,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 135601,
@@ -88818,10 +88827,10 @@
       "promotion_level": 41,
       "position": 1,
       "dispatch_start_time": 1780386632,
-      "dispatch_count": 0,
+      "dispatch_count": 9,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 384705,
+      "current_dispatch_bonus": 5374843,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -88838,7 +88847,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 479830,
+      "current_dispatch_bonus": 734879,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -88854,7 +88863,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 435871,
+      "current_dispatch_bonus": 667563,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -88871,7 +88880,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 439313,
+      "current_dispatch_bonus": 672842,
       "connect_rank": 0,
       "connect_rank_limit": 3
     }
@@ -89041,5 +89050,7 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1780485829
+  "add_present_count": 1,
+  "upper_limit_flag": true,
+  "last_modified": 1780538554
 }

@@ -4,7 +4,7 @@
     "user_name": "Nasa",
     "user_comment": "VppClone",
     "team_level": 379,
-    "user_stamina": 188,
+    "user_stamina": 370,
     "max_stamina": 437,
     "team_exp": 1387908,
     "favorite_unit_id": 135001,
@@ -85922,7 +85922,7 @@
     5139,
     5140
   ],
-  "can_free_gacha": 0,
+  "can_free_gacha": 1,
   "can_campaign_gacha": 0,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
@@ -96188,10 +96188,21 @@
       ]
     }
   ],
-  "daily_reset_time": 1780862400,
+  "daily_reset_time": 1780948800,
   "login_bonus_list": {
     "first": [],
-    "normal": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 1294,
+        "rap": 1,
+        "count_num": 4,
+        "type": "normal",
+        "reward_type": 8,
+        "reward_id": 91002,
+        "reward_count": 50
+      }
+    ],
     "campaign": [],
     "lottery": [],
     "adv": [],
@@ -96199,6 +96210,7 @@
     "birthday": [],
     "story_read_process": []
   },
+  "receive_labyrinth_passport_count": 1,
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -96218,8 +96230,8 @@
       ]
     }
   ],
-  "present_count": 32,
-  "clan_like_count": 1,
+  "present_count": 35,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 100301,
@@ -96234,7 +96246,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 2049700,
+      "current_dispatch_bonus": 2347916,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -96250,7 +96262,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 1984249,
+      "current_dispatch_bonus": 2272978,
       "connect_rank": 6,
       "connect_rank_limit": 6
     },
@@ -96266,7 +96278,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 1972122,
+      "current_dispatch_bonus": 2259070,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -96283,7 +96295,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 2425612,
+      "current_dispatch_bonus": 2715766,
       "connect_rank": 0,
       "connect_rank_limit": 3
     }
@@ -96301,7 +96313,7 @@
   },
   "csc": {
     "weekly": {
-      "count": 9070,
+      "count": 0,
       "max": 15000
     }
   },
@@ -96444,5 +96456,7 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1780836048
+  "add_present_count": 1,
+  "upper_limit_flag": true,
+  "last_modified": 1780901513
 }

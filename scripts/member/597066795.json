@@ -4,7 +4,7 @@
     "user_name": "MeiB",
     "user_comment": "よろしくお願いします。",
     "team_level": 379,
-    "user_stamina": 140,
+    "user_stamina": 374,
     "max_stamina": 437,
     "team_exp": 1387908,
     "favorite_unit_id": 129301,
@@ -77004,7 +77004,7 @@
     5139,
     5140
   ],
-  "can_free_gacha": 0,
+  "can_free_gacha": 1,
   "can_campaign_gacha": 0,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
@@ -87785,10 +87785,21 @@
       ]
     }
   ],
-  "daily_reset_time": 1781121600,
+  "daily_reset_time": 1781208000,
   "login_bonus_list": {
     "first": [],
-    "normal": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 1565,
+        "rap": 1,
+        "count_num": 5,
+        "type": "normal",
+        "reward_type": 2,
+        "reward_id": 25013,
+        "reward_count": 10000
+      }
+    ],
     "campaign": [],
     "lottery": [],
     "adv": [],
@@ -87796,6 +87807,7 @@
     "birthday": [],
     "story_read_process": []
   },
+  "receive_labyrinth_passport_count": 1,
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -87815,8 +87827,8 @@
       ]
     }
   ],
-  "present_count": 68,
-  "clan_like_count": 1,
+  "present_count": 79,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 135601,
@@ -87828,7 +87840,7 @@
       "dispatch_count": 15,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 10656565,
+      "current_dispatch_bonus": 10983530,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -87845,7 +87857,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 3343373,
+      "current_dispatch_bonus": 3751203,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -87861,7 +87873,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 3037178,
+      "current_dispatch_bonus": 3407659,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -87878,7 +87890,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 3061239,
+      "current_dispatch_bonus": 3434658,
       "connect_rank": 0,
       "connect_rank_limit": 3
     }
@@ -88031,13 +88043,13 @@
       "unit_id": 101601,
       "position": 1,
       "support_start_time": 1780651345,
-      "friend_support_reward": 2000000
+      "friend_support_reward": 2500000
     },
     {
       "unit_id": 106001,
       "position": 2,
       "support_start_time": 1780908122,
-      "friend_support_reward": 500000
+      "friend_support_reward": 1000000
     }
   ],
   "wac_start_time": 1644868800,
@@ -88048,5 +88060,7 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1781077785
+  "add_present_count": 1,
+  "upper_limit_flag": true,
+  "last_modified": 1781162092
 }

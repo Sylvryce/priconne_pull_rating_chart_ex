@@ -4,7 +4,7 @@
     "user_name": "iCrest",
     "user_comment": "よろしくお願いします。",
     "team_level": 379,
-    "user_stamina": 45,
+    "user_stamina": 244,
     "max_stamina": 437,
     "team_exp": 1387908,
     "favorite_unit_id": 131801,
@@ -18,11 +18,11 @@
   },
   "user_jewel": {
     "jewel": 500,
-    "free_jewel": 135078,
+    "free_jewel": 135238,
     "paid_jewel": 500
   },
   "user_gold": {
-    "gold_id_free": 999240808,
+    "gold_id_free": 999320808,
     "gold_id_pay": 0
   },
   "user_gold_bank_info": {
@@ -42249,7 +42249,7 @@
     {
       "type": 2,
       "id": 20003,
-      "stock": 684
+      "stock": 688
     },
     {
       "type": 2,
@@ -42354,7 +42354,7 @@
     {
       "type": 2,
       "id": 22002,
-      "stock": 294
+      "stock": 298
     },
     {
       "type": 2,
@@ -45544,7 +45544,7 @@
     {
       "type": 2,
       "id": 90003,
-      "stock": 208291
+      "stock": 208301
     },
     {
       "type": 2,
@@ -81331,7 +81331,7 @@
     5139,
     5140
   ],
-  "can_free_gacha": 0,
+  "can_free_gacha": 1,
   "can_campaign_gacha": 0,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
@@ -91214,10 +91214,21 @@
       ]
     }
   ],
-  "daily_reset_time": 1781380800,
+  "daily_reset_time": 1781467200,
   "login_bonus_list": {
     "first": [],
-    "normal": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 1179,
+        "rap": 1,
+        "count_num": 9,
+        "type": "normal",
+        "reward_type": 8,
+        "reward_id": 91002,
+        "reward_count": 80
+      }
+    ],
     "campaign": [],
     "lottery": [],
     "adv": [],
@@ -91225,6 +91236,7 @@
     "birthday": [],
     "story_read_process": []
   },
+  "receive_labyrinth_passport_count": 1,
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -91244,8 +91256,8 @@
       ]
     }
   ],
-  "present_count": 16,
-  "clan_like_count": 1,
+  "present_count": 13,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 129501,
@@ -91259,7 +91271,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 186935139,
+      "current_dispatch_bonus": 187215461,
       "connect_rank": 6,
       "connect_rank_limit": 6
     },
@@ -91275,7 +91287,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 218110030,
+      "current_dispatch_bonus": 218423255,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -91291,7 +91303,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 107176518,
+      "current_dispatch_bonus": 107456583,
       "connect_rank": 0,
       "connect_rank_limit": 3
     }
@@ -91434,13 +91446,13 @@
       "unit_id": 136901,
       "position": 1,
       "support_start_time": 1781345472,
-      "friend_support_reward": 500000
+      "friend_support_reward": 1000000
     },
     {
       "unit_id": 133101,
       "position": 2,
       "support_start_time": 1777964946,
-      "friend_support_reward": 500000
+      "friend_support_reward": 1000000
     }
   ],
   "force_release_chapter": 2203,
@@ -91452,5 +91464,7 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1781362526
+  "add_present_count": 1,
+  "upper_limit_flag": true,
+  "last_modified": 1781433885
 }

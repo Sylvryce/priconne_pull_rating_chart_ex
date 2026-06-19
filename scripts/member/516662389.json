@@ -4,7 +4,7 @@
     "user_name": "MysT",
     "user_comment": "Let’s　Go",
     "team_level": 382,
-    "user_stamina": 264,
+    "user_stamina": 440,
     "max_stamina": 440,
     "team_exp": 1400133,
     "favorite_unit_id": 109701,
@@ -14,15 +14,15 @@
       "emblem_id": 10603002,
       "ex_value": 0
     },
-    "stamina_full_recovery_time": 1781863960
+    "stamina_full_recovery_time": 1781877666
   },
   "user_jewel": {
     "jewel": 60,
-    "free_jewel": 20283,
+    "free_jewel": 20473,
     "paid_jewel": 60
   },
   "user_gold": {
-    "gold_id_free": 871435521,
+    "gold_id_free": 871545521,
     "gold_id_pay": 0
   },
   "user_gold_bank_info": {
@@ -41008,7 +41008,7 @@
     {
       "type": 2,
       "id": 20003,
-      "stock": 3
+      "stock": 13
     },
     {
       "type": 2,
@@ -41099,6 +41099,11 @@
       "type": 2,
       "id": 22001,
       "stock": 3
+    },
+    {
+      "type": 2,
+      "id": 22002,
+      "stock": 6
     },
     {
       "type": 2,
@@ -44438,7 +44443,7 @@
     {
       "type": 2,
       "id": 90004,
-      "stock": 230126
+      "stock": 230136
     },
     {
       "type": 2,
@@ -65492,7 +65497,7 @@
     5139,
     5140
   ],
-  "can_free_gacha": 0,
+  "can_free_gacha": 1,
   "can_campaign_gacha": 0,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
@@ -72916,11 +72921,11 @@
     "talent_level_info_list": [
       {
         "talent_id": 1,
-        "total_point": 3628654
+        "total_point": 3633654
       },
       {
         "talent_id": 2,
-        "total_point": 3603654
+        "total_point": 3608654
       },
       {
         "talent_id": 3,
@@ -72928,11 +72933,11 @@
       },
       {
         "talent_id": 4,
-        "total_point": 3643654
+        "total_point": 3648654
       },
       {
         "talent_id": 5,
-        "total_point": 3648654
+        "total_point": 3653654
       }
     ],
     "talent_skill_last_enhanced_page_node_list": [
@@ -74700,10 +74705,21 @@
       ]
     }
   ],
-  "daily_reset_time": 1781812800,
+  "daily_reset_time": 1781899200,
   "login_bonus_list": {
     "first": [],
-    "normal": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 1140,
+        "rap": 1,
+        "count_num": 15,
+        "type": "normal",
+        "reward_type": 2,
+        "reward_id": 24001,
+        "reward_count": 1
+      }
+    ],
     "campaign": [],
     "lottery": [],
     "adv": [],
@@ -74711,6 +74727,8 @@
     "birthday": [],
     "story_read_process": []
   },
+  "receive_caravan_dice_count": 1,
+  "receive_labyrinth_passport_count": 1,
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -74730,8 +74748,8 @@
       ]
     }
   ],
-  "present_count": 13,
-  "clan_like_count": 1,
+  "present_count": 19,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 130701,
@@ -74745,7 +74763,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 103795714,
+      "current_dispatch_bonus": 104097116,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -74756,10 +74774,10 @@
       "promotion_level": 40,
       "position": 2,
       "dispatch_start_time": 1762565787,
-      "dispatch_count": 96,
+      "dispatch_count": 97,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 119513728,
+      "current_dispatch_bonus": 120302377,
       "connect_rank": 6,
       "connect_rank_limit": 6
     },
@@ -74773,7 +74791,7 @@
       "dispatch_count": 4,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 71074697,
+      "current_dispatch_bonus": 71372288,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -74787,7 +74805,7 @@
       "dispatch_count": 0,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 67800756,
+      "current_dispatch_bonus": 68093374,
       "connect_rank": 0,
       "connect_rank_limit": 3
     }
@@ -74810,7 +74828,7 @@
     }
   },
   "part_maintenance_status": [],
-  "today_start_level": 381,
+  "today_start_level": 382,
   "bank_bought": 1,
   "ddn": 30,
   "cbm": 1907388000,
@@ -74947,5 +74965,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1781800759
+  "last_modified": 1781877668
 }

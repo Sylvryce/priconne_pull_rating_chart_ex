@@ -4,7 +4,7 @@
     "user_name": "Vpp",
     "user_comment": "VI／EN　",
     "team_level": 382,
-    "user_stamina": 203,
+    "user_stamina": 387,
     "max_stamina": 440,
     "team_exp": 1401183,
     "favorite_unit_id": 135301,
@@ -72792,7 +72792,7 @@
     5139,
     5140
   ],
-  "can_free_gacha": 0,
+  "can_free_gacha": 1,
   "can_campaign_gacha": 0,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
@@ -84321,10 +84321,21 @@
       ]
     }
   ],
-  "daily_reset_time": 1781899200,
+  "daily_reset_time": 1781985600,
   "login_bonus_list": {
     "first": [],
-    "normal": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 2585,
+        "rap": 1,
+        "count_num": 5,
+        "type": "normal",
+        "reward_type": 2,
+        "reward_id": 25013,
+        "reward_count": 10000
+      }
+    ],
     "campaign": [],
     "lottery": [],
     "adv": [],
@@ -84332,6 +84343,8 @@
     "birthday": [],
     "story_read_process": []
   },
+  "receive_caravan_dice_count": 1,
+  "receive_labyrinth_passport_count": 1,
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -84351,8 +84364,8 @@
       ]
     }
   ],
-  "present_count": 71,
-  "clan_like_count": 1,
+  "present_count": 73,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 138301,
@@ -84364,7 +84377,7 @@
       "dispatch_count": 1,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 1887482,
+      "current_dispatch_bonus": 2138008,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -84378,7 +84391,7 @@
       "dispatch_count": 2,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 2359458,
+      "current_dispatch_bonus": 2605485,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -84394,7 +84407,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 6615457,
+      "current_dispatch_bonus": 6909831,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -84411,7 +84424,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 6620400,
+      "current_dispatch_bonus": 6914995,
       "connect_rank": 0,
       "connect_rank_limit": 3
     }
@@ -84582,5 +84595,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1781875443
+  "last_modified": 1781941726
 }

@@ -4,7 +4,7 @@
     "user_name": "Illicium　",
     "user_comment": "よろしくお願いします。",
     "team_level": 382,
-    "user_stamina": 434,
+    "user_stamina": 440,
     "max_stamina": 440,
     "team_exp": 1401183,
     "favorite_unit_id": 120801,
@@ -14,7 +14,7 @@
       "emblem_id": 10201537,
       "ex_value": 0
     },
-    "stamina_full_recovery_time": 1781886128
+    "stamina_full_recovery_time": 1781929470
   },
   "user_jewel": {
     "jewel": 0,
@@ -22,7 +22,7 @@
     "paid_jewel": 0
   },
   "user_gold": {
-    "gold_id_free": 924495977,
+    "gold_id_free": 925245977,
     "gold_id_pay": 0
   },
   "user_gold_bank_info": {
@@ -42896,7 +42896,7 @@
     {
       "type": 2,
       "id": 22002,
-      "stock": 9
+      "stock": 13
     },
     {
       "type": 2,
@@ -46066,7 +46066,7 @@
     {
       "type": 2,
       "id": 90002,
-      "stock": 2479182
+      "stock": 2479322
     },
     {
       "type": 2,
@@ -74209,7 +74209,7 @@
     5139,
     5140
   ],
-  "can_free_gacha": 0,
+  "can_free_gacha": 1,
   "can_campaign_gacha": 0,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
@@ -82520,7 +82520,7 @@
     "talent_level_info_list": [
       {
         "talent_id": 1,
-        "total_point": 3553654
+        "total_point": 3558654
       },
       {
         "talent_id": 2,
@@ -82528,11 +82528,11 @@
       },
       {
         "talent_id": 3,
-        "total_point": 3563654
+        "total_point": 3568654
       },
       {
         "talent_id": 4,
-        "total_point": 3543654
+        "total_point": 3548654
       },
       {
         "talent_id": 5,
@@ -84304,10 +84304,21 @@
       ]
     }
   ],
-  "daily_reset_time": 1781899200,
+  "daily_reset_time": 1781985600,
   "login_bonus_list": {
     "first": [],
-    "normal": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 1153,
+        "rap": 1,
+        "count_num": 13,
+        "type": "normal",
+        "reward_type": 2,
+        "reward_id": 25021,
+        "reward_count": 5000
+      }
+    ],
     "campaign": [],
     "lottery": [],
     "adv": [],
@@ -84315,6 +84326,8 @@
     "birthday": [],
     "story_read_process": []
   },
+  "receive_caravan_dice_count": 1,
+  "receive_labyrinth_passport_count": 1,
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -84334,8 +84347,8 @@
       ]
     }
   ],
-  "present_count": 12,
-  "clan_like_count": 1,
+  "present_count": 13,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 104401,
@@ -84349,7 +84362,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 21511560,
+      "current_dispatch_bonus": 21711449,
       "connect_rank": 6,
       "connect_rank_limit": 6
     },
@@ -84363,7 +84376,7 @@
       "dispatch_count": 1,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 8680194,
+      "current_dispatch_bonus": 8850341,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -84377,7 +84390,7 @@
       "dispatch_count": 0,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 1447719,
+      "current_dispatch_bonus": 1620686,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -84394,7 +84407,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 10513581,
+      "current_dispatch_bonus": 10700145,
       "connect_rank": 6,
       "connect_rank_limit": 6
     }
@@ -84555,5 +84568,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1781884251
+  "last_modified": 1781929473
 }

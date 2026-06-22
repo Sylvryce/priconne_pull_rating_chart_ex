@@ -4,7 +4,7 @@
     "user_name": "MeiB",
     "user_comment": "よろしくお願いします。",
     "team_level": 382,
-    "user_stamina": 212,
+    "user_stamina": 374,
     "max_stamina": 440,
     "team_exp": 1401183,
     "favorite_unit_id": 129301,
@@ -14,11 +14,11 @@
       "emblem_id": 11601003,
       "ex_value": 0
     },
-    "stamina_full_recovery_time": 1782132203
+    "stamina_full_recovery_time": 1782143248
   },
   "user_jewel": {
     "jewel": 42,
-    "free_jewel": 107440,
+    "free_jewel": 107830,
     "paid_jewel": 42
   },
   "user_gold": {
@@ -26,7 +26,7 @@
     "gold_id_pay": 0
   },
   "user_gold_bank_info": {
-    "bank_gold": 21441211976,
+    "bank_gold": 21484457467,
     "highest_bank_gold": 21743982695
   },
   "unit_list": [
@@ -1383,7 +1383,7 @@
         },
         {
           "slot": 2,
-          "serial_id": 7256
+          "serial_id": 0
         },
         {
           "slot": 3,
@@ -2007,11 +2007,11 @@
         },
         {
           "slot": 2,
-          "serial_id": 0
+          "serial_id": 7256
         },
         {
           "slot": 3,
-          "serial_id": 0
+          "serial_id": 15784
         }
       ],
       "cb_ex_equip_slot": [
@@ -8401,6 +8401,13 @@
           "enhancement_pt": 54990,
           "rank": 23,
           "is_specialized": 0
+        },
+        {
+          "id": 130762,
+          "is_slot": 0,
+          "enhancement_level": 0,
+          "enhancement_pt": 0,
+          "rank": 0
         }
       ],
       "ex_equip_slot": [
@@ -8523,6 +8530,13 @@
           "enhancement_pt": 490,
           "rank": 1,
           "is_specialized": 0
+        },
+        {
+          "id": 130782,
+          "is_slot": 0,
+          "enhancement_level": 0,
+          "enhancement_pt": 0,
+          "rank": 0
         }
       ],
       "ex_equip_slot": [
@@ -13571,7 +13585,7 @@
       "ex_equip_slot": [
         {
           "slot": 1,
-          "serial_id": 0
+          "serial_id": 4112
         },
         {
           "slot": 2,
@@ -13579,7 +13593,7 @@
         },
         {
           "slot": 3,
-          "serial_id": 0
+          "serial_id": 17896
         }
       ],
       "cb_ex_equip_slot": [
@@ -14370,7 +14384,33 @@
       "ex_equip_slot": [
         {
           "slot": 1,
-          "serial_id": 0
+          "serial_id": 19475,
+          "sub_status": [
+            {
+              "slot_number": 1,
+              "status": 12,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 2,
+              "status": 12,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 3,
+              "status": 12,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 4,
+              "status": 12,
+              "step": 5,
+              "is_lock": 1
+            }
+          ]
         },
         {
           "slot": 2,
@@ -15465,7 +15505,7 @@
       "connect_rank": 0,
       "connect_rank_limit": 3,
       "exceed_stage": 1,
-      "unit_exp": 35636687,
+      "unit_exp": 35637887,
       "get_time": 1693037303,
       "union_burst": [
         {
@@ -15552,33 +15592,7 @@
       "ex_equip_slot": [
         {
           "slot": 1,
-          "serial_id": 19788,
-          "sub_status": [
-            {
-              "slot_number": 1,
-              "status": 13,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 2,
-              "status": 13,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 3,
-              "status": 13,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 4,
-              "status": 13,
-              "step": 5,
-              "is_lock": 1
-            }
-          ]
+          "serial_id": 0
         },
         {
           "slot": 2,
@@ -18822,33 +18836,7 @@
       "ex_equip_slot": [
         {
           "slot": 1,
-          "serial_id": 9816,
-          "sub_status": [
-            {
-              "slot_number": 1,
-              "status": 12,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 2,
-              "status": 12,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 3,
-              "status": 12,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 4,
-              "status": 12,
-              "step": 5,
-              "is_lock": 1
-            }
-          ]
+          "serial_id": 0
         },
         {
           "slot": 2,
@@ -25464,7 +25452,7 @@
       "connect_rank": 0,
       "connect_rank_limit": 3,
       "exceed_stage": 1,
-      "unit_exp": 35636687,
+      "unit_exp": 35637887,
       "get_time": 1673785745,
       "union_burst": [
         {
@@ -36253,15 +36241,41 @@
       "ex_equip_slot": [
         {
           "slot": 1,
-          "serial_id": 0
+          "serial_id": 19788,
+          "sub_status": [
+            {
+              "slot_number": 1,
+              "status": 13,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 2,
+              "status": 13,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 3,
+              "status": 13,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 4,
+              "status": 13,
+              "step": 5,
+              "is_lock": 1
+            }
+          ]
         },
         {
           "slot": 2,
-          "serial_id": 0
+          "serial_id": 7270
         },
         {
           "slot": 3,
-          "serial_id": 0
+          "serial_id": 16401
         }
       ],
       "cb_ex_equip_slot": [
@@ -36371,7 +36385,33 @@
       "ex_equip_slot": [
         {
           "slot": 1,
-          "serial_id": 0
+          "serial_id": 9816,
+          "sub_status": [
+            {
+              "slot_number": 1,
+              "status": 12,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 2,
+              "status": 12,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 3,
+              "status": 12,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 4,
+              "status": 12,
+              "step": 5,
+              "is_lock": 1
+            }
+          ]
         },
         {
           "slot": 2,
@@ -36379,7 +36419,7 @@
         },
         {
           "slot": 3,
-          "serial_id": 0
+          "serial_id": 20544
         }
       ],
       "cb_ex_equip_slot": [
@@ -36725,33 +36765,7 @@
       "ex_equip_slot": [
         {
           "slot": 1,
-          "serial_id": 19475,
-          "sub_status": [
-            {
-              "slot_number": 1,
-              "status": 12,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 2,
-              "status": 12,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 3,
-              "status": 12,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 4,
-              "status": 12,
-              "step": 5,
-              "is_lock": 1
-            }
-          ]
+          "serial_id": 0
         },
         {
           "slot": 2,
@@ -36785,31 +36799,31 @@
         },
         {
           "slot": 3,
-          "serial_id": 19814,
+          "serial_id": 16233,
           "sub_status": [
             {
               "slot_number": 1,
-              "status": 14,
-              "step": 5,
-              "is_lock": 1
+              "status": 2,
+              "step": 3,
+              "is_lock": 0
             },
             {
               "slot_number": 2,
-              "status": 14,
+              "status": 2,
               "step": 5,
               "is_lock": 1
             },
             {
               "slot_number": 3,
-              "status": 14,
+              "status": 2,
               "step": 5,
               "is_lock": 1
             },
             {
               "slot_number": 4,
-              "status": 14,
-              "step": 5,
-              "is_lock": 1
+              "status": 5,
+              "step": 4,
+              "is_lock": 0
             }
           ]
         }
@@ -44561,27 +44575,27 @@
     {
       "type": 2,
       "id": 20001,
-      "stock": 795
+      "stock": 817
     },
     {
       "type": 2,
       "id": 20002,
-      "stock": 1273
+      "stock": 1436
     },
     {
       "type": 2,
       "id": 20003,
-      "stock": 381
+      "stock": 431
     },
     {
       "type": 2,
       "id": 20004,
-      "stock": 249535
+      "stock": 249661
     },
     {
       "type": 2,
       "id": 20005,
-      "stock": 88210
+      "stock": 88281
     },
     {
       "type": 2,
@@ -44611,32 +44625,32 @@
     {
       "type": 2,
       "id": 22001,
-      "stock": 293
+      "stock": 299
     },
     {
       "type": 2,
       "id": 22002,
-      "stock": 436
+      "stock": 445
     },
     {
       "type": 2,
       "id": 22003,
-      "stock": 40251
+      "stock": 40255
     },
     {
       "type": 2,
       "id": 23001,
-      "stock": 192904
+      "stock": 192981
     },
     {
       "type": 2,
       "id": 23002,
-      "stock": 3220
+      "stock": 3226
     },
     {
       "type": 2,
       "id": 23003,
-      "stock": 1800
+      "stock": 1900
     },
     {
       "type": 2,
@@ -44646,37 +44660,37 @@
     {
       "type": 2,
       "id": 25001,
-      "stock": 5405
+      "stock": 5409
     },
     {
       "type": 2,
       "id": 25011,
-      "stock": 108276
+      "stock": 120043
     },
     {
       "type": 2,
       "id": 25012,
-      "stock": 93525
+      "stock": 95390
     },
     {
       "type": 2,
       "id": 25013,
-      "stock": 115917
+      "stock": 117715
     },
     {
       "type": 2,
       "id": 25014,
-      "stock": 108075
+      "stock": 109874
     },
     {
       "type": 2,
       "id": 25015,
-      "stock": 124737
+      "stock": 126579
     },
     {
       "type": 2,
       "id": 25021,
-      "stock": 454402
+      "stock": 456514
     },
     {
       "type": 2,
@@ -44716,12 +44730,12 @@
     {
       "type": 2,
       "id": 26201,
-      "stock": 2204930
+      "stock": 2209390
     },
     {
       "type": 2,
       "id": 26202,
-      "stock": 31342145
+      "stock": 32122385
     },
     {
       "type": 2,
@@ -44751,7 +44765,7 @@
     {
       "type": 2,
       "id": 31001,
-      "stock": 628
+      "stock": 648
     },
     {
       "type": 2,
@@ -44781,7 +44795,7 @@
     {
       "type": 2,
       "id": 31007,
-      "stock": 770
+      "stock": 790
     },
     {
       "type": 2,
@@ -44811,7 +44825,7 @@
     {
       "type": 2,
       "id": 31013,
-      "stock": 289
+      "stock": 309
     },
     {
       "type": 2,
@@ -44831,7 +44845,7 @@
     {
       "type": 2,
       "id": 31017,
-      "stock": 818
+      "stock": 838
     },
     {
       "type": 2,
@@ -44856,7 +44870,7 @@
     {
       "type": 2,
       "id": 31023,
-      "stock": 505
+      "stock": 525
     },
     {
       "type": 2,
@@ -44866,7 +44880,7 @@
     {
       "type": 2,
       "id": 31026,
-      "stock": 1073
+      "stock": 1077
     },
     {
       "type": 2,
@@ -44891,7 +44905,7 @@
     {
       "type": 2,
       "id": 31031,
-      "stock": 414
+      "stock": 418
     },
     {
       "type": 2,
@@ -45321,7 +45335,7 @@
     {
       "type": 2,
       "id": 31136,
-      "stock": 150
+      "stock": 152
     },
     {
       "type": 2,
@@ -45426,7 +45440,7 @@
     {
       "type": 2,
       "id": 31167,
-      "stock": 186
+      "stock": 206
     },
     {
       "type": 2,
@@ -45776,7 +45790,7 @@
     {
       "type": 2,
       "id": 31268,
-      "stock": 80
+      "stock": 100
     },
     {
       "type": 2,
@@ -45851,7 +45865,7 @@
     {
       "type": 2,
       "id": 31294,
-      "stock": 370
+      "stock": 371
     },
     {
       "type": 2,
@@ -45926,7 +45940,7 @@
     {
       "type": 2,
       "id": 31320,
-      "stock": 76
+      "stock": 78
     },
     {
       "type": 2,
@@ -46061,7 +46075,7 @@
     {
       "type": 2,
       "id": 31362,
-      "stock": 159
+      "stock": 160
     },
     {
       "type": 2,
@@ -46496,7 +46510,7 @@
     {
       "type": 2,
       "id": 50001,
-      "stock": 43
+      "stock": 49
     },
     {
       "type": 2,
@@ -46506,7 +46520,7 @@
     {
       "type": 2,
       "id": 50003,
-      "stock": 31092
+      "stock": 31163
     },
     {
       "type": 2,
@@ -48071,52 +48085,52 @@
     {
       "type": 2,
       "id": 90002,
-      "stock": 786152
+      "stock": 652282
     },
     {
       "type": 2,
       "id": 90003,
-      "stock": 176404
+      "stock": 164872
     },
     {
       "type": 2,
       "id": 90004,
-      "stock": 107515
+      "stock": 102338
     },
     {
       "type": 2,
       "id": 90005,
-      "stock": 6120
+      "stock": 6133
     },
     {
       "type": 2,
       "id": 90006,
-      "stock": 84513
+      "stock": 81283
     },
     {
       "type": 2,
       "id": 90007,
-      "stock": 19355725
+      "stock": 19363425
     },
     {
       "type": 2,
       "id": 90008,
-      "stock": 12055
+      "stock": 23025
     },
     {
       "type": 2,
       "id": 90009,
-      "stock": 96650
+      "stock": 97690
     },
     {
       "type": 2,
       "id": 90010,
-      "stock": 90680
+      "stock": 91180
     },
     {
       "type": 2,
       "id": 90011,
-      "stock": 410860
+      "stock": 411280
     },
     {
       "type": 2,
@@ -48126,7 +48140,7 @@
     {
       "type": 2,
       "id": 90013,
-      "stock": 110230
+      "stock": 113290
     },
     {
       "type": 2,
@@ -48191,12 +48205,12 @@
     {
       "type": 2,
       "id": 97002,
-      "stock": 8638
+      "stock": 9238
     },
     {
       "type": 2,
       "id": 99009,
-      "stock": 19
+      "stock": 21
     },
     {
       "type": 2,
@@ -50153,7 +50167,7 @@
     {
       "type": 4,
       "id": 116042,
-      "stock": 1395
+      "stock": 1399
     },
     {
       "type": 4,
@@ -50333,7 +50347,7 @@
     {
       "type": 4,
       "id": 117131,
-      "stock": 1206
+      "stock": 1210
     },
     {
       "type": 4,
@@ -50348,7 +50362,7 @@
     {
       "type": 4,
       "id": 117191,
-      "stock": 1224
+      "stock": 1228
     },
     {
       "type": 4,
@@ -50463,12 +50477,12 @@
     {
       "type": 4,
       "id": 118012,
-      "stock": 2131
+      "stock": 2135
     },
     {
       "type": 4,
       "id": 118013,
-      "stock": 2982
+      "stock": 2986
     },
     {
       "type": 4,
@@ -50508,12 +50522,12 @@
     {
       "type": 4,
       "id": 118104,
-      "stock": 2698
+      "stock": 2702
     },
     {
       "type": 4,
       "id": 118163,
-      "stock": 2241
+      "stock": 2253
     },
     {
       "type": 4,
@@ -50548,7 +50562,7 @@
     {
       "type": 4,
       "id": 118223,
-      "stock": 3820
+      "stock": 3832
     },
     {
       "type": 4,
@@ -50568,7 +50582,7 @@
     {
       "type": 4,
       "id": 118253,
-      "stock": 2372
+      "stock": 2376
     },
     {
       "type": 4,
@@ -50578,17 +50592,17 @@
     {
       "type": 4,
       "id": 118342,
-      "stock": 2845
+      "stock": 2849
     },
     {
       "type": 4,
       "id": 118343,
-      "stock": 2987
+      "stock": 2991
     },
     {
       "type": 4,
       "id": 118371,
-      "stock": 1876
+      "stock": 1880
     },
     {
       "type": 4,
@@ -50608,12 +50622,12 @@
     {
       "type": 4,
       "id": 118462,
-      "stock": 2121
+      "stock": 2125
     },
     {
       "type": 4,
       "id": 118492,
-      "stock": 2236
+      "stock": 2240
     },
     {
       "type": 4,
@@ -50643,7 +50657,7 @@
     {
       "type": 4,
       "id": 118552,
-      "stock": 3099
+      "stock": 3103
     },
     {
       "type": 4,
@@ -50668,7 +50682,7 @@
     {
       "type": 4,
       "id": 118583,
-      "stock": 2526
+      "stock": 2534
     },
     {
       "type": 4,
@@ -50693,12 +50707,12 @@
     {
       "type": 4,
       "id": 118614,
-      "stock": 2950
+      "stock": 2954
     },
     {
       "type": 4,
       "id": 119011,
-      "stock": 3239
+      "stock": 3243
     },
     {
       "type": 4,
@@ -50723,12 +50737,12 @@
     {
       "type": 4,
       "id": 119072,
-      "stock": 852
+      "stock": 856
     },
     {
       "type": 4,
       "id": 119073,
-      "stock": 997
+      "stock": 1001
     },
     {
       "type": 4,
@@ -50778,7 +50792,7 @@
     {
       "type": 4,
       "id": 119221,
-      "stock": 2683
+      "stock": 2687
     },
     {
       "type": 4,
@@ -50793,7 +50807,7 @@
     {
       "type": 4,
       "id": 119224,
-      "stock": 1142
+      "stock": 1146
     },
     {
       "type": 4,
@@ -50818,7 +50832,7 @@
     {
       "type": 4,
       "id": 119341,
-      "stock": 1392
+      "stock": 1396
     },
     {
       "type": 4,
@@ -50828,17 +50842,17 @@
     {
       "type": 4,
       "id": 119371,
-      "stock": 1996
+      "stock": 2000
     },
     {
       "type": 4,
       "id": 119372,
-      "stock": 1952
+      "stock": 1960
     },
     {
       "type": 4,
       "id": 119432,
-      "stock": 1583
+      "stock": 1587
     },
     {
       "type": 4,
@@ -50848,7 +50862,7 @@
     {
       "type": 4,
       "id": 119461,
-      "stock": 1891
+      "stock": 1895
     },
     {
       "type": 4,
@@ -50873,7 +50887,7 @@
     {
       "type": 4,
       "id": 119524,
-      "stock": 657
+      "stock": 661
     },
     {
       "type": 4,
@@ -50903,7 +50917,7 @@
     {
       "type": 4,
       "id": 119582,
-      "stock": 1201
+      "stock": 1205
     },
     {
       "type": 4,
@@ -50928,7 +50942,7 @@
     {
       "type": 4,
       "id": 119613,
-      "stock": 1408
+      "stock": 1413
     },
     {
       "type": 4,
@@ -51628,7 +51642,7 @@
     {
       "type": 4,
       "id": 126101,
-      "stock": 927
+      "stock": 931
     },
     {
       "type": 4,
@@ -51723,7 +51737,7 @@
     {
       "type": 4,
       "id": 126373,
-      "stock": 1877
+      "stock": 1881
     },
     {
       "type": 4,
@@ -51743,7 +51757,7 @@
     {
       "type": 4,
       "id": 127043,
-      "stock": 1621
+      "stock": 1625
     },
     {
       "type": 4,
@@ -51758,7 +51772,7 @@
     {
       "type": 4,
       "id": 127133,
-      "stock": 844
+      "stock": 848
     },
     {
       "type": 4,
@@ -51778,7 +51792,7 @@
     {
       "type": 4,
       "id": 127221,
-      "stock": 668
+      "stock": 672
     },
     {
       "type": 4,
@@ -51838,7 +51852,7 @@
     {
       "type": 4,
       "id": 127462,
-      "stock": 1061
+      "stock": 1065
     },
     {
       "type": 4,
@@ -51848,12 +51862,12 @@
     {
       "type": 4,
       "id": 128042,
-      "stock": 1840
+      "stock": 1844
     },
     {
       "type": 4,
       "id": 128043,
-      "stock": 2965
+      "stock": 2969
     },
     {
       "type": 4,
@@ -51863,7 +51877,7 @@
     {
       "type": 4,
       "id": 128073,
-      "stock": 2714
+      "stock": 2718
     },
     {
       "type": 4,
@@ -51883,7 +51897,7 @@
     {
       "type": 4,
       "id": 128134,
-      "stock": 2347
+      "stock": 2351
     },
     {
       "type": 4,
@@ -51908,17 +51922,17 @@
     {
       "type": 4,
       "id": 128282,
-      "stock": 1858
+      "stock": 1866
     },
     {
       "type": 4,
       "id": 128283,
-      "stock": 1957
+      "stock": 1961
     },
     {
       "type": 4,
       "id": 128284,
-      "stock": 1063
+      "stock": 1067
     },
     {
       "type": 4,
@@ -51953,7 +51967,7 @@
     {
       "type": 4,
       "id": 128374,
-      "stock": 1424
+      "stock": 1428
     },
     {
       "type": 4,
@@ -51998,7 +52012,7 @@
     {
       "type": 4,
       "id": 129134,
-      "stock": 717
+      "stock": 721
     },
     {
       "type": 4,
@@ -52028,7 +52042,7 @@
     {
       "type": 4,
       "id": 129282,
-      "stock": 1223
+      "stock": 1227
     },
     {
       "type": 4,
@@ -52043,12 +52057,12 @@
     {
       "type": 4,
       "id": 129311,
-      "stock": 2138
+      "stock": 2142
     },
     {
       "type": 4,
       "id": 129312,
-      "stock": 1414
+      "stock": 1418
     },
     {
       "type": 4,
@@ -52068,7 +52082,7 @@
     {
       "type": 4,
       "id": 129374,
-      "stock": 845
+      "stock": 846
     },
     {
       "type": 4,
@@ -52078,32 +52092,32 @@
     {
       "type": 4,
       "id": 129402,
-      "stock": 1146
+      "stock": 1150
     },
     {
       "type": 4,
       "id": 140001,
-      "stock": 6338
+      "stock": 6378
     },
     {
       "type": 4,
       "id": 150001,
-      "stock": 5266
+      "stock": 5296
     },
     {
       "type": 4,
       "id": 150002,
-      "stock": 8827
+      "stock": 8848
     },
     {
       "type": 4,
       "id": 150003,
-      "stock": 11120
+      "stock": 11135
     },
     {
       "type": 4,
       "id": 150004,
-      "stock": 12372
+      "stock": 12378
     },
     {
       "type": 4,
@@ -52113,27 +52127,27 @@
     {
       "type": 4,
       "id": 150006,
-      "stock": 10140
+      "stock": 10141
     },
     {
       "type": 4,
       "id": 150007,
-      "stock": 8702
+      "stock": 8707
     },
     {
       "type": 4,
       "id": 150008,
-      "stock": 9314
+      "stock": 9317
     },
     {
       "type": 4,
       "id": 150009,
-      "stock": 1294
+      "stock": 1298
     },
     {
       "type": 4,
       "id": 150010,
-      "stock": 956
+      "stock": 962
     },
     {
       "type": 4,
@@ -52153,7 +52167,7 @@
     {
       "type": 4,
       "id": 11001035,
-      "stock": 385
+      "stock": 389
     },
     {
       "type": 4,
@@ -52163,12 +52177,12 @@
     {
       "type": 4,
       "id": 11001037,
-      "stock": 401
+      "stock": 409
     },
     {
       "type": 4,
       "id": 11001038,
-      "stock": 480
+      "stock": 484
     },
     {
       "type": 4,
@@ -52183,7 +52197,7 @@
     {
       "type": 4,
       "id": 11001041,
-      "stock": 122
+      "stock": 126
     },
     {
       "type": 4,
@@ -52198,12 +52212,12 @@
     {
       "type": 4,
       "id": 11007034,
-      "stock": 349
+      "stock": 353
     },
     {
       "type": 4,
       "id": 11007035,
-      "stock": 298
+      "stock": 303
     },
     {
       "type": 4,
@@ -52213,12 +52227,12 @@
     {
       "type": 4,
       "id": 11007037,
-      "stock": 366
+      "stock": 370
     },
     {
       "type": 4,
       "id": 11007038,
-      "stock": 360
+      "stock": 364
     },
     {
       "type": 4,
@@ -52248,7 +52262,7 @@
     {
       "type": 4,
       "id": 11010034,
-      "stock": 348
+      "stock": 352
     },
     {
       "type": 4,
@@ -52258,7 +52272,7 @@
     {
       "type": 4,
       "id": 11010036,
-      "stock": 473
+      "stock": 481
     },
     {
       "type": 4,
@@ -52268,17 +52282,17 @@
     {
       "type": 4,
       "id": 11010038,
-      "stock": 314
+      "stock": 323
     },
     {
       "type": 4,
       "id": 11010039,
-      "stock": 295
+      "stock": 296
     },
     {
       "type": 4,
       "id": 11010040,
-      "stock": 216
+      "stock": 217
     },
     {
       "type": 4,
@@ -52293,7 +52307,7 @@
     {
       "type": 4,
       "id": 11022032,
-      "stock": 1086
+      "stock": 1087
     },
     {
       "type": 4,
@@ -52338,7 +52352,7 @@
     {
       "type": 4,
       "id": 11022041,
-      "stock": 193
+      "stock": 194
     },
     {
       "type": 4,
@@ -52368,7 +52382,7 @@
     {
       "type": 4,
       "id": 11025037,
-      "stock": 396
+      "stock": 404
     },
     {
       "type": 4,
@@ -52378,17 +52392,17 @@
     {
       "type": 4,
       "id": 11025039,
-      "stock": 426
+      "stock": 438
     },
     {
       "type": 4,
       "id": 11025040,
-      "stock": 196
+      "stock": 200
     },
     {
       "type": 4,
       "id": 11025041,
-      "stock": 127
+      "stock": 131
     },
     {
       "type": 4,
@@ -52398,7 +52412,7 @@
     {
       "type": 4,
       "id": 11034034,
-      "stock": 311
+      "stock": 315
     },
     {
       "type": 4,
@@ -52408,7 +52422,7 @@
     {
       "type": 4,
       "id": 11034037,
-      "stock": 413
+      "stock": 425
     },
     {
       "type": 4,
@@ -52433,7 +52447,7 @@
     {
       "type": 4,
       "id": 11043038,
-      "stock": 391
+      "stock": 399
     },
     {
       "type": 4,
@@ -52458,7 +52472,7 @@
     {
       "type": 4,
       "id": 11046037,
-      "stock": 330
+      "stock": 334
     },
     {
       "type": 4,
@@ -52478,12 +52492,12 @@
     {
       "type": 4,
       "id": 11052038,
-      "stock": 300
+      "stock": 309
     },
     {
       "type": 4,
       "id": 11052039,
-      "stock": 194
+      "stock": 195
     },
     {
       "type": 4,
@@ -52498,7 +52512,7 @@
     {
       "type": 4,
       "id": 11055034,
-      "stock": 624
+      "stock": 625
     },
     {
       "type": 4,
@@ -52518,7 +52532,7 @@
     {
       "type": 4,
       "id": 11055038,
-      "stock": 466
+      "stock": 474
     },
     {
       "type": 4,
@@ -52528,22 +52542,22 @@
     {
       "type": 4,
       "id": 11055040,
-      "stock": 32
+      "stock": 36
     },
     {
       "type": 4,
       "id": 11055041,
-      "stock": 209
+      "stock": 213
     },
     {
       "type": 4,
       "id": 11058032,
-      "stock": 1175
+      "stock": 1179
     },
     {
       "type": 4,
       "id": 11058033,
-      "stock": 361
+      "stock": 362
     },
     {
       "type": 4,
@@ -52553,27 +52567,27 @@
     {
       "type": 4,
       "id": 11058035,
-      "stock": 452
+      "stock": 457
     },
     {
       "type": 4,
       "id": 11058036,
-      "stock": 409
+      "stock": 414
     },
     {
       "type": 4,
       "id": 11058037,
-      "stock": 374
+      "stock": 382
     },
     {
       "type": 4,
       "id": 11058038,
-      "stock": 288
+      "stock": 292
     },
     {
       "type": 4,
       "id": 11058039,
-      "stock": 128
+      "stock": 133
     },
     {
       "type": 4,
@@ -52638,7 +52652,7 @@
     {
       "type": 4,
       "id": 12004032,
-      "stock": 591
+      "stock": 595
     },
     {
       "type": 4,
@@ -52648,7 +52662,7 @@
     {
       "type": 4,
       "id": 12004034,
-      "stock": 328
+      "stock": 332
     },
     {
       "type": 4,
@@ -52663,12 +52677,12 @@
     {
       "type": 4,
       "id": 12004037,
-      "stock": 290
+      "stock": 294
     },
     {
       "type": 4,
       "id": 12004038,
-      "stock": 413
+      "stock": 421
     },
     {
       "type": 4,
@@ -52713,12 +52727,12 @@
     {
       "type": 4,
       "id": 12013037,
-      "stock": 240
+      "stock": 244
     },
     {
       "type": 4,
       "id": 12013038,
-      "stock": 343
+      "stock": 352
     },
     {
       "type": 4,
@@ -52793,7 +52807,7 @@
     {
       "type": 4,
       "id": 12019034,
-      "stock": 332
+      "stock": 336
     },
     {
       "type": 4,
@@ -52803,32 +52817,32 @@
     {
       "type": 4,
       "id": 12019036,
-      "stock": 397
+      "stock": 401
     },
     {
       "type": 4,
       "id": 12019037,
-      "stock": 350
+      "stock": 358
     },
     {
       "type": 4,
       "id": 12019038,
-      "stock": 303
+      "stock": 307
     },
     {
       "type": 4,
       "id": 12019039,
-      "stock": 351
+      "stock": 355
     },
     {
       "type": 4,
       "id": 12019040,
-      "stock": 236
+      "stock": 240
     },
     {
       "type": 4,
       "id": 12019041,
-      "stock": 209
+      "stock": 210
     },
     {
       "type": 4,
@@ -52843,17 +52857,17 @@
     {
       "type": 4,
       "id": 12028034,
-      "stock": 304
+      "stock": 308
     },
     {
       "type": 4,
       "id": 12028035,
-      "stock": 346
+      "stock": 350
     },
     {
       "type": 4,
       "id": 12028036,
-      "stock": 445
+      "stock": 457
     },
     {
       "type": 4,
@@ -52863,12 +52877,12 @@
     {
       "type": 4,
       "id": 12028038,
-      "stock": 357
+      "stock": 365
     },
     {
       "type": 4,
       "id": 12028039,
-      "stock": 154
+      "stock": 166
     },
     {
       "type": 4,
@@ -52888,7 +52902,7 @@
     {
       "type": 4,
       "id": 12031034,
-      "stock": 250
+      "stock": 258
     },
     {
       "type": 4,
@@ -52903,12 +52917,12 @@
     {
       "type": 4,
       "id": 12031037,
-      "stock": 385
+      "stock": 397
     },
     {
       "type": 4,
       "id": 12031038,
-      "stock": 259
+      "stock": 264
     },
     {
       "type": 4,
@@ -52918,12 +52932,12 @@
     {
       "type": 4,
       "id": 12031040,
-      "stock": 60
+      "stock": 64
     },
     {
       "type": 4,
       "id": 12034039,
-      "stock": 262
+      "stock": 263
     },
     {
       "type": 4,
@@ -52938,7 +52952,7 @@
     {
       "type": 4,
       "id": 12037034,
-      "stock": 286
+      "stock": 294
     },
     {
       "type": 4,
@@ -52948,22 +52962,22 @@
     {
       "type": 4,
       "id": 12037036,
-      "stock": 414
+      "stock": 426
     },
     {
       "type": 4,
       "id": 12037037,
-      "stock": 362
+      "stock": 370
     },
     {
       "type": 4,
       "id": 12037038,
-      "stock": 433
+      "stock": 445
     },
     {
       "type": 4,
       "id": 12037039,
-      "stock": 259
+      "stock": 263
     },
     {
       "type": 4,
@@ -52978,7 +52992,7 @@
     {
       "type": 4,
       "id": 12040035,
-      "stock": 370
+      "stock": 374
     },
     {
       "type": 4,
@@ -52993,17 +53007,17 @@
     {
       "type": 4,
       "id": 12049037,
-      "stock": 331
+      "stock": 339
     },
     {
       "type": 4,
       "id": 12049038,
-      "stock": 374
+      "stock": 378
     },
     {
       "type": 4,
       "id": 12049040,
-      "stock": 246
+      "stock": 250
     }
   ],
   "user_ex_equip": [
@@ -78493,6 +78507,83 @@
       "enhancement_pt": 0,
       "rank": 0,
       "protection_flag": 1
+    },
+    {
+      "serial_id": 21065,
+      "ex_equipment_id": 4108401,
+      "enhancement_pt": 0,
+      "rank": 0,
+      "protection_flag": 1
+    },
+    {
+      "serial_id": 21066,
+      "ex_equipment_id": 4302351,
+      "enhancement_pt": 0,
+      "rank": 0,
+      "protection_flag": 1
+    },
+    {
+      "serial_id": 21067,
+      "ex_equipment_id": 4305302,
+      "enhancement_pt": 0,
+      "rank": 0,
+      "protection_flag": 1
+    },
+    {
+      "serial_id": 21068,
+      "ex_equipment_id": 4204303,
+      "enhancement_pt": 0,
+      "rank": 0,
+      "protection_flag": 1
+    },
+    {
+      "serial_id": 21069,
+      "ex_equipment_id": 4204301,
+      "enhancement_pt": 0,
+      "rank": 0,
+      "protection_flag": 1
+    },
+    {
+      "serial_id": 21070,
+      "ex_equipment_id": 4203351,
+      "enhancement_pt": 0,
+      "rank": 0,
+      "protection_flag": 1
+    },
+    {
+      "serial_id": 21071,
+      "ex_equipment_id": 4201303,
+      "enhancement_pt": 0,
+      "rank": 0,
+      "protection_flag": 1
+    },
+    {
+      "serial_id": 21072,
+      "ex_equipment_id": 4303351,
+      "enhancement_pt": 0,
+      "rank": 0,
+      "protection_flag": 1
+    },
+    {
+      "serial_id": 21073,
+      "ex_equipment_id": 4204251,
+      "enhancement_pt": 0,
+      "rank": 0,
+      "protection_flag": 1
+    },
+    {
+      "serial_id": 21074,
+      "ex_equipment_id": 4303202,
+      "enhancement_pt": 0,
+      "rank": 0,
+      "protection_flag": 1
+    },
+    {
+      "serial_id": 21075,
+      "ex_equipment_id": 4105251,
+      "enhancement_pt": 0,
+      "rank": 0,
+      "protection_flag": 1
     }
   ],
   "user_clan_battle_ex_equip_restriction": [],
@@ -78986,7 +79077,6 @@
     3431,
     3432,
     3433,
-    3451,
     5049,
     5050,
     5051,
@@ -79005,8 +79095,8 @@
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
     {
-      "gacha_id": "70155",
-      "remain_exec_count": 1
+      "gacha_id": "70156",
+      "remain_exec_count": 3
     }
   ],
   "gacha_point_info_list": [],
@@ -89815,7 +89905,7 @@
       ]
     }
   ],
-  "daily_reset_time": 1782072000,
+  "daily_reset_time": 1782158400,
   "login_bonus_list": {
     "first": [],
     "normal": [],
@@ -89845,7 +89935,7 @@
       ]
     }
   ],
-  "present_count": 70,
+  "present_count": 63,
   "clan_like_count": 1,
   "dispatch_units": [
     {
@@ -89858,7 +89948,7 @@
       "dispatch_count": 34,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 24583945,
+      "current_dispatch_bonus": 24853819,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -89875,7 +89965,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 8065622,
+      "current_dispatch_bonus": 8402322,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -89891,7 +89981,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 7326478,
+      "current_dispatch_bonus": 7632323,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -89908,7 +89998,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 7383359,
+      "current_dispatch_bonus": 7691579,
       "connect_rank": 0,
       "connect_rank_limit": 3
     }
@@ -89926,7 +90016,7 @@
   },
   "csc": {
     "weekly": {
-      "count": 9938,
+      "count": 600,
       "max": 15000
     }
   },
@@ -90078,5 +90168,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1782050215
+  "last_modified": 1782119660
 }

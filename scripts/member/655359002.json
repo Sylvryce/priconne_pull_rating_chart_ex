@@ -4,7 +4,7 @@
     "user_name": "Juski",
     "user_comment": "Kya",
     "team_level": 382,
-    "user_stamina": 25,
+    "user_stamina": 254,
     "max_stamina": 440,
     "team_exp": 1401183,
     "favorite_unit_id": 111901,
@@ -8895,6 +8895,13 @@
           "enhancement_pt": 64990,
           "rank": 27,
           "is_specialized": 0
+        },
+        {
+          "id": 130762,
+          "is_slot": 0,
+          "enhancement_level": 0,
+          "enhancement_pt": 0,
+          "rank": 0
         }
       ],
       "ex_equip_slot": [
@@ -9146,6 +9153,13 @@
           "enhancement_pt": 64990,
           "rank": 27,
           "is_specialized": 0
+        },
+        {
+          "id": 130782,
+          "is_slot": 0,
+          "enhancement_level": 0,
+          "enhancement_pt": 0,
+          "rank": 0
         }
       ],
       "ex_equip_slot": [
@@ -74286,7 +74300,6 @@
     3431,
     3432,
     3433,
-    3451,
     5049,
     5050,
     5051,
@@ -74300,13 +74313,13 @@
     5139,
     5140
   ],
-  "can_free_gacha": 0,
+  "can_free_gacha": 1,
   "can_campaign_gacha": 0,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
     {
-      "gacha_id": "70155",
-      "remain_exec_count": 1
+      "gacha_id": "70156",
+      "remain_exec_count": 3
     }
   ],
   "gacha_point_info_list": [],
@@ -84658,10 +84671,21 @@
       ]
     }
   ],
-  "daily_reset_time": 1782072000,
+  "daily_reset_time": 1782158400,
   "login_bonus_list": {
     "first": [],
-    "normal": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 2428,
+        "rap": 1,
+        "count_num": 13,
+        "type": "normal",
+        "reward_type": 2,
+        "reward_id": 25021,
+        "reward_count": 5000
+      }
+    ],
     "campaign": [],
     "lottery": [],
     "adv": [],
@@ -84669,6 +84693,8 @@
     "birthday": [],
     "story_read_process": []
   },
+  "receive_caravan_dice_count": 1,
+  "receive_labyrinth_passport_count": 1,
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -84688,8 +84714,8 @@
       ]
     }
   ],
-  "present_count": 12,
-  "clan_like_count": 1,
+  "present_count": 22,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 111901,
@@ -84704,7 +84730,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 10509488,
+      "current_dispatch_bonus": 10848912,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -84720,7 +84746,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 82464553,
+      "current_dispatch_bonus": 82815370,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -84734,7 +84760,7 @@
       "dispatch_count": 0,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 7011624,
+      "current_dispatch_bonus": 7321891,
       "connect_rank": 9,
       "connect_rank_limit": 9
     },
@@ -84750,7 +84776,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 66272795,
+      "current_dispatch_bonus": 66590510,
       "connect_rank": 0,
       "connect_rank_limit": 3
     }
@@ -84768,7 +84794,7 @@
   },
   "csc": {
     "weekly": {
-      "count": 5300,
+      "count": 0,
       "max": 15000
     }
   },
@@ -84916,5 +84942,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1782064375
+  "last_modified": 1782146788
 }

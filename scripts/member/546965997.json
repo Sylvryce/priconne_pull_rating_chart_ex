@@ -4,7 +4,7 @@
     "user_name": "Qz",
     "user_comment": "よろしくお願いします。",
     "team_level": 382,
-    "user_stamina": 111,
+    "user_stamina": 181,
     "max_stamina": 440,
     "team_exp": 1401183,
     "favorite_unit_id": 134301,
@@ -14,11 +14,11 @@
       "emblem_id": 11001349,
       "ex_value": 0
     },
-    "stamina_full_recovery_time": 1782319738
+    "stamina_full_recovery_time": 1782308218
   },
   "user_jewel": {
     "jewel": 250,
-    "free_jewel": 42189,
+    "free_jewel": 42419,
     "paid_jewel": 250
   },
   "user_gold": {
@@ -26,7 +26,7 @@
     "gold_id_pay": 0
   },
   "user_gold_bank_info": {
-    "bank_gold": 12781048204,
+    "bank_gold": 12729625518,
     "highest_bank_gold": 12804382521
   },
   "unit_list": [
@@ -7171,29 +7171,29 @@
         },
         {
           "slot": 2,
-          "serial_id": 14134,
+          "serial_id": 13665,
           "sub_status": [
             {
               "slot_number": 1,
-              "status": 13,
+              "status": 4,
               "step": 5,
               "is_lock": 1
             },
             {
               "slot_number": 2,
-              "status": 13,
+              "status": 4,
               "step": 5,
               "is_lock": 1
             },
             {
               "slot_number": 3,
-              "status": 13,
-              "step": 5,
+              "status": 4,
+              "step": 2,
               "is_lock": 1
             },
             {
               "slot_number": 4,
-              "status": 13,
+              "status": 4,
               "step": 5,
               "is_lock": 1
             }
@@ -8479,7 +8479,7 @@
           "is_revolution_skill": false
         },
         {
-          "skill_id": 1076003,
+          "skill_id": 1076013,
           "skill_level": 392,
           "is_revolution_skill": false
         }
@@ -8541,10 +8541,10 @@
         },
         {
           "id": 130762,
-          "is_slot": 0,
-          "enhancement_level": 0,
-          "enhancement_pt": 0,
-          "rank": 0
+          "is_slot": 1,
+          "enhancement_level": 5,
+          "enhancement_pt": 150,
+          "rank": 1
         }
       ],
       "ex_equip_slot": [
@@ -12817,7 +12817,7 @@
         },
         {
           "slot": 3,
-          "serial_id": 13417
+          "serial_id": 16415
         }
       ],
       "cb_ex_equip_slot": [
@@ -14995,7 +14995,33 @@
         },
         {
           "slot": 2,
-          "serial_id": 15289
+          "serial_id": 14134,
+          "sub_status": [
+            {
+              "slot_number": 1,
+              "status": 13,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 2,
+              "status": 13,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 3,
+              "status": 13,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 4,
+              "status": 13,
+              "step": 5,
+              "is_lock": 1
+            }
+          ]
         },
         {
           "slot": 3,
@@ -17984,38 +18010,38 @@
     },
     {
       "id": 116601,
-      "unit_rarity": 4,
+      "unit_rarity": 5,
       "battle_rarity": 0,
-      "unit_level": 382,
+      "unit_level": 392,
       "promotion_level": 40,
       "connect_rank": 0,
       "connect_rank_limit": 3,
-      "exceed_stage": 0,
-      "unit_exp": 33538350,
+      "exceed_stage": 1,
+      "unit_exp": 35628370,
       "get_time": 1676545308,
       "union_burst": [
         {
           "skill_id": 1166001,
-          "skill_level": 382,
+          "skill_level": 392,
           "is_revolution_skill": false
         }
       ],
       "main_skill": [
         {
           "skill_id": 1166012,
-          "skill_level": 382,
+          "skill_level": 392,
           "is_revolution_skill": false
         },
         {
           "skill_id": 1166203,
-          "skill_level": 382,
+          "skill_level": 392,
           "is_revolution_skill": false
         }
       ],
       "ex_skill": [
         {
-          "skill_id": 1166501,
-          "skill_level": 382,
+          "skill_id": 1166511,
+          "skill_level": 392,
           "is_revolution_skill": false
         }
       ],
@@ -18071,15 +18097,15 @@
       "ex_equip_slot": [
         {
           "slot": 1,
-          "serial_id": 0
+          "serial_id": 10247
         },
         {
           "slot": 2,
-          "serial_id": 0
+          "serial_id": 10215
         },
         {
           "slot": 3,
-          "serial_id": 0
+          "serial_id": 2547
         }
       ],
       "cb_ex_equip_slot": [
@@ -18096,6 +18122,11 @@
           "serial_id": 0
         }
       ],
+      "unlock_rarity_6_item": {
+        "slot_1": 0,
+        "slot_2": 0,
+        "slot_3": 0
+      },
       "skin_data": {
         "icon_skin_id": 0,
         "sd_skin_id": 0,
@@ -23607,15 +23638,15 @@
       "ex_equip_slot": [
         {
           "slot": 1,
-          "serial_id": 5058
+          "serial_id": 9164
         },
         {
           "slot": 2,
-          "serial_id": 10808
+          "serial_id": 15893
         },
         {
           "slot": 3,
-          "serial_id": 16415
+          "serial_id": 13417
         }
       ],
       "cb_ex_equip_slot": [
@@ -37984,76 +38015,93 @@
     },
     {
       "id": 139601,
-      "unit_rarity": 3,
+      "unit_rarity": 5,
       "battle_rarity": 0,
-      "unit_level": 1,
-      "promotion_level": 1,
+      "unit_level": 382,
+      "promotion_level": 41,
       "connect_rank": 0,
       "connect_rank_limit": 3,
       "exceed_stage": 0,
-      "unit_exp": 0,
+      "unit_exp": 33538350,
       "get_time": 1782135099,
       "union_burst": [
         {
           "skill_id": 1396001,
-          "skill_level": 1,
+          "skill_level": 382,
           "is_revolution_skill": false
         }
       ],
-      "main_skill": [],
-      "ex_skill": [],
+      "main_skill": [
+        {
+          "skill_id": 1396002,
+          "skill_level": 382,
+          "is_revolution_skill": false
+        },
+        {
+          "skill_id": 1396003,
+          "skill_level": 382,
+          "is_revolution_skill": false
+        }
+      ],
+      "ex_skill": [
+        {
+          "skill_id": 1396511,
+          "skill_level": 382,
+          "is_revolution_skill": false
+        }
+      ],
       "free_skill": [],
       "equip_slot": [
         {
-          "id": 101251,
+          "id": 999999,
           "is_slot": 0,
           "enhancement_level": 0,
           "enhancement_pt": 0
         },
         {
-          "id": 101251,
+          "id": 10025041,
+          "is_slot": 1,
+          "enhancement_level": 5,
+          "enhancement_pt": 1800
+        },
+        {
+          "id": 999999,
           "is_slot": 0,
           "enhancement_level": 0,
           "enhancement_pt": 0
         },
         {
-          "id": 101371,
-          "is_slot": 0,
-          "enhancement_level": 0,
-          "enhancement_pt": 0
+          "id": 10031040,
+          "is_slot": 1,
+          "enhancement_level": 5,
+          "enhancement_pt": 1800
         },
         {
-          "id": 101521,
-          "is_slot": 0,
-          "enhancement_level": 0,
-          "enhancement_pt": 0
+          "id": 10058041,
+          "is_slot": 1,
+          "enhancement_level": 5,
+          "enhancement_pt": 1800
         },
         {
-          "id": 101581,
-          "is_slot": 0,
-          "enhancement_level": 0,
-          "enhancement_pt": 0
-        },
-        {
-          "id": 101581,
-          "is_slot": 0,
-          "enhancement_level": 0,
-          "enhancement_pt": 0
+          "id": 10058040,
+          "is_slot": 1,
+          "enhancement_level": 5,
+          "enhancement_pt": 1800
         }
       ],
       "unique_equip_slot": [],
       "ex_equip_slot": [
         {
           "slot": 1,
-          "serial_id": 0
+          "serial_id": 5773
         },
         {
           "slot": 2,
-          "serial_id": 0
+          "serial_id": 11904
         },
         {
           "slot": 3,
-          "serial_id": 0
+          "serial_id": 12116
         }
       ],
       "cb_ex_equip_slot": [
@@ -38070,6 +38118,11 @@
           "serial_id": 0
         }
       ],
+      "unlock_rarity_6_item": {
+        "slot_1": 0,
+        "slot_2": 0,
+        "slot_3": 0
+      },
       "skin_data": {
         "icon_skin_id": 0,
         "sd_skin_id": 0,
@@ -38796,33 +38849,7 @@
         },
         {
           "slot": 2,
-          "serial_id": 13665,
-          "sub_status": [
-            {
-              "slot_number": 1,
-              "status": 4,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 2,
-              "status": 4,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 3,
-              "status": 4,
-              "step": 2,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 4,
-              "status": 4,
-              "step": 5,
-              "is_lock": 1
-            }
-          ]
+          "serial_id": 15289
         },
         {
           "slot": 3,
@@ -41149,6 +41176,12 @@
       }
     },
     {
+      "unit_id": 139601,
+      "growth_parameter_list": {
+        "free_equip_point": 7200
+      }
+    },
+    {
       "unit_id": 180101,
       "growth_parameter_list": {
         "free_equip_point": 10800
@@ -42679,8 +42712,8 @@
     },
     {
       "chara_id": 1396,
-      "chara_love": 0,
-      "love_level": 1
+      "chara_love": 4200,
+      "love_level": 8
     },
     {
       "chara_id": 1801,
@@ -42754,11 +42787,11 @@
     },
     {
       "deck_number": 2,
-      "unit_id_1": 103301,
-      "unit_id_2": 104801,
-      "unit_id_3": 113401,
-      "unit_id_4": 110301,
-      "unit_id_5": 106001,
+      "unit_id_1": 138001,
+      "unit_id_2": 105801,
+      "unit_id_3": 111701,
+      "unit_id_4": 123301,
+      "unit_id_5": 136001,
       "general_property_1": null,
       "general_property_2": null,
       "general_property_3": null,
@@ -43001,11 +43034,11 @@
     },
     {
       "deck_number": 25,
-      "unit_id_1": 103301,
-      "unit_id_2": 104801,
-      "unit_id_3": 113401,
-      "unit_id_4": 110301,
-      "unit_id_5": 106001,
+      "unit_id_1": 138001,
+      "unit_id_2": 105801,
+      "unit_id_3": 111701,
+      "unit_id_4": 123301,
+      "unit_id_5": 136001,
       "general_property_1": null,
       "general_property_2": null,
       "general_property_3": null,
@@ -43732,27 +43765,27 @@
     {
       "type": 2,
       "id": 20001,
-      "stock": 936
+      "stock": 1002
     },
     {
       "type": 2,
       "id": 20002,
-      "stock": 1666
+      "stock": 1851
     },
     {
       "type": 2,
       "id": 20003,
-      "stock": 561
+      "stock": 580
     },
     {
       "type": 2,
       "id": 20004,
-      "stock": 183683
+      "stock": 183787
     },
     {
       "type": 2,
       "id": 20005,
-      "stock": 64520
+      "stock": 64591
     },
     {
       "type": 2,
@@ -43782,12 +43815,12 @@
     {
       "type": 2,
       "id": 22001,
-      "stock": 11
+      "stock": 14
     },
     {
       "type": 2,
       "id": 22002,
-      "stock": 15
+      "stock": 19
     },
     {
       "type": 2,
@@ -43797,12 +43830,17 @@
     {
       "type": 2,
       "id": 23001,
-      "stock": 152039
+      "stock": 152070
     },
     {
       "type": 2,
       "id": 23002,
-      "stock": 1382
+      "stock": 1388
+    },
+    {
+      "type": 2,
+      "id": 23003,
+      "stock": 100
     },
     {
       "type": 2,
@@ -43817,7 +43855,7 @@
     {
       "type": 2,
       "id": 25001,
-      "stock": 2856
+      "stock": 2857
     },
     {
       "type": 2,
@@ -43852,7 +43890,7 @@
     {
       "type": 2,
       "id": 25101,
-      "stock": 3
+      "stock": 1
     },
     {
       "type": 2,
@@ -43882,7 +43920,7 @@
     {
       "type": 2,
       "id": 25205,
-      "stock": 3589
+      "stock": 3599
     },
     {
       "type": 2,
@@ -43892,12 +43930,12 @@
     {
       "type": 2,
       "id": 26201,
-      "stock": 978960
+      "stock": 983620
     },
     {
       "type": 2,
       "id": 26202,
-      "stock": 11946480
+      "stock": 12076760
     },
     {
       "type": 2,
@@ -44042,7 +44080,7 @@
     {
       "type": 2,
       "id": 31026,
-      "stock": 1071
+      "stock": 1075
     },
     {
       "type": 2,
@@ -44197,7 +44235,7 @@
     {
       "type": 2,
       "id": 31060,
-      "stock": 1036
+      "stock": 1040
     },
     {
       "type": 2,
@@ -44287,7 +44325,7 @@
     {
       "type": 2,
       "id": 31092,
-      "stock": 239
+      "stock": 241
     },
     {
       "type": 2,
@@ -44337,12 +44375,12 @@
     {
       "type": 2,
       "id": 31108,
-      "stock": 10
+      "stock": 14
     },
     {
       "type": 2,
       "id": 31109,
-      "stock": 7
+      "stock": 9
     },
     {
       "type": 2,
@@ -44352,7 +44390,7 @@
     {
       "type": 2,
       "id": 31113,
-      "stock": 4
+      "stock": 8
     },
     {
       "type": 2,
@@ -44377,7 +44415,7 @@
     {
       "type": 2,
       "id": 31126,
-      "stock": 489
+      "stock": 490
     },
     {
       "type": 2,
@@ -44387,12 +44425,12 @@
     {
       "type": 2,
       "id": 31128,
-      "stock": 3
+      "stock": 5
     },
     {
       "type": 2,
       "id": 31129,
-      "stock": 114
+      "stock": 116
     },
     {
       "type": 2,
@@ -44442,7 +44480,7 @@
     {
       "type": 2,
       "id": 31143,
-      "stock": 53
+      "stock": 57
     },
     {
       "type": 2,
@@ -44497,7 +44535,7 @@
     {
       "type": 2,
       "id": 31163,
-      "stock": 217
+      "stock": 219
     },
     {
       "type": 2,
@@ -44508,11 +44546,6 @@
       "type": 2,
       "id": 31165,
       "stock": 202
-    },
-    {
-      "type": 2,
-      "id": 31166,
-      "stock": 148
     },
     {
       "type": 2,
@@ -44537,7 +44570,7 @@
     {
       "type": 2,
       "id": 31171,
-      "stock": 18
+      "stock": 22
     },
     {
       "type": 2,
@@ -44617,7 +44650,7 @@
     {
       "type": 2,
       "id": 31193,
-      "stock": 872
+      "stock": 877
     },
     {
       "type": 2,
@@ -44707,7 +44740,7 @@
     {
       "type": 2,
       "id": 31226,
-      "stock": 615
+      "stock": 620
     },
     {
       "type": 2,
@@ -44812,7 +44845,7 @@
     {
       "type": 2,
       "id": 31254,
-      "stock": 351
+      "stock": 356
     },
     {
       "type": 2,
@@ -44877,7 +44910,7 @@
     {
       "type": 2,
       "id": 31268,
-      "stock": 195
+      "stock": 215
     },
     {
       "type": 2,
@@ -45027,7 +45060,7 @@
     {
       "type": 2,
       "id": 31309,
-      "stock": 84
+      "stock": 85
     },
     {
       "type": 2,
@@ -45082,7 +45115,7 @@
     {
       "type": 2,
       "id": 31323,
-      "stock": 66
+      "stock": 68
     },
     {
       "type": 2,
@@ -45237,7 +45270,7 @@
     {
       "type": 2,
       "id": 31396,
-      "stock": 200
+      "stock": 10
     },
     {
       "type": 2,
@@ -45567,7 +45600,7 @@
     {
       "type": 2,
       "id": 32059,
-      "stock": 253
+      "stock": 103
     },
     {
       "type": 2,
@@ -45667,7 +45700,7 @@
     {
       "type": 2,
       "id": 41000,
-      "stock": 42
+      "stock": 41
     },
     {
       "type": 2,
@@ -45677,17 +45710,17 @@
     {
       "type": 2,
       "id": 50001,
-      "stock": 125
+      "stock": 1
     },
     {
       "type": 2,
       "id": 50002,
-      "stock": 32
+      "stock": 3
     },
     {
       "type": 2,
       "id": 50003,
-      "stock": 25228
+      "stock": 25168
     },
     {
       "type": 2,
@@ -47117,62 +47150,62 @@
     {
       "type": 2,
       "id": 90002,
-      "stock": 98650
+      "stock": 98860
     },
     {
       "type": 2,
       "id": 90003,
-      "stock": 100096
+      "stock": 97878
     },
     {
       "type": 2,
       "id": 90004,
-      "stock": 98116
+      "stock": 98300
     },
     {
       "type": 2,
       "id": 90005,
-      "stock": 14929
+      "stock": 14760
     },
     {
       "type": 2,
       "id": 90006,
-      "stock": 54134
+      "stock": 50904
     },
     {
       "type": 2,
       "id": 90007,
-      "stock": 21475645
+      "stock": 21482055
     },
     {
       "type": 2,
       "id": 90008,
-      "stock": 25538
+      "stock": 26238
     },
     {
       "type": 2,
       "id": 90009,
-      "stock": 146210
+      "stock": 146400
     },
     {
       "type": 2,
       "id": 90010,
-      "stock": 88110
+      "stock": 88220
     },
     {
       "type": 2,
       "id": 90011,
-      "stock": 204880
+      "stock": 205080
     },
     {
       "type": 2,
       "id": 90012,
-      "stock": 294
+      "stock": 94
     },
     {
       "type": 2,
       "id": 90013,
-      "stock": 105020
+      "stock": 105040
     },
     {
       "type": 2,
@@ -47242,7 +47275,7 @@
     {
       "type": 2,
       "id": 97002,
-      "stock": 10940
+      "stock": 11520
     },
     {
       "type": 2,
@@ -49184,7 +49217,7 @@
     {
       "type": 4,
       "id": 114013,
-      "stock": 2322
+      "stock": 2324
     },
     {
       "type": 4,
@@ -49394,7 +49427,7 @@
     {
       "type": 4,
       "id": 115102,
-      "stock": 1214
+      "stock": 1216
     },
     {
       "type": 4,
@@ -49419,12 +49452,12 @@
     {
       "type": 4,
       "id": 115133,
-      "stock": 707
+      "stock": 709
     },
     {
       "type": 4,
       "id": 115135,
-      "stock": 1236
+      "stock": 1242
     },
     {
       "type": 4,
@@ -49449,7 +49482,7 @@
     {
       "type": 4,
       "id": 115165,
-      "stock": 674
+      "stock": 676
     },
     {
       "type": 4,
@@ -49479,7 +49512,7 @@
     {
       "type": 4,
       "id": 115221,
-      "stock": 786
+      "stock": 788
     },
     {
       "type": 4,
@@ -49494,12 +49527,12 @@
     {
       "type": 4,
       "id": 115251,
-      "stock": 548
+      "stock": 552
     },
     {
       "type": 4,
       "id": 115254,
-      "stock": 978
+      "stock": 980
     },
     {
       "type": 4,
@@ -49529,7 +49562,7 @@
     {
       "type": 4,
       "id": 115346,
-      "stock": 1076
+      "stock": 1082
     },
     {
       "type": 4,
@@ -49539,12 +49572,12 @@
     {
       "type": 4,
       "id": 115402,
-      "stock": 1197
+      "stock": 1199
     },
     {
       "type": 4,
       "id": 115403,
-      "stock": 621
+      "stock": 623
     },
     {
       "type": 4,
@@ -49564,12 +49597,12 @@
     {
       "type": 4,
       "id": 115551,
-      "stock": 696
+      "stock": 698
     },
     {
       "type": 4,
       "id": 115552,
-      "stock": 1271
+      "stock": 1273
     },
     {
       "type": 4,
@@ -49589,22 +49622,22 @@
     {
       "type": 4,
       "id": 115556,
-      "stock": 1656
+      "stock": 1662
     },
     {
       "type": 4,
       "id": 115557,
-      "stock": 3042
+      "stock": 3046
     },
     {
       "type": 4,
       "id": 115581,
-      "stock": 335
+      "stock": 337
     },
     {
       "type": 4,
       "id": 115582,
-      "stock": 919
+      "stock": 921
     },
     {
       "type": 4,
@@ -49634,12 +49667,12 @@
     {
       "type": 4,
       "id": 115611,
-      "stock": 962
+      "stock": 964
     },
     {
       "type": 4,
       "id": 115612,
-      "stock": 881
+      "stock": 885
     },
     {
       "type": 4,
@@ -49654,17 +49687,17 @@
     {
       "type": 4,
       "id": 115615,
-      "stock": 1643
+      "stock": 1647
     },
     {
       "type": 4,
       "id": 115616,
-      "stock": 2059
+      "stock": 2063
     },
     {
       "type": 4,
       "id": 115617,
-      "stock": 1445
+      "stock": 1451
     },
     {
       "type": 4,
@@ -49704,7 +49737,7 @@
     {
       "type": 4,
       "id": 116132,
-      "stock": 666
+      "stock": 672
     },
     {
       "type": 4,
@@ -49724,7 +49757,7 @@
     {
       "type": 4,
       "id": 116193,
-      "stock": 1037
+      "stock": 1043
     },
     {
       "type": 4,
@@ -49734,7 +49767,7 @@
     {
       "type": 4,
       "id": 116312,
-      "stock": 1213
+      "stock": 1219
     },
     {
       "type": 4,
@@ -49764,7 +49797,7 @@
     {
       "type": 4,
       "id": 116462,
-      "stock": 1846
+      "stock": 1850
     },
     {
       "type": 4,
@@ -49774,7 +49807,7 @@
     {
       "type": 4,
       "id": 116551,
-      "stock": 1367
+      "stock": 1373
     },
     {
       "type": 4,
@@ -49789,12 +49822,12 @@
     {
       "type": 4,
       "id": 116581,
-      "stock": 591
+      "stock": 593
     },
     {
       "type": 4,
       "id": 116582,
-      "stock": 1710
+      "stock": 1714
     },
     {
       "type": 4,
@@ -49804,17 +49837,17 @@
     {
       "type": 4,
       "id": 116611,
-      "stock": 1199
+      "stock": 1203
     },
     {
       "type": 4,
       "id": 116612,
-      "stock": 1622
+      "stock": 1630
     },
     {
       "type": 4,
       "id": 116613,
-      "stock": 1518
+      "stock": 1530
     },
     {
       "type": 4,
@@ -49824,12 +49857,12 @@
     {
       "type": 4,
       "id": 117041,
-      "stock": 720
+      "stock": 724
     },
     {
       "type": 4,
       "id": 117042,
-      "stock": 1004
+      "stock": 1008
     },
     {
       "type": 4,
@@ -49879,7 +49912,7 @@
     {
       "type": 4,
       "id": 117223,
-      "stock": 1272
+      "stock": 1274
     },
     {
       "type": 4,
@@ -49889,7 +49922,7 @@
     {
       "type": 4,
       "id": 117311,
-      "stock": 601
+      "stock": 603
     },
     {
       "type": 4,
@@ -49914,7 +49947,7 @@
     {
       "type": 4,
       "id": 117463,
-      "stock": 962
+      "stock": 966
     },
     {
       "type": 4,
@@ -49929,7 +49962,7 @@
     {
       "type": 4,
       "id": 117493,
-      "stock": 671
+      "stock": 677
     },
     {
       "type": 4,
@@ -49939,17 +49972,17 @@
     {
       "type": 4,
       "id": 117552,
-      "stock": 1964
+      "stock": 1968
     },
     {
       "type": 4,
       "id": 117553,
-      "stock": 1864
+      "stock": 1870
     },
     {
       "type": 4,
       "id": 117581,
-      "stock": 1674
+      "stock": 1676
     },
     {
       "type": 4,
@@ -49964,12 +49997,12 @@
     {
       "type": 4,
       "id": 117611,
-      "stock": 2060
+      "stock": 2062
     },
     {
       "type": 4,
       "id": 117612,
-      "stock": 1598
+      "stock": 1600
     },
     {
       "type": 4,
@@ -49994,7 +50027,7 @@
     {
       "type": 4,
       "id": 118014,
-      "stock": 3029
+      "stock": 3037
     },
     {
       "type": 4,
@@ -50009,7 +50042,7 @@
     {
       "type": 4,
       "id": 118074,
-      "stock": 1782
+      "stock": 1790
     },
     {
       "type": 4,
@@ -50024,12 +50057,12 @@
     {
       "type": 4,
       "id": 118103,
-      "stock": 2507
+      "stock": 2513
     },
     {
       "type": 4,
       "id": 118104,
-      "stock": 2280
+      "stock": 2282
     },
     {
       "type": 4,
@@ -50044,7 +50077,7 @@
     {
       "type": 4,
       "id": 118191,
-      "stock": 854
+      "stock": 856
     },
     {
       "type": 4,
@@ -50069,7 +50102,7 @@
     {
       "type": 4,
       "id": 118223,
-      "stock": 2663
+      "stock": 2667
     },
     {
       "type": 4,
@@ -50079,7 +50112,7 @@
     {
       "type": 4,
       "id": 118251,
-      "stock": 1837
+      "stock": 1839
     },
     {
       "type": 4,
@@ -50089,7 +50122,7 @@
     {
       "type": 4,
       "id": 118253,
-      "stock": 2400
+      "stock": 2404
     },
     {
       "type": 4,
@@ -50099,7 +50132,7 @@
     {
       "type": 4,
       "id": 118342,
-      "stock": 2104
+      "stock": 2106
     },
     {
       "type": 4,
@@ -50134,7 +50167,7 @@
     {
       "type": 4,
       "id": 118492,
-      "stock": 1511
+      "stock": 1513
     },
     {
       "type": 4,
@@ -50159,27 +50192,27 @@
     {
       "type": 4,
       "id": 118551,
-      "stock": 1609
+      "stock": 1613
     },
     {
       "type": 4,
       "id": 118552,
-      "stock": 2562
+      "stock": 2564
     },
     {
       "type": 4,
       "id": 118553,
-      "stock": 2731
+      "stock": 2741
     },
     {
       "type": 4,
       "id": 118554,
-      "stock": 2976
+      "stock": 2980
     },
     {
       "type": 4,
       "id": 118581,
-      "stock": 1297
+      "stock": 1303
     },
     {
       "type": 4,
@@ -50189,7 +50222,7 @@
     {
       "type": 4,
       "id": 118583,
-      "stock": 1304
+      "stock": 1308
     },
     {
       "type": 4,
@@ -50199,17 +50232,17 @@
     {
       "type": 4,
       "id": 118611,
-      "stock": 1148
+      "stock": 1152
     },
     {
       "type": 4,
       "id": 118612,
-      "stock": 1557
+      "stock": 1561
     },
     {
       "type": 4,
       "id": 118613,
-      "stock": 2027
+      "stock": 2031
     },
     {
       "type": 4,
@@ -50219,12 +50252,12 @@
     {
       "type": 4,
       "id": 119011,
-      "stock": 2832
+      "stock": 2836
     },
     {
       "type": 4,
       "id": 119012,
-      "stock": 2710
+      "stock": 2716
     },
     {
       "type": 4,
@@ -50234,7 +50267,7 @@
     {
       "type": 4,
       "id": 119014,
-      "stock": 731
+      "stock": 733
     },
     {
       "type": 4,
@@ -50249,7 +50282,7 @@
     {
       "type": 4,
       "id": 119073,
-      "stock": 692
+      "stock": 696
     },
     {
       "type": 4,
@@ -50304,12 +50337,12 @@
     {
       "type": 4,
       "id": 119222,
-      "stock": 1962
+      "stock": 1966
     },
     {
       "type": 4,
       "id": 119223,
-      "stock": 1517
+      "stock": 1521
     },
     {
       "type": 4,
@@ -50319,7 +50352,7 @@
     {
       "type": 4,
       "id": 119251,
-      "stock": 1796
+      "stock": 1800
     },
     {
       "type": 4,
@@ -50339,7 +50372,7 @@
     {
       "type": 4,
       "id": 119341,
-      "stock": 1322
+      "stock": 1330
     },
     {
       "type": 4,
@@ -50359,7 +50392,7 @@
     {
       "type": 4,
       "id": 119432,
-      "stock": 1160
+      "stock": 1164
     },
     {
       "type": 4,
@@ -50374,7 +50407,7 @@
     {
       "type": 4,
       "id": 119463,
-      "stock": 830
+      "stock": 834
     },
     {
       "type": 4,
@@ -50399,7 +50432,7 @@
     {
       "type": 4,
       "id": 119551,
-      "stock": 1831
+      "stock": 1833
     },
     {
       "type": 4,
@@ -50419,7 +50452,7 @@
     {
       "type": 4,
       "id": 119581,
-      "stock": 1529
+      "stock": 1535
     },
     {
       "type": 4,
@@ -50824,12 +50857,12 @@
     {
       "type": 4,
       "id": 125014,
-      "stock": 1494
+      "stock": 1498
     },
     {
       "type": 4,
       "id": 125015,
-      "stock": 1078
+      "stock": 1080
     },
     {
       "type": 4,
@@ -50839,7 +50872,7 @@
     {
       "type": 4,
       "id": 125017,
-      "stock": 1367
+      "stock": 1369
     },
     {
       "type": 4,
@@ -50849,7 +50882,7 @@
     {
       "type": 4,
       "id": 125044,
-      "stock": 635
+      "stock": 637
     },
     {
       "type": 4,
@@ -50919,7 +50952,7 @@
     {
       "type": 4,
       "id": 125167,
-      "stock": 664
+      "stock": 666
     },
     {
       "type": 4,
@@ -50949,12 +50982,12 @@
     {
       "type": 4,
       "id": 125226,
-      "stock": 1353
+      "stock": 1357
     },
     {
       "type": 4,
       "id": 125227,
-      "stock": 2262
+      "stock": 2266
     },
     {
       "type": 4,
@@ -51049,7 +51082,7 @@
     {
       "type": 4,
       "id": 125345,
-      "stock": 895
+      "stock": 897
     },
     {
       "type": 4,
@@ -51129,7 +51162,7 @@
     {
       "type": 4,
       "id": 125524,
-      "stock": 1550
+      "stock": 1554
     },
     {
       "type": 4,
@@ -51199,7 +51232,7 @@
     {
       "type": 4,
       "id": 126252,
-      "stock": 1118
+      "stock": 1122
     },
     {
       "type": 4,
@@ -51209,7 +51242,7 @@
     {
       "type": 4,
       "id": 126281,
-      "stock": 394
+      "stock": 398
     },
     {
       "type": 4,
@@ -51249,7 +51282,7 @@
     {
       "type": 4,
       "id": 126521,
-      "stock": 703
+      "stock": 709
     },
     {
       "type": 4,
@@ -51264,7 +51297,7 @@
     {
       "type": 4,
       "id": 127043,
-      "stock": 830
+      "stock": 834
     },
     {
       "type": 4,
@@ -51319,7 +51352,7 @@
     {
       "type": 4,
       "id": 127281,
-      "stock": 963
+      "stock": 969
     },
     {
       "type": 4,
@@ -51384,7 +51417,7 @@
     {
       "type": 4,
       "id": 128073,
-      "stock": 2000
+      "stock": 2004
     },
     {
       "type": 4,
@@ -51404,7 +51437,7 @@
     {
       "type": 4,
       "id": 128134,
-      "stock": 2032
+      "stock": 2036
     },
     {
       "type": 4,
@@ -51429,7 +51462,7 @@
     {
       "type": 4,
       "id": 128282,
-      "stock": 1069
+      "stock": 1073
     },
     {
       "type": 4,
@@ -51464,12 +51497,12 @@
     {
       "type": 4,
       "id": 128372,
-      "stock": 1487
+      "stock": 1495
     },
     {
       "type": 4,
       "id": 128373,
-      "stock": 1290
+      "stock": 1294
     },
     {
       "type": 4,
@@ -51499,7 +51532,7 @@
     {
       "type": 4,
       "id": 129044,
-      "stock": 602
+      "stock": 606
     },
     {
       "type": 4,
@@ -51529,7 +51562,7 @@
     {
       "type": 4,
       "id": 129191,
-      "stock": 1381
+      "stock": 1389
     },
     {
       "type": 4,
@@ -51544,7 +51577,7 @@
     {
       "type": 4,
       "id": 129281,
-      "stock": 1349
+      "stock": 1353
     },
     {
       "type": 4,
@@ -51554,7 +51587,7 @@
     {
       "type": 4,
       "id": 129283,
-      "stock": 651
+      "stock": 655
     },
     {
       "type": 4,
@@ -51564,7 +51597,7 @@
     {
       "type": 4,
       "id": 129311,
-      "stock": 1519
+      "stock": 1523
     },
     {
       "type": 4,
@@ -51574,7 +51607,7 @@
     {
       "type": 4,
       "id": 129313,
-      "stock": 713
+      "stock": 717
     },
     {
       "type": 4,
@@ -51609,12 +51642,12 @@
     {
       "type": 4,
       "id": 140001,
-      "stock": 6654
+      "stock": 6659
     },
     {
       "type": 4,
       "id": 150001,
-      "stock": 9283
+      "stock": 9295
     },
     {
       "type": 4,
@@ -51629,37 +51662,37 @@
     {
       "type": 4,
       "id": 150004,
-      "stock": 17239
+      "stock": 17240
     },
     {
       "type": 4,
       "id": 150005,
-      "stock": 9952
+      "stock": 9957
     },
     {
       "type": 4,
       "id": 150006,
-      "stock": 9456
+      "stock": 9463
     },
     {
       "type": 4,
       "id": 150007,
-      "stock": 9865
+      "stock": 9867
     },
     {
       "type": 4,
       "id": 150008,
-      "stock": 10483
+      "stock": 10486
     },
     {
       "type": 4,
       "id": 150009,
-      "stock": 5025
+      "stock": 5029
     },
     {
       "type": 4,
       "id": 150010,
-      "stock": 1080
+      "stock": 1082
     },
     {
       "type": 4,
@@ -51699,7 +51732,7 @@
     {
       "type": 4,
       "id": 11001039,
-      "stock": 220
+      "stock": 221
     },
     {
       "type": 4,
@@ -51714,7 +51747,7 @@
     {
       "type": 4,
       "id": 11007032,
-      "stock": 539
+      "stock": 540
     },
     {
       "type": 4,
@@ -51764,7 +51797,7 @@
     {
       "type": 4,
       "id": 11010032,
-      "stock": 406
+      "stock": 407
     },
     {
       "type": 4,
@@ -51809,7 +51842,7 @@
     {
       "type": 4,
       "id": 11010041,
-      "stock": 143
+      "stock": 144
     },
     {
       "type": 4,
@@ -51909,12 +51942,12 @@
     {
       "type": 4,
       "id": 11025040,
-      "stock": 213
+      "stock": 214
     },
     {
       "type": 4,
       "id": 11025041,
-      "stock": 128
+      "stock": 129
     },
     {
       "type": 4,
@@ -51924,7 +51957,7 @@
     {
       "type": 4,
       "id": 11034034,
-      "stock": 640
+      "stock": 641
     },
     {
       "type": 4,
@@ -51934,12 +51967,12 @@
     {
       "type": 4,
       "id": 11034037,
-      "stock": 286
+      "stock": 288
     },
     {
       "type": 4,
       "id": 11034040,
-      "stock": 70
+      "stock": 71
     },
     {
       "type": 4,
@@ -52004,7 +52037,7 @@
     {
       "type": 4,
       "id": 11052038,
-      "stock": 160
+      "stock": 161
     },
     {
       "type": 4,
@@ -52049,7 +52082,7 @@
     {
       "type": 4,
       "id": 11055039,
-      "stock": 183
+      "stock": 184
     },
     {
       "type": 4,
@@ -52064,7 +52097,7 @@
     {
       "type": 4,
       "id": 11058032,
-      "stock": 995
+      "stock": 997
     },
     {
       "type": 4,
@@ -52104,7 +52137,7 @@
     {
       "type": 4,
       "id": 11058040,
-      "stock": 28
+      "stock": 32
     },
     {
       "type": 4,
@@ -52154,7 +52187,7 @@
     {
       "type": 4,
       "id": 11061040,
-      "stock": 58
+      "stock": 59
     },
     {
       "type": 4,
@@ -52174,7 +52207,7 @@
     {
       "type": 4,
       "id": 12004034,
-      "stock": 357
+      "stock": 358
     },
     {
       "type": 4,
@@ -52209,12 +52242,12 @@
     {
       "type": 4,
       "id": 12004041,
-      "stock": 52
+      "stock": 56
     },
     {
       "type": 4,
       "id": 12013032,
-      "stock": 503
+      "stock": 504
     },
     {
       "type": 4,
@@ -52259,7 +52292,7 @@
     {
       "type": 4,
       "id": 12013041,
-      "stock": 81
+      "stock": 87
     },
     {
       "type": 4,
@@ -52274,7 +52307,7 @@
     {
       "type": 4,
       "id": 12016034,
-      "stock": 337
+      "stock": 338
     },
     {
       "type": 4,
@@ -52289,12 +52322,12 @@
     {
       "type": 4,
       "id": 12016037,
-      "stock": 367
+      "stock": 368
     },
     {
       "type": 4,
       "id": 12016038,
-      "stock": 315
+      "stock": 316
     },
     {
       "type": 4,
@@ -52314,7 +52347,7 @@
     {
       "type": 4,
       "id": 12019033,
-      "stock": 1112
+      "stock": 1114
     },
     {
       "type": 4,
@@ -52344,7 +52377,7 @@
     {
       "type": 4,
       "id": 12019039,
-      "stock": 250
+      "stock": 251
     },
     {
       "type": 4,
@@ -52354,17 +52387,17 @@
     {
       "type": 4,
       "id": 12019041,
-      "stock": 253
+      "stock": 257
     },
     {
       "type": 4,
       "id": 12028032,
-      "stock": 1025
+      "stock": 1027
     },
     {
       "type": 4,
       "id": 12028033,
-      "stock": 596
+      "stock": 597
     },
     {
       "type": 4,
@@ -52389,7 +52422,7 @@
     {
       "type": 4,
       "id": 12028038,
-      "stock": 257
+      "stock": 258
     },
     {
       "type": 4,
@@ -52439,7 +52472,7 @@
     {
       "type": 4,
       "id": 12031039,
-      "stock": 152
+      "stock": 153
     },
     {
       "type": 4,
@@ -52519,7 +52552,7 @@
     {
       "type": 4,
       "id": 12049037,
-      "stock": 288
+      "stock": 289
     },
     {
       "type": 4,
@@ -79497,6 +79530,41 @@
       "enhancement_pt": 0,
       "rank": 0,
       "protection_flag": 1
+    },
+    {
+      "serial_id": 16609,
+      "ex_equipment_id": 4301351,
+      "enhancement_pt": 0,
+      "rank": 0,
+      "protection_flag": 1
+    },
+    {
+      "serial_id": 16610,
+      "ex_equipment_id": 4203301,
+      "enhancement_pt": 0,
+      "rank": 0,
+      "protection_flag": 1
+    },
+    {
+      "serial_id": 16611,
+      "ex_equipment_id": 4305302,
+      "enhancement_pt": 0,
+      "rank": 0,
+      "protection_flag": 1
+    },
+    {
+      "serial_id": 16612,
+      "ex_equipment_id": 4201301,
+      "enhancement_pt": 0,
+      "rank": 0,
+      "protection_flag": 1
+    },
+    {
+      "serial_id": 16615,
+      "ex_equipment_id": 4105302,
+      "enhancement_pt": 0,
+      "rank": 0,
+      "protection_flag": 1
     }
   ],
   "user_clan_battle_ex_equip_restriction": [],
@@ -80000,7 +80068,7 @@
     5139,
     5140
   ],
-  "can_free_gacha": 1,
+  "can_free_gacha": 0,
   "can_campaign_gacha": 0,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
@@ -81680,6 +81748,10 @@
     1395002,
     1395003,
     1395004,
+    1396001,
+    1396002,
+    1396003,
+    1396004,
     1801001,
     1801002,
     1801003,
@@ -89453,7 +89525,7 @@
       }
     ],
     "team_skill_latest_node": {
-      "node_id": 117,
+      "node_id": 118,
       "enhance_level": 1
     }
   },
@@ -89547,7 +89619,7 @@
       "enhance_level_4": 3
     }
   ],
-  "princess_knight_rank_exp": 58694620,
+  "princess_knight_rank_exp": 58874620,
   "seven_story_list": [
     {
       "event_id": 10201,
@@ -90829,7 +90901,7 @@
       ]
     }
   ],
-  "present_count": 23,
+  "present_count": 33,
   "clan_like_count": 1,
   "dispatch_units": [
     {
@@ -90842,7 +90914,7 @@
       "dispatch_count": 0,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 6930467,
+      "current_dispatch_bonus": 6982915,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -90859,7 +90931,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 8777284,
+      "current_dispatch_bonus": 8843709,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -90875,7 +90947,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 8016409,
+      "current_dispatch_bonus": 8077075,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -90892,7 +90964,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 8057809,
+      "current_dispatch_bonus": 8118789,
       "connect_rank": 0,
       "connect_rank_limit": 3
     }
@@ -90910,7 +90982,7 @@
   },
   "csc": {
     "weekly": {
-      "count": 2420,
+      "count": 3000,
       "max": 15000
     }
   },
@@ -91053,5 +91125,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1782201503
+  "last_modified": 1782215249
 }

@@ -4,7 +4,7 @@
     "user_name": "Kishi",
     "user_comment": "Kiran☆　｜　Discord：kishi4824",
     "team_level": 382,
-    "user_stamina": 190,
+    "user_stamina": 425,
     "max_stamina": 440,
     "team_exp": 1401183,
     "favorite_unit_id": 101201,
@@ -14,15 +14,15 @@
       "emblem_id": 10201735,
       "ex_value": 0
     },
-    "stamina_full_recovery_time": 1782245598
+    "stamina_full_recovery_time": 1782229758
   },
   "user_jewel": {
     "jewel": 0,
-    "free_jewel": 70519,
+    "free_jewel": 70964,
     "paid_jewel": 0
   },
   "user_gold": {
-    "gold_id_free": 989710431,
+    "gold_id_free": 939642761,
     "gold_id_pay": 0
   },
   "user_gold_bank_info": {
@@ -38064,76 +38064,93 @@
     },
     {
       "id": 139601,
-      "unit_rarity": 3,
+      "unit_rarity": 5,
       "battle_rarity": 0,
-      "unit_level": 1,
-      "promotion_level": 1,
+      "unit_level": 392,
+      "promotion_level": 41,
       "connect_rank": 0,
       "connect_rank_limit": 3,
-      "exceed_stage": 0,
-      "unit_exp": 0,
+      "exceed_stage": 1,
+      "unit_exp": 35628370,
       "get_time": 1782136181,
       "union_burst": [
         {
           "skill_id": 1396001,
-          "skill_level": 1,
+          "skill_level": 392,
           "is_revolution_skill": false
         }
       ],
-      "main_skill": [],
-      "ex_skill": [],
+      "main_skill": [
+        {
+          "skill_id": 1396002,
+          "skill_level": 392,
+          "is_revolution_skill": false
+        },
+        {
+          "skill_id": 1396003,
+          "skill_level": 392,
+          "is_revolution_skill": false
+        }
+      ],
+      "ex_skill": [
+        {
+          "skill_id": 1396511,
+          "skill_level": 392,
+          "is_revolution_skill": false
+        }
+      ],
       "free_skill": [],
       "equip_slot": [
         {
-          "id": 101251,
+          "id": 999999,
           "is_slot": 0,
           "enhancement_level": 0,
           "enhancement_pt": 0
         },
         {
-          "id": 101251,
+          "id": 10025041,
+          "is_slot": 1,
+          "enhancement_level": 5,
+          "enhancement_pt": 1800
+        },
+        {
+          "id": 999999,
           "is_slot": 0,
           "enhancement_level": 0,
           "enhancement_pt": 0
         },
         {
-          "id": 101371,
-          "is_slot": 0,
-          "enhancement_level": 0,
-          "enhancement_pt": 0
+          "id": 10031040,
+          "is_slot": 1,
+          "enhancement_level": 5,
+          "enhancement_pt": 1800
         },
         {
-          "id": 101521,
-          "is_slot": 0,
-          "enhancement_level": 0,
-          "enhancement_pt": 0
+          "id": 10058041,
+          "is_slot": 1,
+          "enhancement_level": 5,
+          "enhancement_pt": 1800
         },
         {
-          "id": 101581,
-          "is_slot": 0,
-          "enhancement_level": 0,
-          "enhancement_pt": 0
-        },
-        {
-          "id": 101581,
-          "is_slot": 0,
-          "enhancement_level": 0,
-          "enhancement_pt": 0
+          "id": 10058040,
+          "is_slot": 1,
+          "enhancement_level": 5,
+          "enhancement_pt": 1800
         }
       ],
       "unique_equip_slot": [],
       "ex_equip_slot": [
         {
           "slot": 1,
-          "serial_id": 0
+          "serial_id": 566
         },
         {
           "slot": 2,
-          "serial_id": 0
+          "serial_id": 12558
         },
         {
           "slot": 3,
-          "serial_id": 0
+          "serial_id": 7067
         }
       ],
       "cb_ex_equip_slot": [
@@ -38150,6 +38167,11 @@
           "serial_id": 0
         }
       ],
+      "unlock_rarity_6_item": {
+        "slot_1": 0,
+        "slot_2": 0,
+        "slot_3": 0
+      },
       "skin_data": {
         "icon_skin_id": 0,
         "sd_skin_id": 0,
@@ -41378,6 +41400,12 @@
       }
     },
     {
+      "unit_id": 139601,
+      "growth_parameter_list": {
+        "free_equip_point": 7200
+      }
+    },
+    {
       "unit_id": 180101,
       "growth_parameter_list": {
         "free_equip_point": 5400
@@ -42853,8 +42881,8 @@
     },
     {
       "chara_id": 1396,
-      "chara_love": 0,
-      "love_level": 1
+      "chara_love": 4200,
+      "love_level": 8
     },
     {
       "chara_id": 1801,
@@ -42928,11 +42956,11 @@
     },
     {
       "deck_number": 2,
-      "unit_id_1": 114701,
-      "unit_id_2": 138001,
-      "unit_id_3": 106101,
-      "unit_id_4": 103301,
-      "unit_id_5": 110301,
+      "unit_id_1": 101201,
+      "unit_id_2": 0,
+      "unit_id_3": 0,
+      "unit_id_4": 0,
+      "unit_id_5": 0,
       "general_property_1": null,
       "general_property_2": null,
       "general_property_3": null,
@@ -43906,22 +43934,22 @@
     {
       "type": 2,
       "id": 20001,
-      "stock": 300
+      "stock": 319
     },
     {
       "type": 2,
       "id": 20002,
-      "stock": 473
+      "stock": 483
     },
     {
       "type": 2,
       "id": 20003,
-      "stock": 139
+      "stock": 165
     },
     {
       "type": 2,
       "id": 20004,
-      "stock": 290803
+      "stock": 290812
     },
     {
       "type": 2,
@@ -43996,17 +44024,17 @@
     {
       "type": 2,
       "id": 22002,
-      "stock": 39
+      "stock": 44
     },
     {
       "type": 2,
       "id": 22003,
-      "stock": 25430
+      "stock": 25432
     },
     {
       "type": 2,
       "id": 23001,
-      "stock": 164933
+      "stock": 164968
     },
     {
       "type": 2,
@@ -44046,7 +44074,7 @@
     {
       "type": 2,
       "id": 25015,
-      "stock": 111498
+      "stock": 121498
     },
     {
       "type": 2,
@@ -44056,7 +44084,7 @@
     {
       "type": 2,
       "id": 25101,
-      "stock": 4
+      "stock": 1
     },
     {
       "type": 2,
@@ -44071,22 +44099,22 @@
     {
       "type": 2,
       "id": 25202,
-      "stock": 2678
+      "stock": 2778
     },
     {
       "type": 2,
       "id": 25203,
-      "stock": 3483
+      "stock": 3485
     },
     {
       "type": 2,
       "id": 25204,
-      "stock": 2111
+      "stock": 2141
     },
     {
       "type": 2,
       "id": 25205,
-      "stock": 4294
+      "stock": 4296
     },
     {
       "type": 2,
@@ -44096,7 +44124,7 @@
     {
       "type": 2,
       "id": 26201,
-      "stock": 552970
+      "stock": 546970
     },
     {
       "type": 2,
@@ -44106,7 +44134,7 @@
     {
       "type": 2,
       "id": 26203,
-      "stock": 18
+      "stock": 19
     },
     {
       "type": 2,
@@ -44226,7 +44254,7 @@
     {
       "type": 2,
       "id": 31020,
-      "stock": 474
+      "stock": 482
     },
     {
       "type": 2,
@@ -45375,11 +45403,6 @@
     },
     {
       "type": 2,
-      "id": 31396,
-      "stock": 200
-    },
-    {
-      "type": 2,
       "id": 31801,
       "stock": 5
     },
@@ -45795,18 +45818,8 @@
     },
     {
       "type": 2,
-      "id": 50001,
-      "stock": 125
-    },
-    {
-      "type": 2,
-      "id": 50002,
-      "stock": 22
-    },
-    {
-      "type": 2,
       "id": 50003,
-      "stock": 29199
+      "stock": 29121
     },
     {
       "type": 2,
@@ -47231,17 +47244,17 @@
     {
       "type": 2,
       "id": 90003,
-      "stock": 525749
+      "stock": 525759
     },
     {
       "type": 2,
       "id": 90004,
-      "stock": 662278
+      "stock": 662298
     },
     {
       "type": 2,
       "id": 90005,
-      "stock": 19199
+      "stock": 18849
     },
     {
       "type": 2,
@@ -47251,12 +47264,12 @@
     {
       "type": 2,
       "id": 90007,
-      "stock": 18176790
+      "stock": 18179670
     },
     {
       "type": 2,
       "id": 90008,
-      "stock": 43478
+      "stock": 43646
     },
     {
       "type": 2,
@@ -47351,7 +47364,7 @@
     {
       "type": 2,
       "id": 97002,
-      "stock": 3826
+      "stock": 494
     },
     {
       "type": 2,
@@ -47498,12 +47511,12 @@
     {
       "type": 4,
       "id": 102192,
-      "stock": 249
+      "stock": 255
     },
     {
       "type": 4,
       "id": 102221,
-      "stock": 256
+      "stock": 258
     },
     {
       "type": 4,
@@ -47568,7 +47581,7 @@
     {
       "type": 4,
       "id": 102552,
-      "stock": 296
+      "stock": 300
     },
     {
       "type": 4,
@@ -47583,7 +47596,7 @@
     {
       "type": 4,
       "id": 102611,
-      "stock": 266
+      "stock": 270
     },
     {
       "type": 4,
@@ -48573,7 +48586,7 @@
     {
       "type": 4,
       "id": 113191,
-      "stock": 1250
+      "stock": 1254
     },
     {
       "type": 4,
@@ -48743,7 +48756,7 @@
     {
       "type": 4,
       "id": 114194,
-      "stock": 455
+      "stock": 459
     },
     {
       "type": 4,
@@ -48803,7 +48816,7 @@
     {
       "type": 4,
       "id": 114553,
-      "stock": 530
+      "stock": 534
     },
     {
       "type": 4,
@@ -48813,7 +48826,7 @@
     {
       "type": 4,
       "id": 114581,
-      "stock": 1624
+      "stock": 1626
     },
     {
       "type": 4,
@@ -50038,7 +50051,7 @@
     {
       "type": 4,
       "id": 123161,
-      "stock": 1304
+      "stock": 1306
     },
     {
       "type": 4,
@@ -50068,7 +50081,7 @@
     {
       "type": 4,
       "id": 123311,
-      "stock": 1101
+      "stock": 1103
     },
     {
       "type": 4,
@@ -50108,7 +50121,7 @@
     {
       "type": 4,
       "id": 123583,
-      "stock": 1308
+      "stock": 1312
     },
     {
       "type": 4,
@@ -50163,7 +50176,7 @@
     {
       "type": 4,
       "id": 124192,
-      "stock": 1185
+      "stock": 1189
     },
     {
       "type": 4,
@@ -50193,7 +50206,7 @@
     {
       "type": 4,
       "id": 124284,
-      "stock": 371
+      "stock": 377
     },
     {
       "type": 4,
@@ -50218,7 +50231,7 @@
     {
       "type": 4,
       "id": 124342,
-      "stock": 1688
+      "stock": 1690
     },
     {
       "type": 4,
@@ -50233,7 +50246,7 @@
     {
       "type": 4,
       "id": 124372,
-      "stock": 1806
+      "stock": 1808
     },
     {
       "type": 4,
@@ -50278,7 +50291,7 @@
     {
       "type": 4,
       "id": 124491,
-      "stock": 1818
+      "stock": 1822
     },
     {
       "type": 4,
@@ -84848,13 +84861,6 @@
       "protection_flag": 1
     },
     {
-      "serial_id": 12359,
-      "ex_equipment_id": 4203303,
-      "enhancement_pt": 0,
-      "rank": 0,
-      "protection_flag": 1
-    },
-    {
       "serial_id": 12360,
       "ex_equipment_id": 4201302,
       "enhancement_pt": 0,
@@ -84948,13 +84954,6 @@
     {
       "serial_id": 12378,
       "ex_equipment_id": 4305517,
-      "enhancement_pt": 0,
-      "rank": 0,
-      "protection_flag": 1
-    },
-    {
-      "serial_id": 12379,
-      "ex_equipment_id": 4203303,
       "enhancement_pt": 0,
       "rank": 0,
       "protection_flag": 1
@@ -86116,8 +86115,8 @@
     {
       "serial_id": 12558,
       "ex_equipment_id": 4203303,
-      "enhancement_pt": 0,
-      "rank": 0,
+      "enhancement_pt": 6000,
+      "rank": 2,
       "protection_flag": 1
     },
     {
@@ -89308,9 +89307,6 @@
   },
   "max_storage_num": 200,
   "campaign_list": [
-    3239,
-    3240,
-    3276,
     3413,
     3414,
     3419,
@@ -89341,7 +89337,7 @@
     5139,
     5140
   ],
-  "can_free_gacha": 0,
+  "can_free_gacha": 1,
   "can_campaign_gacha": 0,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
@@ -90842,6 +90838,10 @@
     1395002,
     1395003,
     1395004,
+    1396001,
+    1396002,
+    1396003,
+    1396004,
     1801001,
     1801002,
     1801003,
@@ -93536,6 +93536,10 @@
     "last_login_schedule_id": 1057,
     "max_cleared_ex_quest_id": 72570780
   },
+  "drj": {
+    "start_time": 1782183600,
+    "end_time": 1782831599
+  },
   "user_my_party": [
     {
       "tab_number": 1,
@@ -96224,7 +96228,7 @@
     "talent_level_info_list": [
       {
         "talent_id": 1,
-        "total_point": 3653654
+        "total_point": 3658654
       },
       {
         "talent_id": 2,
@@ -96756,7 +96760,7 @@
       "enhance_level_4": 4
     }
   ],
-  "princess_knight_rank_exp": 60629620,
+  "princess_knight_rank_exp": 60809620,
   "seven_story_list": [
     {
       "event_id": 10201,
@@ -97952,10 +97956,21 @@
       ]
     }
   ],
-  "daily_reset_time": 1782158400,
+  "daily_reset_time": 1782244800,
   "login_bonus_list": {
     "first": [],
-    "normal": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 1243,
+        "rap": 1,
+        "count_num": 13,
+        "type": "normal",
+        "reward_type": 2,
+        "reward_id": 25021,
+        "reward_count": 5000
+      }
+    ],
     "campaign": [],
     "lottery": [],
     "adv": [],
@@ -97963,6 +97978,8 @@
     "birthday": [],
     "story_read_process": []
   },
+  "receive_caravan_dice_count": 1,
+  "receive_labyrinth_passport_count": 1,
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -97982,8 +97999,8 @@
       ]
     }
   ],
-  "present_count": 21,
-  "clan_like_count": 1,
+  "present_count": 20,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 103801,
@@ -97997,7 +98014,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 106130112,
+      "current_dispatch_bonus": 106426101,
       "connect_rank": 3,
       "connect_rank_limit": 3
     },
@@ -98013,7 +98030,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 3107823,
+      "current_dispatch_bonus": 3375074,
       "connect_rank": 3,
       "connect_rank_limit": 3
     },
@@ -98030,7 +98047,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 11730974,
+      "current_dispatch_bonus": 12018945,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -98046,7 +98063,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 26792801,
+      "current_dispatch_bonus": 27062894,
       "connect_rank": 15,
       "connect_rank_limit": 15
     }
@@ -98064,7 +98081,7 @@
   },
   "csc": {
     "weekly": {
-      "count": 1304,
+      "count": 1472,
       "max": 15000
     }
   },
@@ -98212,5 +98229,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1782155773
+  "last_modified": 1782224512
 }

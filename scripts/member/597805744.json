@@ -4,7 +4,7 @@
     "user_name": "Shini",
     "user_comment": "しにえ",
     "team_level": 382,
-    "user_stamina": 355,
+    "user_stamina": 396,
     "max_stamina": 440,
     "team_exp": 1401183,
     "favorite_unit_id": 138801,
@@ -22,7 +22,7 @@
     "paid_jewel": 0
   },
   "user_gold": {
-    "gold_id_free": 469885890,
+    "gold_id_free": 470835890,
     "gold_id_pay": 0
   },
   "user_gold_bank_info": {
@@ -39580,11 +39580,11 @@
     },
     {
       "deck_number": 14,
-      "unit_id_1": 100601,
-      "unit_id_2": 102201,
-      "unit_id_3": 180601,
-      "unit_id_4": 139101,
-      "unit_id_5": 1,
+      "unit_id_1": 138001,
+      "unit_id_2": 1,
+      "unit_id_3": 123301,
+      "unit_id_4": 138801,
+      "unit_id_5": 129301,
       "general_property_1": null,
       "general_property_2": null,
       "general_property_3": null,
@@ -40425,7 +40425,7 @@
     {
       "type": 2,
       "id": 20003,
-      "stock": 40
+      "stock": 43
     },
     {
       "type": 2,
@@ -40510,7 +40510,7 @@
     {
       "type": 2,
       "id": 22002,
-      "stock": 12
+      "stock": 17
     },
     {
       "type": 2,
@@ -43770,7 +43770,7 @@
     {
       "type": 2,
       "id": 90006,
-      "stock": 285377
+      "stock": 285585
     },
     {
       "type": 2,
@@ -45827,7 +45827,7 @@
     {
       "type": 4,
       "id": 113581,
-      "stock": 1311
+      "stock": 1312
     },
     {
       "type": 4,
@@ -45892,7 +45892,7 @@
     {
       "type": 4,
       "id": 114132,
-      "stock": 1714
+      "stock": 1715
     },
     {
       "type": 4,
@@ -47137,7 +47137,7 @@
     {
       "type": 4,
       "id": 122312,
-      "stock": 2064
+      "stock": 2065
     },
     {
       "type": 4,
@@ -83572,8 +83572,24 @@
   ],
   "user_clan_battle_ex_equip_restriction": [
     {
+      "serial_id": 3,
+      "unit_id": 138001
+    },
+    {
+      "serial_id": 214,
+      "unit_id": 138001
+    },
+    {
       "serial_id": 251,
       "unit_id": 139101
+    },
+    {
+      "serial_id": 400,
+      "unit_id": 129301
+    },
+    {
+      "serial_id": 558,
+      "unit_id": 138801
     },
     {
       "serial_id": 706,
@@ -83584,8 +83600,20 @@
       "unit_id": 102201
     },
     {
+      "serial_id": 1093,
+      "unit_id": 123301
+    },
+    {
+      "serial_id": 1106,
+      "unit_id": 138801
+    },
+    {
       "serial_id": 1187,
       "unit_id": 100601
+    },
+    {
+      "serial_id": 1353,
+      "unit_id": 129301
     },
     {
       "serial_id": 1887,
@@ -83618,6 +83646,26 @@
     {
       "serial_id": 5823,
       "unit_id": 102201
+    },
+    {
+      "serial_id": 5879,
+      "unit_id": 138001
+    },
+    {
+      "serial_id": 5880,
+      "unit_id": 123301
+    },
+    {
+      "serial_id": 5932,
+      "unit_id": 138801
+    },
+    {
+      "serial_id": 6015,
+      "unit_id": 123301
+    },
+    {
+      "serial_id": 6281,
+      "unit_id": 129301
     }
   ],
   "shop": {
@@ -94485,7 +94533,7 @@
       "dispatch_count": 10,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 77316691,
+      "current_dispatch_bonus": 77371973,
       "connect_rank": 6,
       "connect_rank_limit": 6
     },
@@ -94499,7 +94547,7 @@
       "dispatch_count": 13,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 72155092,
+      "current_dispatch_bonus": 72210312,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -94515,7 +94563,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 85281611,
+      "current_dispatch_bonus": 85339449,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -94531,7 +94579,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 50956123,
+      "current_dispatch_bonus": 51013815,
       "connect_rank": 15,
       "connect_rank_limit": 15
     }
@@ -94695,5 +94743,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1782479749
+  "last_modified": 1782494338
 }

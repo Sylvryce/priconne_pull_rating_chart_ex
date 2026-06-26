@@ -4,7 +4,7 @@
     "user_name": "Juski",
     "user_comment": "Kya",
     "team_level": 382,
-    "user_stamina": 339,
+    "user_stamina": 440,
     "max_stamina": 440,
     "team_exp": 1401183,
     "favorite_unit_id": 111901,
@@ -14,7 +14,7 @@
       "emblem_id": 10201597,
       "ex_value": 0
     },
-    "stamina_full_recovery_time": 1782477001
+    "stamina_full_recovery_time": 1782477044
   },
   "user_jewel": {
     "jewel": 0,
@@ -22,7 +22,7 @@
     "paid_jewel": 0
   },
   "user_gold": {
-    "gold_id_free": 769228912,
+    "gold_id_free": 720178912,
     "gold_id_pay": 0
   },
   "user_gold_bank_info": {
@@ -7607,7 +7607,7 @@
       "cb_ex_equip_slot": [
         {
           "slot": 1,
-          "serial_id": 1068
+          "serial_id": 0
         },
         {
           "slot": 2,
@@ -18511,8 +18511,8 @@
         {
           "id": 131672,
           "is_slot": 1,
-          "enhancement_level": 0,
-          "enhancement_pt": 50,
+          "enhancement_level": 5,
+          "enhancement_pt": 150,
           "rank": 1
         }
       ],
@@ -18533,11 +18533,11 @@
       "cb_ex_equip_slot": [
         {
           "slot": 1,
-          "serial_id": 0
+          "serial_id": 1068
         },
         {
           "slot": 2,
-          "serial_id": 0
+          "serial_id": 5711
         },
         {
           "slot": 3,
@@ -31084,7 +31084,7 @@
         },
         {
           "slot": 2,
-          "serial_id": 5711
+          "serial_id": 0
         },
         {
           "slot": 3,
@@ -42293,7 +42293,7 @@
       "deck_number": 14,
       "unit_id_1": 106101,
       "unit_id_2": 1,
-      "unit_id_3": 130201,
+      "unit_id_3": 116701,
       "unit_id_4": 129701,
       "unit_id_5": 136001,
       "general_property_1": null,
@@ -43304,7 +43304,7 @@
     {
       "type": 2,
       "id": 25202,
-      "stock": 2528
+      "stock": 2536
     },
     {
       "type": 2,
@@ -43314,7 +43314,7 @@
     {
       "type": 2,
       "id": 25204,
-      "stock": 2055
+      "stock": 2060
     },
     {
       "type": 2,
@@ -44929,7 +44929,7 @@
     {
       "type": 2,
       "id": 32040,
-      "stock": 110
+      "stock": 10
     },
     {
       "type": 2,
@@ -47194,12 +47194,12 @@
     {
       "type": 2,
       "id": 90005,
-      "stock": 14588
+      "stock": 14590
     },
     {
       "type": 2,
       "id": 90006,
-      "stock": 259302
+      "stock": 259332
     },
     {
       "type": 2,
@@ -51861,7 +51861,7 @@
     {
       "type": 4,
       "id": 11007037,
-      "stock": 192
+      "stock": 196
     },
     {
       "type": 4,
@@ -74998,6 +74998,10 @@
       "unit_id": 181001
     },
     {
+      "serial_id": 415,
+      "unit_id": 136001
+    },
+    {
       "serial_id": 436,
       "unit_id": 101001
     },
@@ -75006,8 +75010,16 @@
       "unit_id": 105801
     },
     {
+      "serial_id": 614,
+      "unit_id": 129701
+    },
+    {
       "serial_id": 680,
       "unit_id": 103401
+    },
+    {
+      "serial_id": 741,
+      "unit_id": 106101
     },
     {
       "serial_id": 817,
@@ -75016,6 +75028,10 @@
     {
       "serial_id": 850,
       "unit_id": 134501
+    },
+    {
+      "serial_id": 1068,
+      "unit_id": 116701
     },
     {
       "serial_id": 2935,
@@ -75042,8 +75058,16 @@
       "unit_id": 101601
     },
     {
+      "serial_id": 3460,
+      "unit_id": 106101
+    },
+    {
       "serial_id": 3463,
       "unit_id": 103401
+    },
+    {
+      "serial_id": 3620,
+      "unit_id": 129701
     },
     {
       "serial_id": 3700,
@@ -75052,6 +75076,14 @@
     {
       "serial_id": 3731,
       "unit_id": 127801
+    },
+    {
+      "serial_id": 4489,
+      "unit_id": 136001
+    },
+    {
+      "serial_id": 5083,
+      "unit_id": 116701
     },
     {
       "serial_id": 5114,
@@ -75074,6 +75106,10 @@
       "unit_id": 111401
     },
     {
+      "serial_id": 5432,
+      "unit_id": 106101
+    },
+    {
       "serial_id": 5462,
       "unit_id": 101001
     },
@@ -75082,12 +75118,24 @@
       "unit_id": 181001
     },
     {
+      "serial_id": 5711,
+      "unit_id": 116701
+    },
+    {
+      "serial_id": 5804,
+      "unit_id": 129701
+    },
+    {
       "serial_id": 5834,
       "unit_id": 127801
     },
     {
       "serial_id": 5839,
       "unit_id": 124801
+    },
+    {
+      "serial_id": 5919,
+      "unit_id": 136001
     }
   ],
   "shop": {
@@ -75601,7 +75649,7 @@
     5139,
     5140
   ],
-  "can_free_gacha": 0,
+  "can_free_gacha": 1,
   "can_campaign_gacha": 0,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
@@ -85974,6 +86022,7 @@
     "birthday": [],
     "story_read_process": []
   },
+  "receive_labyrinth_passport_count": 1,
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -85993,7 +86042,7 @@
       ]
     }
   ],
-  "present_count": 11,
+  "present_count": 19,
   "clan_like_count": 1,
   "dispatch_units": [
     {
@@ -86009,7 +86058,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 12059341,
+      "current_dispatch_bonus": 12209091,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -86025,7 +86074,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 84258648,
+      "current_dispatch_bonus": 84413778,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -86039,7 +86088,7 @@
       "dispatch_count": 1,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 9060416,
+      "current_dispatch_bonus": 9199089,
       "connect_rank": 9,
       "connect_rank_limit": 9
     },
@@ -86055,7 +86104,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 67723516,
+      "current_dispatch_bonus": 67863687,
       "connect_rank": 0,
       "connect_rank_limit": 3
     }
@@ -86218,5 +86267,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1782440686
+  "last_modified": 1782477047
 }

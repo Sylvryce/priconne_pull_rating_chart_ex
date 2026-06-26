@@ -4,7 +4,7 @@
     "user_name": "NNMR",
     "user_comment": "う　ら　め　し　や　～　　　　　　　　　　　　　　ヘ（・・ヘ）。。",
     "team_level": 382,
-    "user_stamina": 149,
+    "user_stamina": 150,
     "max_stamina": 440,
     "team_exp": 1401183,
     "favorite_unit_id": 133001,
@@ -22,7 +22,7 @@
     "paid_jewel": 0
   },
   "user_gold": {
-    "gold_id_free": 846614599,
+    "gold_id_free": 818874599,
     "gold_id_pay": 0
   },
   "user_gold_bank_info": {
@@ -7133,8 +7133,8 @@
       "battle_rarity": 0,
       "unit_level": 392,
       "promotion_level": 40,
-      "connect_rank": 0,
-      "connect_rank_limit": 3,
+      "connect_rank": 6,
+      "connect_rank_limit": 6,
       "exceed_stage": 1,
       "unit_exp": 35628370,
       "get_time": 1693477972,
@@ -7147,9 +7147,9 @@
       ],
       "main_skill": [
         {
-          "skill_id": 1061012,
+          "skill_id": 1061022,
           "skill_level": 392,
-          "is_revolution_skill": false
+          "is_revolution_skill": true
         },
         {
           "skill_id": 1061003,
@@ -7207,10 +7207,10 @@
         {
           "id": 130611,
           "is_slot": 1,
-          "enhancement_level": 340,
-          "enhancement_pt": 64990,
-          "rank": 27,
-          "is_specialized": 0
+          "enhancement_level": 370,
+          "enhancement_pt": 72740,
+          "rank": 30,
+          "is_specialized": 1
         }
       ],
       "ex_equip_slot": [
@@ -7256,15 +7256,15 @@
       "cb_ex_equip_slot": [
         {
           "slot": 1,
-          "serial_id": 0
+          "serial_id": 16091
         },
         {
           "slot": 2,
-          "serial_id": 0
+          "serial_id": 16075
         },
         {
           "slot": 3,
-          "serial_id": 0
+          "serial_id": 18131
         }
       ],
       "skin_data": {
@@ -37543,11 +37543,11 @@
     },
     {
       "deck_number": 14,
-      "unit_id_1": 138001,
-      "unit_id_2": 129501,
-      "unit_id_3": 123301,
-      "unit_id_4": 1,
-      "unit_id_5": 129301,
+      "unit_id_1": 106101,
+      "unit_id_2": 1,
+      "unit_id_3": 116701,
+      "unit_id_4": 129701,
+      "unit_id_5": 136001,
       "general_property_1": null,
       "general_property_2": null,
       "general_property_3": null,
@@ -38388,7 +38388,7 @@
     {
       "type": 2,
       "id": 20003,
-      "stock": 12773
+      "stock": 12775
     },
     {
       "type": 2,
@@ -38448,17 +38448,17 @@
     {
       "type": 2,
       "id": 22001,
-      "stock": 5
+      "stock": 4
     },
     {
       "type": 2,
       "id": 22002,
-      "stock": 2772
+      "stock": 2644
     },
     {
       "type": 2,
       "id": 22003,
-      "stock": 20801
+      "stock": 20803
     },
     {
       "type": 2,
@@ -38533,17 +38533,17 @@
     {
       "type": 2,
       "id": 25201,
-      "stock": 2989
+      "stock": 2953
     },
     {
       "type": 2,
       "id": 25202,
-      "stock": 3060
+      "stock": 3018
     },
     {
       "type": 2,
       "id": 25203,
-      "stock": 3256
+      "stock": 3166
     },
     {
       "type": 2,
@@ -38553,7 +38553,7 @@
     {
       "type": 2,
       "id": 25205,
-      "stock": 3884
+      "stock": 3872
     },
     {
       "type": 2,
@@ -38879,11 +38879,6 @@
       "type": 2,
       "id": 31060,
       "stock": 1616
-    },
-    {
-      "type": 2,
-      "id": 31061,
-      "stock": 38
     },
     {
       "type": 2,
@@ -41713,12 +41708,12 @@
     {
       "type": 2,
       "id": 90005,
-      "stock": 18158
+      "stock": 16775
     },
     {
       "type": 2,
       "id": 90006,
-      "stock": 25551
+      "stock": 25712
     },
     {
       "type": 2,
@@ -43690,7 +43685,7 @@
     {
       "type": 4,
       "id": 113012,
-      "stock": 1648
+      "stock": 1649
     },
     {
       "type": 4,
@@ -45215,7 +45210,7 @@
     {
       "type": 4,
       "id": 123311,
-      "stock": 1339
+      "stock": 1340
     },
     {
       "type": 4,
@@ -46240,12 +46235,12 @@
     {
       "type": 4,
       "id": 140001,
-      "stock": 6004
+      "stock": 5964
     },
     {
       "type": 4,
       "id": 150001,
-      "stock": 11290
+      "stock": 11240
     },
     {
       "type": 4,
@@ -46320,7 +46315,7 @@
     {
       "type": 4,
       "id": 11001037,
-      "stock": 238
+      "stock": 242
     },
     {
       "type": 4,
@@ -68874,6 +68869,14 @@
   ],
   "user_clan_battle_ex_equip_restriction": [
     {
+      "serial_id": 121,
+      "unit_id": 129701
+    },
+    {
+      "serial_id": 670,
+      "unit_id": 116701
+    },
+    {
       "serial_id": 968,
       "unit_id": 133801
     },
@@ -68890,6 +68893,10 @@
       "unit_id": 133801
     },
     {
+      "serial_id": 3550,
+      "unit_id": 136001
+    },
+    {
       "serial_id": 3710,
       "unit_id": 104401
     },
@@ -68898,8 +68905,24 @@
       "unit_id": 131801
     },
     {
+      "serial_id": 4055,
+      "unit_id": 116701
+    },
+    {
+      "serial_id": 4138,
+      "unit_id": 129701
+    },
+    {
+      "serial_id": 4937,
+      "unit_id": 116701
+    },
+    {
       "serial_id": 5047,
       "unit_id": 133801
+    },
+    {
+      "serial_id": 5150,
+      "unit_id": 129701
     },
     {
       "serial_id": 5189,
@@ -68958,6 +68981,10 @@
       "unit_id": 129501
     },
     {
+      "serial_id": 13426,
+      "unit_id": 136001
+    },
+    {
       "serial_id": 13430,
       "unit_id": 129501
     },
@@ -68968,6 +68995,22 @@
     {
       "serial_id": 14924,
       "unit_id": 129501
+    },
+    {
+      "serial_id": 15529,
+      "unit_id": 136001
+    },
+    {
+      "serial_id": 16075,
+      "unit_id": 106101
+    },
+    {
+      "serial_id": 16091,
+      "unit_id": 106101
+    },
+    {
+      "serial_id": 18131,
+      "unit_id": 106101
     }
   ],
   "shop": {
@@ -79668,7 +79711,7 @@
       "dispatch_count": 24,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 44666008,
+      "current_dispatch_bonus": 44668150,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -79685,7 +79728,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 23958486,
+      "current_dispatch_bonus": 23960963,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -79699,7 +79742,7 @@
       "dispatch_count": 7,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 23796043,
+      "current_dispatch_bonus": 23798165,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -79715,7 +79758,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 23615737,
+      "current_dispatch_bonus": 23618179,
       "connect_rank": 0,
       "connect_rank_limit": 3
     }
@@ -79867,5 +79910,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1782499568
+  "last_modified": 1782500126
 }

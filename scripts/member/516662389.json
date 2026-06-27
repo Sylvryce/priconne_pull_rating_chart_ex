@@ -4,7 +4,7 @@
     "user_name": "MysT",
     "user_comment": "Let’s　Go",
     "team_level": 382,
-    "user_stamina": 287,
+    "user_stamina": 420,
     "max_stamina": 440,
     "team_exp": 1401183,
     "favorite_unit_id": 109701,
@@ -18,11 +18,11 @@
   },
   "user_jewel": {
     "jewel": 10,
-    "free_jewel": 2183,
+    "free_jewel": 2363,
     "paid_jewel": 10
   },
   "user_gold": {
-    "gold_id_free": 336806031,
+    "gold_id_free": 339806031,
     "gold_id_pay": 0
   },
   "user_gold_bank_info": {
@@ -40709,11 +40709,11 @@
     },
     {
       "deck_number": 14,
-      "unit_id_1": 129501,
-      "unit_id_2": 111501,
-      "unit_id_3": 131601,
-      "unit_id_4": 1,
-      "unit_id_5": 107601,
+      "unit_id_1": 139601,
+      "unit_id_2": 139501,
+      "unit_id_3": 1,
+      "unit_id_4": 135401,
+      "unit_id_5": 133501,
       "general_property_1": null,
       "general_property_2": null,
       "general_property_3": null,
@@ -41528,7 +41528,7 @@
     {
       "type": 2,
       "id": 20003,
-      "stock": 59
+      "stock": 70
     },
     {
       "type": 2,
@@ -41623,7 +41623,7 @@
     {
       "type": 2,
       "id": 22002,
-      "stock": 119
+      "stock": 127
     },
     {
       "type": 2,
@@ -41703,7 +41703,7 @@
     {
       "type": 2,
       "id": 25202,
-      "stock": 2398
+      "stock": 2414
     },
     {
       "type": 2,
@@ -41713,7 +41713,7 @@
     {
       "type": 2,
       "id": 25204,
-      "stock": 1681
+      "stock": 1691
     },
     {
       "type": 2,
@@ -44988,12 +44988,12 @@
     {
       "type": 2,
       "id": 90005,
-      "stock": 4796
+      "stock": 4800
     },
     {
       "type": 2,
       "id": 90006,
-      "stock": 120204
+      "stock": 120395
     },
     {
       "type": 2,
@@ -48410,7 +48410,7 @@
     {
       "type": 4,
       "id": 123251,
-      "stock": 1089
+      "stock": 1090
     },
     {
       "type": 4,
@@ -48450,7 +48450,7 @@
     {
       "type": 4,
       "id": 123461,
-      "stock": 997
+      "stock": 998
     },
     {
       "type": 4,
@@ -49595,7 +49595,7 @@
     {
       "type": 4,
       "id": 11007040,
-      "stock": 355
+      "stock": 359
     },
     {
       "type": 4,
@@ -50325,7 +50325,7 @@
     {
       "type": 4,
       "id": 12037038,
-      "stock": 462
+      "stock": 466
     },
     {
       "type": 4,
@@ -65762,56 +65762,7 @@
       "protection_flag": 1
     }
   ],
-  "user_clan_battle_ex_equip_restriction": [
-    {
-      "serial_id": 2609,
-      "unit_id": 129701
-    },
-    {
-      "serial_id": 3678,
-      "unit_id": 116701
-    },
-    {
-      "serial_id": 4083,
-      "unit_id": 129701
-    },
-    {
-      "serial_id": 7617,
-      "unit_id": 106101
-    },
-    {
-      "serial_id": 9073,
-      "unit_id": 129701
-    },
-    {
-      "serial_id": 9910,
-      "unit_id": 136001
-    },
-    {
-      "serial_id": 11839,
-      "unit_id": 136001
-    },
-    {
-      "serial_id": 12407,
-      "unit_id": 116701
-    },
-    {
-      "serial_id": 14597,
-      "unit_id": 136001
-    },
-    {
-      "serial_id": 23571,
-      "unit_id": 116701
-    },
-    {
-      "serial_id": 25698,
-      "unit_id": 106101
-    },
-    {
-      "serial_id": 26106,
-      "unit_id": 106101
-    }
-  ],
+  "user_clan_battle_ex_equip_restriction": [],
   "shop": {
     "alchemy": {
       "max_count": 70,
@@ -66323,7 +66274,7 @@
     5139,
     5140
   ],
-  "can_free_gacha": 0,
+  "can_free_gacha": 1,
   "can_campaign_gacha": 0,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
@@ -75551,10 +75502,21 @@
       ]
     }
   ],
-  "daily_reset_time": 1782504000,
+  "daily_reset_time": 1782590400,
   "login_bonus_list": {
     "first": [],
-    "normal": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 1148,
+        "rap": 1,
+        "count_num": 8,
+        "type": "normal",
+        "reward_type": 2,
+        "reward_id": 25021,
+        "reward_count": 5000
+      }
+    ],
     "campaign": [],
     "lottery": [],
     "adv": [],
@@ -75562,6 +75524,7 @@
     "birthday": [],
     "story_read_process": []
   },
+  "receive_caravan_dice_count": 1,
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -75581,8 +75544,8 @@
       ]
     }
   ],
-  "present_count": 13,
-  "clan_like_count": 1,
+  "present_count": 7,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 130701,
@@ -75596,7 +75559,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 107850079,
+      "current_dispatch_bonus": 108040009,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -75610,7 +75573,7 @@
       "dispatch_count": 98,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 124531212,
+      "current_dispatch_bonus": 124710089,
       "connect_rank": 6,
       "connect_rank_limit": 6
     },
@@ -75624,7 +75587,7 @@
       "dispatch_count": 4,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 74601647,
+      "current_dispatch_bonus": 74789021,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -75638,7 +75601,7 @@
       "dispatch_count": 0,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 71324317,
+      "current_dispatch_bonus": 71508778,
       "connect_rank": 0,
       "connect_rank_limit": 3
     }
@@ -75795,5 +75758,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1782475224
+  "last_modified": 1782523055
 }

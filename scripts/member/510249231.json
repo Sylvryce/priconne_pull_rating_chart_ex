@@ -4,7 +4,7 @@
     "user_name": "Sylv※愛の印",
     "user_comment": "よろしくお願いします。",
     "team_level": 382,
-    "user_stamina": 260,
+    "user_stamina": 379,
     "max_stamina": 440,
     "team_exp": 1401183,
     "favorite_unit_id": 136101,
@@ -22,11 +22,11 @@
     "paid_jewel": 15502
   },
   "user_gold": {
-    "gold_id_free": 999899999,
+    "gold_id_free": 999849999,
     "gold_id_pay": 0
   },
   "user_gold_bank_info": {
-    "bank_gold": 20034294988,
+    "bank_gold": 20035294988,
     "highest_bank_gold": 21344878525
   },
   "unit_list": [
@@ -47826,7 +47826,7 @@
     {
       "type": 2,
       "id": 25202,
-      "stock": 1592
+      "stock": 1600
     },
     {
       "type": 2,
@@ -47836,7 +47836,7 @@
     {
       "type": 2,
       "id": 25204,
-      "stock": 1473
+      "stock": 1478
     },
     {
       "type": 2,
@@ -51206,12 +51206,12 @@
     {
       "type": 2,
       "id": 90005,
-      "stock": 41173
+      "stock": 41175
     },
     {
       "type": 2,
       "id": 90006,
-      "stock": 70855
+      "stock": 70885
     },
     {
       "type": 2,
@@ -55118,7 +55118,7 @@
     {
       "type": 4,
       "id": 12049040,
-      "stock": 246
+      "stock": 250
     }
   ],
   "user_ex_equip": [
@@ -79848,104 +79848,7 @@
       "protection_flag": 1
     }
   ],
-  "user_clan_battle_ex_equip_restriction": [
-    {
-      "serial_id": 103,
-      "unit_id": 138001
-    },
-    {
-      "serial_id": 187,
-      "unit_id": 107601
-    },
-    {
-      "serial_id": 379,
-      "unit_id": 131601
-    },
-    {
-      "serial_id": 617,
-      "unit_id": 138801
-    },
-    {
-      "serial_id": 868,
-      "unit_id": 129301
-    },
-    {
-      "serial_id": 965,
-      "unit_id": 123301
-    },
-    {
-      "serial_id": 1181,
-      "unit_id": 129501
-    },
-    {
-      "serial_id": 1552,
-      "unit_id": 111501
-    },
-    {
-      "serial_id": 4328,
-      "unit_id": 123301
-    },
-    {
-      "serial_id": 4746,
-      "unit_id": 138801
-    },
-    {
-      "serial_id": 4749,
-      "unit_id": 111501
-    },
-    {
-      "serial_id": 4948,
-      "unit_id": 129501
-    },
-    {
-      "serial_id": 4963,
-      "unit_id": 107601
-    },
-    {
-      "serial_id": 6126,
-      "unit_id": 138001
-    },
-    {
-      "serial_id": 6370,
-      "unit_id": 129301
-    },
-    {
-      "serial_id": 7627,
-      "unit_id": 131601
-    },
-    {
-      "serial_id": 11154,
-      "unit_id": 111501
-    },
-    {
-      "serial_id": 11223,
-      "unit_id": 131601
-    },
-    {
-      "serial_id": 11721,
-      "unit_id": 138001
-    },
-    {
-      "serial_id": 11722,
-      "unit_id": 123301
-    },
-    {
-      "serial_id": 11988,
-      "unit_id": 138801
-    },
-    {
-      "serial_id": 12007,
-      "unit_id": 129301
-    },
-    {
-      "serial_id": 12146,
-      "unit_id": 129501
-    },
-    {
-      "serial_id": 12219,
-      "unit_id": 107601
-    }
-  ],
+  "user_clan_battle_ex_equip_restriction": [],
   "shop": {
     "alchemy": {
       "max_count": 70,
@@ -80457,7 +80360,7 @@
     5139,
     5140
   ],
-  "can_free_gacha": 0,
+  "can_free_gacha": 1,
   "can_campaign_gacha": 0,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
@@ -91352,10 +91255,21 @@
       ]
     }
   ],
-  "daily_reset_time": 1782504000,
+  "daily_reset_time": 1782590400,
   "login_bonus_list": {
     "first": [],
-    "normal": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 1730,
+        "rap": 1,
+        "count_num": 5,
+        "type": "normal",
+        "reward_type": 2,
+        "reward_id": 25013,
+        "reward_count": 10000
+      }
+    ],
     "campaign": [],
     "lottery": [],
     "adv": [],
@@ -91363,6 +91277,8 @@
     "birthday": [],
     "story_read_process": []
   },
+  "receive_caravan_dice_count": 1,
+  "receive_labyrinth_passport_count": 1,
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -91382,8 +91298,8 @@
       ]
     }
   ],
-  "present_count": 45,
-  "clan_like_count": 1,
+  "present_count": 47,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 100301,
@@ -91398,7 +91314,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 534381,
+      "current_dispatch_bonus": 729605,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -91415,7 +91331,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 10240979,
+      "current_dispatch_bonus": 10447747,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -91429,7 +91345,7 @@
       "dispatch_count": 6,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 3715833,
+      "current_dispatch_bonus": 3885094,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -91440,12 +91356,12 @@
       "promotion_level": 41,
       "position": 4,
       "dispatch_start_time": 1782385113,
-      "dispatch_count": 20,
+      "dispatch_count": 24,
       "dispatch_status": 1,
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 11370061,
+      "current_dispatch_bonus": 13720870,
       "connect_rank": 15,
       "connect_rank_limit": 15
     }
@@ -91603,5 +91519,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1782502177
+  "last_modified": 1782544943
 }

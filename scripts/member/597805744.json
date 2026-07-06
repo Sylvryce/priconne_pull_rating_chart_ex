@@ -4,7 +4,7 @@
     "user_name": "Shini",
     "user_comment": "しにえ",
     "team_level": 382,
-    "user_stamina": 120,
+    "user_stamina": 148,
     "max_stamina": 440,
     "team_exp": 1401183,
     "favorite_unit_id": 138801,
@@ -18,11 +18,11 @@
   },
   "user_jewel": {
     "jewel": 0,
-    "free_jewel": 49619,
+    "free_jewel": 49929,
     "paid_jewel": 0
   },
   "user_gold": {
-    "gold_id_free": 829878515,
+    "gold_id_free": 806888515,
     "gold_id_pay": 0
   },
   "user_gold_bank_info": {
@@ -4138,8 +4138,8 @@
       "battle_rarity": 0,
       "unit_level": 392,
       "promotion_level": 40,
-      "connect_rank": 0,
-      "connect_rank_limit": 3,
+      "connect_rank": 6,
+      "connect_rank_limit": 6,
       "exceed_stage": 1,
       "unit_exp": 35628370,
       "get_time": 1704226705,
@@ -4152,9 +4152,9 @@
       ],
       "main_skill": [
         {
-          "skill_id": 1036012,
+          "skill_id": 1036022,
           "skill_level": 392,
-          "is_revolution_skill": false
+          "is_revolution_skill": true
         },
         {
           "skill_id": 1036003,
@@ -4212,10 +4212,10 @@
         {
           "id": 130361,
           "is_slot": 1,
-          "enhancement_level": 180,
-          "enhancement_pt": 24990,
-          "rank": 11,
-          "is_specialized": 0
+          "enhancement_level": 370,
+          "enhancement_pt": 72740,
+          "rank": 30,
+          "is_specialized": 1
         }
       ],
       "ex_equip_slot": [
@@ -29970,7 +29970,33 @@
       "ex_equip_slot": [
         {
           "slot": 1,
-          "serial_id": 1127
+          "serial_id": 26217,
+          "sub_status": [
+            {
+              "slot_number": 1,
+              "status": 13,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 2,
+              "status": 13,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 3,
+              "status": 13,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 4,
+              "status": 13,
+              "step": 5,
+              "is_lock": 1
+            }
+          ]
         },
         {
           "slot": 2,
@@ -33126,33 +33152,7 @@
       "ex_equip_slot": [
         {
           "slot": 1,
-          "serial_id": 26217,
-          "sub_status": [
-            {
-              "slot_number": 1,
-              "status": 13,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 2,
-              "status": 13,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 3,
-              "status": 13,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 4,
-              "status": 13,
-              "step": 5,
-              "is_lock": 1
-            }
-          ]
+          "serial_id": 1127
         },
         {
           "slot": 2,
@@ -40375,11 +40375,11 @@
     },
     {
       "deck_number": 102,
-      "unit_id_1": 0,
-      "unit_id_2": 0,
-      "unit_id_3": 0,
-      "unit_id_4": 0,
-      "unit_id_5": 0,
+      "unit_id_1": 138001,
+      "unit_id_2": 181201,
+      "unit_id_3": 1,
+      "unit_id_4": 138801,
+      "unit_id_5": 129301,
       "general_property_1": null,
       "general_property_2": null,
       "general_property_3": null,
@@ -40388,11 +40388,11 @@
     },
     {
       "deck_number": 103,
-      "unit_id_1": 0,
-      "unit_id_2": 0,
-      "unit_id_3": 0,
-      "unit_id_4": 0,
-      "unit_id_5": 0,
+      "unit_id_1": 132501,
+      "unit_id_2": 1,
+      "unit_id_3": 131701,
+      "unit_id_4": 103601,
+      "unit_id_5": 135801,
       "general_property_1": null,
       "general_property_2": null,
       "general_property_3": null,
@@ -40401,11 +40401,11 @@
     },
     {
       "deck_number": 104,
-      "unit_id_1": 0,
-      "unit_id_2": 0,
-      "unit_id_3": 0,
-      "unit_id_4": 0,
-      "unit_id_5": 0,
+      "unit_id_1": 132501,
+      "unit_id_2": 133701,
+      "unit_id_3": 132201,
+      "unit_id_4": 131701,
+      "unit_id_5": 1,
       "general_property_1": null,
       "general_property_2": null,
       "general_property_3": null,
@@ -40669,7 +40669,7 @@
     {
       "type": 2,
       "id": 20002,
-      "stock": 119
+      "stock": 189
     },
     {
       "type": 2,
@@ -40754,22 +40754,22 @@
     {
       "type": 2,
       "id": 22001,
-      "stock": 94
+      "stock": 4
     },
     {
       "type": 2,
       "id": 22002,
-      "stock": 130
+      "stock": 3
     },
     {
       "type": 2,
       "id": 22003,
-      "stock": 29504
+      "stock": 29308
     },
     {
       "type": 2,
       "id": 23001,
-      "stock": 137465
+      "stock": 137433
     },
     {
       "type": 2,
@@ -40799,67 +40799,67 @@
     {
       "type": 2,
       "id": 25011,
-      "stock": 68644
+      "stock": 103594
     },
     {
       "type": 2,
       "id": 25012,
-      "stock": 62738
+      "stock": 97688
     },
     {
       "type": 2,
       "id": 25013,
-      "stock": 70838
+      "stock": 105788
     },
     {
       "type": 2,
       "id": 25014,
-      "stock": 72284
+      "stock": 107234
     },
     {
       "type": 2,
       "id": 25015,
-      "stock": 94573
+      "stock": 124523
     },
     {
       "type": 2,
       "id": 25021,
-      "stock": 455456
+      "stock": 486656
     },
     {
       "type": 2,
       "id": 25102,
-      "stock": 20
+      "stock": 225
     },
     {
       "type": 2,
       "id": 25201,
-      "stock": 2895
+      "stock": 2859
     },
     {
       "type": 2,
       "id": 25202,
-      "stock": 2101
+      "stock": 2171
     },
     {
       "type": 2,
       "id": 25203,
-      "stock": 2777
+      "stock": 2687
     },
     {
       "type": 2,
       "id": 25204,
-      "stock": 1778
+      "stock": 1843
     },
     {
       "type": 2,
       "id": 25205,
-      "stock": 3847
+      "stock": 3835
     },
     {
       "type": 2,
       "id": 25206,
-      "stock": 498
+      "stock": 518
     },
     {
       "type": 2,
@@ -41064,7 +41064,7 @@
     {
       "type": 2,
       "id": 31036,
-      "stock": 781
+      "stock": 336
     },
     {
       "type": 2,
@@ -43143,11 +43143,6 @@
     },
     {
       "type": 2,
-      "id": 70025,
-      "stock": 48
-    },
-    {
-      "type": 2,
       "id": 80001,
       "stock": 316
     },
@@ -43974,7 +43969,7 @@
     {
       "type": 2,
       "id": 90002,
-      "stock": 5086582
+      "stock": 5086982
     },
     {
       "type": 2,
@@ -43989,7 +43984,7 @@
     {
       "type": 2,
       "id": 90005,
-      "stock": 23399
+      "stock": 23509
     },
     {
       "type": 2,
@@ -48496,12 +48491,12 @@
     {
       "type": 4,
       "id": 140001,
-      "stock": 4060
+      "stock": 3960
     },
     {
       "type": 4,
       "id": 150001,
-      "stock": 10835
+      "stock": 10785
     },
     {
       "type": 4,
@@ -93553,7 +93548,7 @@
       "enhance_level_4": 4
     }
   ],
-  "princess_knight_rank_exp": 60994620,
+  "princess_knight_rank_exp": 60999620,
   "seven_story_list": [
     {
       "event_id": 10201,
@@ -94877,7 +94872,7 @@
       "dispatch_count": 14,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 8029634,
+      "current_dispatch_bonus": 8070091,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -94894,7 +94889,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 451592,
+      "current_dispatch_bonus": 498085,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -94910,7 +94905,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 92946720,
+      "current_dispatch_bonus": 92987521,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -94926,7 +94921,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 54422947,
+      "current_dispatch_bonus": 54463247,
       "connect_rank": 15,
       "connect_rank_limit": 15
     }
@@ -95093,5 +95088,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1783356443
+  "last_modified": 1783366634
 }

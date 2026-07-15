@@ -4,7 +4,7 @@
     "user_name": "NNMR",
     "user_comment": "う　ら　め　し　や　～　　　　　　　　　　　　　　ヘ（・・ヘ）。。",
     "team_level": 382,
-    "user_stamina": 191,
+    "user_stamina": 254,
     "max_stamina": 440,
     "team_exp": 1401183,
     "favorite_unit_id": 133001,
@@ -38879,7 +38879,7 @@
     {
       "type": 2,
       "id": 24001,
-      "stock": 6
+      "stock": 7
     },
     {
       "type": 2,
@@ -42259,7 +42259,7 @@
     {
       "type": 2,
       "id": 99013,
-      "stock": 99
+      "stock": 98
     },
     {
       "type": 2,
@@ -69924,6 +69924,27 @@
       "enhancement_pt": 0,
       "rank": 0,
       "protection_flag": 1
+    },
+    {
+      "serial_id": 18764,
+      "ex_equipment_id": 4107201,
+      "enhancement_pt": 0,
+      "rank": 0,
+      "protection_flag": 1
+    },
+    {
+      "serial_id": 18765,
+      "ex_equipment_id": 4107101,
+      "enhancement_pt": 0,
+      "rank": 0,
+      "protection_flag": 1
+    },
+    {
+      "serial_id": 18766,
+      "ex_equipment_id": 4202203,
+      "enhancement_pt": 0,
+      "rank": 0,
+      "protection_flag": 1
     }
   ],
   "user_clan_battle_ex_equip_restriction": [],
@@ -70401,9 +70422,10 @@
     3454,
     3455,
     3456,
-    3457,
-    3458,
     3459,
+    3460,
+    3461,
+    3462,
     5049,
     5050,
     5051,
@@ -70417,7 +70439,7 @@
     5139,
     5140
   ],
-  "can_free_gacha": 0,
+  "can_free_gacha": 1,
   "can_campaign_gacha": 0,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
@@ -80609,10 +80631,21 @@
       ]
     }
   ],
-  "daily_reset_time": 1784059200,
+  "daily_reset_time": 1784145600,
   "login_bonus_list": {
     "first": [],
-    "normal": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 1149,
+        "rap": 1,
+        "count_num": 9,
+        "type": "normal",
+        "reward_type": 8,
+        "reward_id": 91002,
+        "reward_count": 80
+      }
+    ],
     "campaign": [],
     "lottery": [],
     "adv": [],
@@ -80620,6 +80653,7 @@
     "birthday": [],
     "story_read_process": []
   },
+  "receive_caravan_dice_count": 1,
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -80639,8 +80673,8 @@
       ]
     }
   ],
-  "present_count": 62,
-  "clan_like_count": 1,
+  "present_count": 65,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 100301,
@@ -80655,7 +80689,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 1239318,
+      "current_dispatch_bonus": 1343416,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -80672,7 +80706,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 30866403,
+      "current_dispatch_bonus": 30968602,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -80686,7 +80720,7 @@
       "dispatch_count": 7,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 29712847,
+      "current_dispatch_bonus": 29800382,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -80702,7 +80736,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 30424849,
+      "current_dispatch_bonus": 30525586,
       "connect_rank": 0,
       "connect_rank_limit": 3
     }
@@ -80863,5 +80897,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1784055557
+  "last_modified": 1784078578
 }

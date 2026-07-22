@@ -4,7 +4,7 @@
     "user_name": "Kishi",
     "user_comment": "Kiran☆　｜　Discord：kishi4824",
     "team_level": 385,
-    "user_stamina": 244,
+    "user_stamina": 389,
     "max_stamina": 443,
     "team_exp": 1414458,
     "favorite_unit_id": 101201,
@@ -90303,7 +90303,7 @@
     5139,
     5140
   ],
-  "can_free_gacha": 0,
+  "can_free_gacha": 1,
   "can_campaign_gacha": 0,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
@@ -97196,7 +97196,7 @@
     "talent_level_info_list": [
       {
         "talent_id": 1,
-        "total_point": 3713654
+        "total_point": 3718654
       },
       {
         "talent_id": 2,
@@ -98969,17 +98969,51 @@
       ]
     }
   ],
-  "daily_reset_time": 1784664000,
+  "daily_reset_time": 1784750400,
   "login_bonus_list": {
     "first": [],
-    "normal": [],
-    "campaign": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 1272,
+        "rap": 1,
+        "count_num": 12,
+        "type": "normal",
+        "reward_type": 2,
+        "reward_id": 25015,
+        "reward_count": 10000
+      }
+    ],
+    "campaign": [
+      {
+        "campaign_id": 40023,
+        "total_count": 6,
+        "rap": 1,
+        "count_num": 6,
+        "type": "campaign",
+        "reward_type": 2,
+        "reward_id": 25203,
+        "reward_count": 50
+      },
+      {
+        "campaign_id": 40023,
+        "total_count": 6,
+        "rap": 1,
+        "count_num": 6,
+        "type": "campaign",
+        "reward_type": 12,
+        "reward_id": 94002,
+        "reward_count": 2000000
+      }
+    ],
     "lottery": [],
     "adv": [],
     "countdown": [],
     "birthday": [],
     "story_read_process": []
   },
+  "receive_caravan_dice_count": 1,
+  "receive_labyrinth_passport_count": 1,
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -98999,8 +99033,8 @@
       ]
     }
   ],
-  "present_count": 8,
-  "clan_like_count": 1,
+  "present_count": 11,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 103801,
@@ -99014,7 +99048,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 119689631,
+      "current_dispatch_bonus": 119920108,
       "connect_rank": 3,
       "connect_rank_limit": 3
     },
@@ -99030,7 +99064,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 13158265,
+      "current_dispatch_bonus": 13366804,
       "connect_rank": 3,
       "connect_rank_limit": 3
     },
@@ -99046,7 +99080,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 972513,
+      "current_dispatch_bonus": 1181212,
       "connect_rank": 6,
       "connect_rank_limit": 6
     },
@@ -99060,7 +99094,7 @@
       "dispatch_count": 6,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 4756782,
+      "current_dispatch_bonus": 4967186,
       "connect_rank": 15,
       "connect_rank_limit": 15
     }
@@ -99220,5 +99254,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1784654708
+  "last_modified": 1784706982
 }

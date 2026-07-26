@@ -4,7 +4,7 @@
     "user_name": "Vpp",
     "user_comment": "VI／EN　",
     "team_level": 385,
-    "user_stamina": 77,
+    "user_stamina": 216,
     "max_stamina": 443,
     "team_exp": 1414458,
     "favorite_unit_id": 135301,
@@ -17,9 +17,9 @@
     "stamina_full_recovery_time": 1785135525
   },
   "user_jewel": {
-    "jewel": 6941,
-    "free_jewel": 59850,
-    "paid_jewel": 6941
+    "jewel": 7441,
+    "free_jewel": 59900,
+    "paid_jewel": 7441
   },
   "user_gold": {
     "gold_id_free": 970848827,
@@ -47701,12 +47701,12 @@
     {
       "type": 2,
       "id": 25011,
-      "stock": 376985
+      "stock": 377485
     },
     {
       "type": 2,
       "id": 25012,
-      "stock": 317309
+      "stock": 327309
     },
     {
       "type": 2,
@@ -47716,12 +47716,12 @@
     {
       "type": 2,
       "id": 25014,
-      "stock": 364768
+      "stock": 365768
     },
     {
       "type": 2,
       "id": 25015,
-      "stock": 371462
+      "stock": 372462
     },
     {
       "type": 2,
@@ -47776,7 +47776,7 @@
     {
       "type": 2,
       "id": 26202,
-      "stock": 23123660
+      "stock": 23136160
     },
     {
       "type": 2,
@@ -51681,7 +51681,7 @@
     {
       "type": 2,
       "id": 99009,
-      "stock": 88
+      "stock": 89
     },
     {
       "type": 2,
@@ -51691,7 +51691,7 @@
     {
       "type": 2,
       "id": 99015,
-      "stock": 990840
+      "stock": 998540
     }
   ],
   "user_equip": [
@@ -76844,6 +76844,13 @@
       "enhancement_pt": 0,
       "rank": 0,
       "protection_flag": 1
+    },
+    {
+      "serial_id": 37268,
+      "ex_equipment_id": 4203511,
+      "enhancement_pt": 0,
+      "rank": 0,
+      "protection_flag": 1
     }
   ],
   "user_clan_battle_ex_equip_restriction": [],
@@ -77042,14 +77049,14 @@
       "max_stock_count": 30
     },
     "recover_challenge_count": {
-      "recovery": 6,
+      "recovery": 3,
       "recovery_max_count": 1,
       "cost": [
         50
       ]
     },
     "very_hard_recover_challenge_count": {
-      "recovery": 6,
+      "recovery": 3,
       "recovery_max_count": 1,
       "cost": [
         50
@@ -77317,13 +77324,7 @@
   },
   "max_storage_num": 200,
   "campaign_list": [
-    3454,
-    3455,
-    3456,
     3462,
-    3463,
-    3464,
-    3465,
     3466,
     3467,
     3468,
@@ -77338,6 +77339,21 @@
     3477,
     3478,
     3479,
+    3480,
+    3481,
+    3482,
+    3483,
+    3484,
+    3485,
+    3486,
+    3487,
+    3488,
+    3489,
+    3490,
+    3491,
+    3492,
+    3493,
+    3494,
     5049,
     5050,
     5051,
@@ -77351,7 +77367,7 @@
     5139,
     5140
   ],
-  "can_free_gacha": 0,
+  "can_free_gacha": 1,
   "can_campaign_gacha": 0,
   "can_guarantee_gacha": 0,
   "guarantee_gacha_counter_list": [
@@ -88943,7 +88959,7 @@
       ]
     }
   ],
-  "daily_reset_time": 1785009600,
+  "daily_reset_time": 1785096000,
   "login_bonus_list": {
     "first": [],
     "normal": [],
@@ -88973,8 +88989,8 @@
       ]
     }
   ],
-  "present_count": 65,
-  "clan_like_count": 1,
+  "present_count": 68,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 100101,
@@ -88988,7 +89004,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 5510749,
+      "current_dispatch_bonus": 5736864,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -89005,7 +89021,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 12982473,
+      "current_dispatch_bonus": 13231489,
       "connect_rank": 3,
       "connect_rank_limit": 3
     },
@@ -89019,7 +89035,7 @@
       "dispatch_count": 16,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 18271561,
+      "current_dispatch_bonus": 18469393,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -89036,17 +89052,14 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 5213125,
+      "current_dispatch_bonus": 5441421,
       "connect_rank": 0,
       "connect_rank_limit": 3
     }
   ],
   "clan_battle": {
     "now_open": 1,
-    "is_interval": 1,
-    "mode_change_limit_time": 1784861999,
-    "mode_change_limit_start_time": 1784430000,
-    "mode_change_limit_remind_time": 1784775599
+    "is_interval": 0
   },
   "voice": {
     "birthday": 708,
@@ -89055,7 +89068,7 @@
   "csc": {
     "weekly": {
       "count": 7980,
-      "max": 15000
+      "max": 22500
     }
   },
   "part_maintenance_status": [],
@@ -89201,5 +89214,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1785003819
+  "last_modified": 1785054015
 }

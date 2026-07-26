@@ -4,7 +4,7 @@
     "user_name": "Sylv※愛の印",
     "user_comment": "よろしくお願いします。",
     "team_level": 385,
-    "user_stamina": 204,
+    "user_stamina": 344,
     "max_stamina": 443,
     "team_exp": 1414458,
     "favorite_unit_id": 136101,
@@ -78536,14 +78536,14 @@
       "max_stock_count": 30
     },
     "recover_challenge_count": {
-      "recovery": 6,
+      "recovery": 3,
       "recovery_max_count": 1,
       "cost": [
         50
       ]
     },
     "very_hard_recover_challenge_count": {
-      "recovery": 6,
+      "recovery": 3,
       "recovery_max_count": 1,
       "cost": [
         50
@@ -78811,13 +78811,7 @@
   },
   "max_storage_num": 200,
   "campaign_list": [
-    3454,
-    3455,
-    3456,
     3462,
-    3463,
-    3464,
-    3465,
     3466,
     3467,
     3468,
@@ -78832,6 +78826,21 @@
     3477,
     3478,
     3479,
+    3480,
+    3481,
+    3482,
+    3483,
+    3484,
+    3485,
+    3486,
+    3487,
+    3488,
+    3489,
+    3490,
+    3491,
+    3492,
+    3493,
+    3494,
     5049,
     5050,
     5051,
@@ -78845,7 +78854,7 @@
     5139,
     5140
   ],
-  "can_free_gacha": 0,
+  "can_free_gacha": 1,
   "can_campaign_gacha": 0,
   "can_guarantee_gacha": 0,
   "guarantee_gacha_counter_list": [
@@ -89795,17 +89804,51 @@
       ]
     }
   ],
-  "daily_reset_time": 1785009600,
+  "daily_reset_time": 1785096000,
   "login_bonus_list": {
     "first": [],
-    "normal": [],
-    "campaign": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 1759,
+        "rap": 1,
+        "count_num": 4,
+        "type": "normal",
+        "reward_type": 8,
+        "reward_id": 91002,
+        "reward_count": 50
+      }
+    ],
+    "campaign": [
+      {
+        "campaign_id": 40023,
+        "total_count": 10,
+        "rap": 1,
+        "count_num": 10,
+        "type": "campaign",
+        "reward_type": 2,
+        "reward_id": 25204,
+        "reward_count": 25
+      },
+      {
+        "campaign_id": 40023,
+        "total_count": 10,
+        "rap": 1,
+        "count_num": 10,
+        "type": "campaign",
+        "reward_type": 12,
+        "reward_id": 94002,
+        "reward_count": 2000000
+      }
+    ],
     "lottery": [],
     "adv": [],
     "countdown": [],
     "birthday": [],
     "story_read_process": []
   },
+  "receive_caravan_dice_count": 1,
+  "receive_labyrinth_passport_count": 1,
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -89825,8 +89868,8 @@
       ]
     }
   ],
-  "present_count": 48,
-  "clan_like_count": 1,
+  "present_count": 51,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 107501,
@@ -89841,7 +89884,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 10901605,
+      "current_dispatch_bonus": 11150365,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -89857,7 +89900,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 12183541,
+      "current_dispatch_bonus": 12385867,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -89873,7 +89916,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 9409494,
+      "current_dispatch_bonus": 9637327,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -89890,17 +89933,14 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 1911286,
+      "current_dispatch_bonus": 2140355,
       "connect_rank": 0,
       "connect_rank_limit": 3
     }
   ],
   "clan_battle": {
     "now_open": 1,
-    "is_interval": 1,
-    "mode_change_limit_time": 1784861999,
-    "mode_change_limit_start_time": 1784430000,
-    "mode_change_limit_remind_time": 1784775599
+    "is_interval": 0
   },
   "voice": {
     "birthday": 331,
@@ -89909,7 +89949,7 @@
   "csc": {
     "weekly": {
       "count": 7790,
-      "max": 15000
+      "max": 22500
     }
   },
   "part_maintenance_status": [],
@@ -90045,5 +90085,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1784988437
+  "last_modified": 1785038784
 }

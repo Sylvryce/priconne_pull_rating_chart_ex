@@ -4,7 +4,7 @@
     "user_name": "NNMR",
     "user_comment": "う　ら　め　し　や　～　　　　　　　　　　　　　　ヘ（・・ヘ）。。",
     "team_level": 385,
-    "user_stamina": 443,
+    "user_stamina": 177,
     "max_stamina": 443,
     "team_exp": 1414458,
     "favorite_unit_id": 133001,
@@ -14,7 +14,7 @@
       "emblem_id": 10201934,
       "ex_value": 0
     },
-    "stamina_full_recovery_time": 1785204452
+    "stamina_full_recovery_time": 1785313003
   },
   "user_jewel": {
     "jewel": 0,
@@ -22,7 +22,7 @@
     "paid_jewel": 0
   },
   "user_gold": {
-    "gold_id_free": 653149799,
+    "gold_id_free": 658612799,
     "gold_id_pay": 0
   },
   "user_gold_bank_info": {
@@ -38830,13 +38830,18 @@
   "item_list": [
     {
       "type": 2,
+      "id": 20001,
+      "stock": 8
+    },
+    {
+      "type": 2,
       "id": 20002,
       "stock": 3
     },
     {
       "type": 2,
       "id": 20003,
-      "stock": 13404
+      "stock": 13408
     },
     {
       "type": 2,
@@ -38911,7 +38916,7 @@
     {
       "type": 2,
       "id": 23001,
-      "stock": 96503
+      "stock": 96533
     },
     {
       "type": 2,
@@ -38966,17 +38971,17 @@
     {
       "type": 2,
       "id": 25014,
-      "stock": 154661
+      "stock": 159935
     },
     {
       "type": 2,
       "id": 25015,
-      "stock": 196516
+      "stock": 201818
     },
     {
       "type": 2,
       "id": 25021,
-      "stock": 335548
+      "stock": 337990
     },
     {
       "type": 2,
@@ -40711,7 +40716,7 @@
     {
       "type": 2,
       "id": 50003,
-      "stock": 22603
+      "stock": 22613
     },
     {
       "type": 2,
@@ -42201,7 +42206,7 @@
     {
       "type": 2,
       "id": 90008,
-      "stock": 223717
+      "stock": 224167
     },
     {
       "type": 2,
@@ -42296,12 +42301,12 @@
     {
       "type": 2,
       "id": 99009,
-      "stock": 91
+      "stock": 93
     },
     {
       "type": 2,
       "id": 99013,
-      "stock": 99
+      "stock": 98
     },
     {
       "type": 2,
@@ -77642,10 +77647,7 @@
       "skip_count": 15,
       "skip_list": [
         85001099,
-        84001099,
-        83001099,
-        82001100,
-        81001099
+        84001099
       ]
     }
   ],
@@ -80054,7 +80056,7 @@
       },
       {
         "talent_id": 4,
-        "total_point": 3318654
+        "total_point": 3328654
       },
       {
         "talent_id": 5,
@@ -81874,18 +81876,7 @@
   "daily_reset_time": 1785268800,
   "login_bonus_list": {
     "first": [],
-    "normal": [
-      {
-        "campaign_id": 30000,
-        "total_count": 1162,
-        "rap": 1,
-        "count_num": 7,
-        "type": "normal",
-        "reward_type": 2,
-        "reward_id": 25014,
-        "reward_count": 10000
-      }
-    ],
+    "normal": [],
     "campaign": [],
     "lottery": [],
     "adv": [],
@@ -81893,7 +81884,7 @@
     "birthday": [],
     "story_read_process": []
   },
-  "receive_caravan_dice_count": 1,
+  "receive_labyrinth_passport_count": 1,
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -81913,7 +81904,7 @@
       ]
     }
   ],
-  "present_count": 70,
+  "present_count": 71,
   "clan_like_count": 0,
   "dispatch_units": [
     {
@@ -81929,7 +81920,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 6578473,
+      "current_dispatch_bonus": 6638342,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -81946,7 +81937,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 36806590,
+      "current_dispatch_bonus": 36865424,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -81960,7 +81951,7 @@
       "dispatch_count": 7,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 34498161,
+      "current_dispatch_bonus": 34548001,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -81976,7 +81967,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 36298291,
+      "current_dispatch_bonus": 36356313,
       "connect_rank": 0,
       "connect_rank_limit": 3
     }
@@ -81991,7 +81982,7 @@
   },
   "csc": {
     "weekly": {
-      "count": 1425,
+      "count": 1875,
       "max": 22500
     }
   },
@@ -82128,5 +82119,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1785204455
+  "last_modified": 1785217405
 }

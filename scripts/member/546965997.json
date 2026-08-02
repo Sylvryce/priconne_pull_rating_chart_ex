@@ -4,7 +4,7 @@
     "user_name": "Qz",
     "user_comment": "よろしくお願いします。",
     "team_level": 385,
-    "user_stamina": 12,
+    "user_stamina": 27,
     "max_stamina": 443,
     "team_exp": 1414458,
     "favorite_unit_id": 134301,
@@ -26,7 +26,7 @@
     "gold_id_pay": 0
   },
   "user_gold_bank_info": {
-    "bank_gold": 11474740701,
+    "bank_gold": 11475070701,
     "highest_bank_gold": 12806308595
   },
   "unit_list": [
@@ -2107,11 +2107,63 @@
       "ex_equip_slot": [
         {
           "slot": 1,
-          "serial_id": 10698
+          "serial_id": 15494,
+          "sub_status": [
+            {
+              "slot_number": 1,
+              "status": 12,
+              "step": 4,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 2,
+              "status": 12,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 3,
+              "status": 12,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 4,
+              "status": 12,
+              "step": 5,
+              "is_lock": 1
+            }
+          ]
         },
         {
           "slot": 2,
-          "serial_id": 14423
+          "serial_id": 12487,
+          "sub_status": [
+            {
+              "slot_number": 1,
+              "status": 12,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 2,
+              "status": 12,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 3,
+              "status": 12,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 4,
+              "status": 12,
+              "step": 5,
+              "is_lock": 1
+            }
+          ]
         },
         {
           "slot": 3,
@@ -2777,33 +2829,7 @@
         },
         {
           "slot": 3,
-          "serial_id": 14048,
-          "sub_status": [
-            {
-              "slot_number": 1,
-              "status": 4,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 2,
-              "status": 4,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 3,
-              "status": 4,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 4,
-              "status": 4,
-              "step": 5,
-              "is_lock": 1
-            }
-          ]
+          "serial_id": 14055
         }
       ],
       "cb_ex_equip_slot": [
@@ -5135,7 +5161,7 @@
       "ex_equip_slot": [
         {
           "slot": 1,
-          "serial_id": 15413,
+          "serial_id": 9667,
           "sub_status": [
             {
               "slot_number": 1,
@@ -5165,37 +5191,11 @@
         },
         {
           "slot": 2,
-          "serial_id": 13665,
-          "sub_status": [
-            {
-              "slot_number": 1,
-              "status": 4,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 2,
-              "status": 4,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 3,
-              "status": 4,
-              "step": 2,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 4,
-              "status": 4,
-              "step": 5,
-              "is_lock": 1
-            }
-          ]
+          "serial_id": 9430
         },
         {
           "slot": 3,
-          "serial_id": 14055
+          "serial_id": 8843
         }
       ],
       "cb_ex_equip_slot": [
@@ -7427,15 +7427,67 @@
       "ex_equip_slot": [
         {
           "slot": 1,
-          "serial_id": 10314
+          "serial_id": 2928
         },
         {
           "slot": 2,
-          "serial_id": 14717
+          "serial_id": 13665,
+          "sub_status": [
+            {
+              "slot_number": 1,
+              "status": 4,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 2,
+              "status": 4,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 3,
+              "status": 4,
+              "step": 2,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 4,
+              "status": 4,
+              "step": 5,
+              "is_lock": 1
+            }
+          ]
         },
         {
           "slot": 3,
-          "serial_id": 8843
+          "serial_id": 14048,
+          "sub_status": [
+            {
+              "slot_number": 1,
+              "status": 4,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 2,
+              "status": 4,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 3,
+              "status": 4,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 4,
+              "status": 4,
+              "step": 5,
+              "is_lock": 1
+            }
+          ]
         }
       ],
       "cb_ex_equip_slot": [
@@ -14086,36 +14138,36 @@
       "id": 112501,
       "unit_rarity": 5,
       "battle_rarity": 0,
-      "unit_level": 385,
+      "unit_level": 395,
       "promotion_level": 41,
       "connect_rank": 0,
       "connect_rank_limit": 3,
-      "exceed_stage": 0,
-      "unit_exp": 34155906,
+      "exceed_stage": 1,
+      "unit_exp": 36272926,
       "get_time": 1765376841,
       "union_burst": [
         {
           "skill_id": 1125001,
-          "skill_level": 385,
+          "skill_level": 395,
           "is_revolution_skill": false
         }
       ],
       "main_skill": [
         {
           "skill_id": 1125012,
-          "skill_level": 385,
+          "skill_level": 395,
           "is_revolution_skill": false
         },
         {
           "skill_id": 1125013,
-          "skill_level": 385,
+          "skill_level": 395,
           "is_revolution_skill": false
         }
       ],
       "ex_skill": [
         {
           "skill_id": 1125511,
-          "skill_level": 385,
+          "skill_level": 395,
           "is_revolution_skill": false
         }
       ],
@@ -15173,7 +15225,7 @@
       "ex_equip_slot": [
         {
           "slot": 1,
-          "serial_id": 9667,
+          "serial_id": 15413,
           "sub_status": [
             {
               "slot_number": 1,
@@ -15203,7 +15255,7 @@
         },
         {
           "slot": 2,
-          "serial_id": 9430
+          "serial_id": 14992
         },
         {
           "slot": 3,
@@ -16392,36 +16444,36 @@
       "id": 114401,
       "unit_rarity": 5,
       "battle_rarity": 0,
-      "unit_level": 385,
+      "unit_level": 395,
       "promotion_level": 41,
       "connect_rank": 0,
       "connect_rank_limit": 3,
-      "exceed_stage": 0,
-      "unit_exp": 34155906,
+      "exceed_stage": 1,
+      "unit_exp": 36272926,
       "get_time": 1766743131,
       "union_burst": [
         {
           "skill_id": 1144001,
-          "skill_level": 385,
+          "skill_level": 395,
           "is_revolution_skill": false
         }
       ],
       "main_skill": [
         {
           "skill_id": 1144012,
-          "skill_level": 385,
+          "skill_level": 395,
           "is_revolution_skill": false
         },
         {
           "skill_id": 1144013,
-          "skill_level": 385,
+          "skill_level": 395,
           "is_revolution_skill": false
         }
       ],
       "ex_skill": [
         {
           "skill_id": 1144511,
-          "skill_level": 385,
+          "skill_level": 395,
           "is_revolution_skill": false
         }
       ],
@@ -28817,7 +28869,7 @@
         },
         {
           "slot": 2,
-          "serial_id": 14992
+          "serial_id": 14717
         },
         {
           "slot": 3,
@@ -30514,33 +30566,7 @@
         },
         {
           "slot": 2,
-          "serial_id": 12487,
-          "sub_status": [
-            {
-              "slot_number": 1,
-              "status": 12,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 2,
-              "status": 12,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 3,
-              "status": 12,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 4,
-              "status": 12,
-              "step": 5,
-              "is_lock": 1
-            }
-          ]
+          "serial_id": 14423
         },
         {
           "slot": 3,
@@ -36995,36 +37021,36 @@
       "id": 138101,
       "unit_rarity": 5,
       "battle_rarity": 0,
-      "unit_level": 385,
+      "unit_level": 395,
       "promotion_level": 41,
       "connect_rank": 0,
       "connect_rank_limit": 3,
-      "exceed_stage": 0,
-      "unit_exp": 34155906,
+      "exceed_stage": 1,
+      "unit_exp": 36272926,
       "get_time": 1771112638,
       "union_burst": [
         {
           "skill_id": 1381001,
-          "skill_level": 385,
+          "skill_level": 395,
           "is_revolution_skill": false
         }
       ],
       "main_skill": [
         {
           "skill_id": 1381002,
-          "skill_level": 385,
+          "skill_level": 395,
           "is_revolution_skill": false
         },
         {
           "skill_id": 1381003,
-          "skill_level": 385,
+          "skill_level": 395,
           "is_revolution_skill": false
         }
       ],
       "ex_skill": [
         {
           "skill_id": 1381511,
-          "skill_level": 385,
+          "skill_level": 395,
           "is_revolution_skill": false
         }
       ],
@@ -37899,36 +37925,36 @@
       "id": 139301,
       "unit_rarity": 5,
       "battle_rarity": 0,
-      "unit_level": 385,
+      "unit_level": 395,
       "promotion_level": 41,
       "connect_rank": 0,
       "connect_rank_limit": 3,
-      "exceed_stage": 0,
-      "unit_exp": 34156078,
+      "exceed_stage": 1,
+      "unit_exp": 36272926,
       "get_time": 1777902872,
       "union_burst": [
         {
           "skill_id": 1393001,
-          "skill_level": 385,
+          "skill_level": 395,
           "is_revolution_skill": false
         }
       ],
       "main_skill": [
         {
           "skill_id": 1393002,
-          "skill_level": 385,
+          "skill_level": 395,
           "is_revolution_skill": false
         },
         {
           "skill_id": 1393003,
-          "skill_level": 385,
+          "skill_level": 395,
           "is_revolution_skill": false
         }
       ],
       "ex_skill": [
         {
           "skill_id": 1393511,
-          "skill_level": 385,
+          "skill_level": 395,
           "is_revolution_skill": false
         }
       ],
@@ -37975,33 +38001,7 @@
       "ex_equip_slot": [
         {
           "slot": 1,
-          "serial_id": 15494,
-          "sub_status": [
-            {
-              "slot_number": 1,
-              "status": 12,
-              "step": 4,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 2,
-              "status": 12,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 3,
-              "status": 12,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 4,
-              "status": 12,
-              "step": 5,
-              "is_lock": 1
-            }
-          ]
+          "serial_id": 10698
         },
         {
           "slot": 2,
@@ -38397,36 +38397,36 @@
       "id": 139801,
       "unit_rarity": 5,
       "battle_rarity": 0,
-      "unit_level": 385,
+      "unit_level": 395,
       "promotion_level": 41,
       "connect_rank": 0,
       "connect_rank_limit": 3,
-      "exceed_stage": 0,
-      "unit_exp": 34155906,
+      "exceed_stage": 1,
+      "unit_exp": 36272926,
       "get_time": 1782911660,
       "union_burst": [
         {
           "skill_id": 1398001,
-          "skill_level": 385,
+          "skill_level": 395,
           "is_revolution_skill": false
         }
       ],
       "main_skill": [
         {
           "skill_id": 1398002,
-          "skill_level": 385,
+          "skill_level": 395,
           "is_revolution_skill": false
         },
         {
           "skill_id": 1398003,
-          "skill_level": 385,
+          "skill_level": 395,
           "is_revolution_skill": false
         }
       ],
       "ex_skill": [
         {
           "skill_id": 1398511,
-          "skill_level": 385,
+          "skill_level": 395,
           "is_revolution_skill": false
         }
       ],
@@ -44319,7 +44319,7 @@
     {
       "type": 2,
       "id": 23002,
-      "stock": 941
+      "stock": 917
     },
     {
       "type": 2,
@@ -44404,12 +44404,12 @@
     {
       "type": 2,
       "id": 26201,
-      "stock": 1908400
+      "stock": 1916110
     },
     {
       "type": 2,
       "id": 26202,
-      "stock": 15273740
+      "stock": 15274210
     },
     {
       "type": 2,
@@ -45609,7 +45609,7 @@
     {
       "type": 2,
       "id": 31332,
-      "stock": 7
+      "stock": 9
     },
     {
       "type": 2,
@@ -45649,7 +45649,7 @@
     {
       "type": 2,
       "id": 31348,
-      "stock": 22
+      "stock": 24
     },
     {
       "type": 2,
@@ -45664,7 +45664,7 @@
     {
       "type": 2,
       "id": 31354,
-      "stock": 30
+      "stock": 32
     },
     {
       "type": 2,
@@ -45674,7 +45674,7 @@
     {
       "type": 2,
       "id": 31357,
-      "stock": 23
+      "stock": 26
     },
     {
       "type": 2,
@@ -45724,7 +45724,7 @@
     {
       "type": 2,
       "id": 31383,
-      "stock": 18
+      "stock": 19
     },
     {
       "type": 2,
@@ -45744,7 +45744,7 @@
     {
       "type": 2,
       "id": 31398,
-      "stock": 33
+      "stock": 34
     },
     {
       "type": 2,
@@ -46169,7 +46169,7 @@
     {
       "type": 2,
       "id": 41000,
-      "stock": 42
+      "stock": 37
     },
     {
       "type": 2,
@@ -47609,7 +47609,7 @@
     {
       "type": 2,
       "id": 90003,
-      "stock": 98079
+      "stock": 98151
     },
     {
       "type": 2,
@@ -47629,27 +47629,27 @@
     {
       "type": 2,
       "id": 90007,
-      "stock": 21747345
+      "stock": 21847345
     },
     {
       "type": 2,
       "id": 90008,
-      "stock": 52078
+      "stock": 52298
     },
     {
       "type": 2,
       "id": 90009,
-      "stock": 223820
+      "stock": 223990
     },
     {
       "type": 2,
       "id": 90010,
-      "stock": 101870
+      "stock": 102090
     },
     {
       "type": 2,
       "id": 90011,
-      "stock": 232110
+      "stock": 232470
     },
     {
       "type": 2,
@@ -52091,7 +52091,7 @@
     {
       "type": 4,
       "id": 150001,
-      "stock": 8771
+      "stock": 8772
     },
     {
       "type": 4,
@@ -52101,22 +52101,22 @@
     {
       "type": 4,
       "id": 150003,
-      "stock": 17102
+      "stock": 17103
     },
     {
       "type": 4,
       "id": 150004,
-      "stock": 17658
+      "stock": 17661
     },
     {
       "type": 4,
       "id": 150005,
-      "stock": 10362
+      "stock": 10366
     },
     {
       "type": 4,
       "id": 150006,
-      "stock": 9960
+      "stock": 9961
     },
     {
       "type": 4,
@@ -52126,17 +52126,17 @@
     {
       "type": 4,
       "id": 150008,
-      "stock": 10821
+      "stock": 10824
     },
     {
       "type": 4,
       "id": 150009,
-      "stock": 5403
+      "stock": 5406
     },
     {
       "type": 4,
       "id": 150010,
-      "stock": 1459
+      "stock": 1465
     },
     {
       "type": 4,
@@ -73185,6 +73185,76 @@
       "enhancement_pt": 0,
       "rank": 0,
       "protection_flag": 1
+    },
+    {
+      "serial_id": 17206,
+      "ex_equipment_id": 4107302,
+      "enhancement_pt": 0,
+      "rank": 0,
+      "protection_flag": 1
+    },
+    {
+      "serial_id": 17207,
+      "ex_equipment_id": 4305302,
+      "enhancement_pt": 0,
+      "rank": 0,
+      "protection_flag": 1
+    },
+    {
+      "serial_id": 17208,
+      "ex_equipment_id": 4201302,
+      "enhancement_pt": 0,
+      "rank": 0,
+      "protection_flag": 1
+    },
+    {
+      "serial_id": 17209,
+      "ex_equipment_id": 4301301,
+      "enhancement_pt": 0,
+      "rank": 0,
+      "protection_flag": 1
+    },
+    {
+      "serial_id": 17210,
+      "ex_equipment_id": 4301351,
+      "enhancement_pt": 0,
+      "rank": 0,
+      "protection_flag": 1
+    },
+    {
+      "serial_id": 17211,
+      "ex_equipment_id": 4201302,
+      "enhancement_pt": 0,
+      "rank": 0,
+      "protection_flag": 1
+    },
+    {
+      "serial_id": 17212,
+      "ex_equipment_id": 4104303,
+      "enhancement_pt": 0,
+      "rank": 0,
+      "protection_flag": 1
+    },
+    {
+      "serial_id": 17213,
+      "ex_equipment_id": 4201301,
+      "enhancement_pt": 0,
+      "rank": 0,
+      "protection_flag": 1
+    },
+    {
+      "serial_id": 17214,
+      "ex_equipment_id": 4101302,
+      "enhancement_pt": 0,
+      "rank": 0,
+      "protection_flag": 1
+    },
+    {
+      "serial_id": 17215,
+      "ex_equipment_id": 4104302,
+      "enhancement_pt": 0,
+      "rank": 0,
+      "protection_flag": 1
     }
   ],
   "user_clan_battle_ex_equip_restriction": [],
@@ -84613,7 +84683,7 @@
       "dispatch_count": 6,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 9296820,
+      "current_dispatch_bonus": 9316838,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -84627,7 +84697,7 @@
       "dispatch_count": 0,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 7590364,
+      "current_dispatch_bonus": 7611207,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -84643,7 +84713,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 12097545,
+      "current_dispatch_bonus": 12120966,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -84660,7 +84730,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 765420,
+      "current_dispatch_bonus": 788954,
       "connect_rank": 0,
       "connect_rank_limit": 3
     }
@@ -84797,13 +84867,13 @@
       "unit_id": 101601,
       "position": 1,
       "support_start_time": 1784073203,
-      "friend_support_reward": 6000000
+      "friend_support_reward": 6500000
     },
     {
       "unit_id": 106001,
       "position": 2,
       "support_start_time": 1784073207,
-      "friend_support_reward": 6000000
+      "friend_support_reward": 6500000
     }
   ],
   "force_release_chapter": 2202,
@@ -84815,5 +84885,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1785658432
+  "last_modified": 1785663617
 }

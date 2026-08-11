@@ -4,7 +4,7 @@
     "user_name": "Joker",
     "user_comment": "I　like　Rei　and　Neneka",
     "team_level": 385,
-    "user_stamina": 121,
+    "user_stamina": 289,
     "max_stamina": 443,
     "team_exp": 1414458,
     "favorite_unit_id": 133801,
@@ -22,7 +22,7 @@
     "paid_jewel": 0
   },
   "user_gold": {
-    "gold_id_free": 945587595,
+    "gold_id_free": 945588095,
     "gold_id_pay": 0
   },
   "user_gold_bank_info": {
@@ -5897,7 +5897,7 @@
       "ex_equip_slot": [
         {
           "slot": 1,
-          "serial_id": 6064
+          "serial_id": 34118
         },
         {
           "slot": 2,
@@ -33881,7 +33881,7 @@
       "ex_equip_slot": [
         {
           "slot": 1,
-          "serial_id": 34118
+          "serial_id": 6064
         },
         {
           "slot": 2,
@@ -84221,7 +84221,7 @@
     5139,
     5140
   ],
-  "can_free_gacha": 0,
+  "can_free_gacha": 1,
   "can_campaign_gacha": 0,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
@@ -92797,17 +92797,40 @@
       ]
     }
   ],
-  "daily_reset_time": 1786478400,
+  "daily_reset_time": 1786564800,
   "login_bonus_list": {
     "first": [],
-    "normal": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 1268,
+        "rap": 1,
+        "count_num": 8,
+        "type": "normal",
+        "reward_type": 2,
+        "reward_id": 25021,
+        "reward_count": 5000
+      }
+    ],
     "campaign": [],
     "lottery": [],
     "adv": [],
     "countdown": [],
     "birthday": [],
-    "story_read_process": []
+    "story_read_process": [
+      {
+        "campaign_id": 80018,
+        "total_count": 1,
+        "rap": 1,
+        "count_num": 1,
+        "type": "story_read_process",
+        "reward_type": 8,
+        "reward_id": 91002,
+        "reward_count": 100
+      }
+    ]
   },
+  "receive_caravan_dice_count": 1,
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -92827,9 +92850,38 @@
       ]
     }
   ],
-  "present_count": 0,
-  "clan_like_count": 1,
-  "dispatch_units": [],
+  "present_count": 12,
+  "clan_like_count": 0,
+  "dispatch_units": [
+    {
+      "unit_id": 136001,
+      "evolution": 5,
+      "level": 400,
+      "promotion_level": 41,
+      "position": 1,
+      "dispatch_start_time": 1786424459,
+      "dispatch_count": 0,
+      "dispatch_status": 1,
+      "unique_equipped_list": [],
+      "current_dispatch_bonus": 207033,
+      "connect_rank": 15,
+      "connect_rank_limit": 15
+    },
+    {
+      "unit_id": 136501,
+      "evolution": 5,
+      "level": 400,
+      "promotion_level": 41,
+      "position": 2,
+      "dispatch_start_time": 1786424484,
+      "dispatch_count": 0,
+      "dispatch_status": 1,
+      "unique_equipped_list": [],
+      "current_dispatch_bonus": 210065,
+      "connect_rank": 15,
+      "connect_rank_limit": 15
+    }
+  ],
   "clan_battle": {
     "now_open": 1,
     "is_interval": 1,
@@ -92994,5 +93046,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1786418448
+  "last_modified": 1786478926
 }

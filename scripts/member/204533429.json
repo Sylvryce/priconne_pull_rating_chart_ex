@@ -4,7 +4,7 @@
     "user_name": "Main",
     "user_comment": "Discord：　sylvryce",
     "team_level": 385,
-    "user_stamina": 172,
+    "user_stamina": 386,
     "max_stamina": 443,
     "team_exp": 1414458,
     "favorite_unit_id": 109901,
@@ -71578,7 +71578,7 @@
     5139,
     5140
   ],
-  "can_free_gacha": 0,
+  "can_free_gacha": 1,
   "can_campaign_gacha": 0,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
@@ -82307,17 +82307,41 @@
       ]
     }
   ],
-  "daily_reset_time": 1786478400,
+  "daily_reset_time": 1786564800,
   "login_bonus_list": {
     "first": [],
-    "normal": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 1043,
+        "rap": 1,
+        "count_num": 8,
+        "type": "normal",
+        "reward_type": 2,
+        "reward_id": 25021,
+        "reward_count": 5000
+      }
+    ],
     "campaign": [],
     "lottery": [],
     "adv": [],
     "countdown": [],
     "birthday": [],
-    "story_read_process": []
+    "story_read_process": [
+      {
+        "campaign_id": 80018,
+        "total_count": 1,
+        "rap": 1,
+        "count_num": 1,
+        "type": "story_read_process",
+        "reward_type": 8,
+        "reward_id": 91002,
+        "reward_count": 100
+      }
+    ]
   },
+  "receive_caravan_dice_count": 1,
+  "receive_labyrinth_passport_count": 1,
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -82337,8 +82361,8 @@
       ]
     }
   ],
-  "present_count": 49,
-  "clan_like_count": 1,
+  "present_count": 62,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 107501,
@@ -82353,7 +82377,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 17112786,
+      "current_dispatch_bonus": 17492972,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -82369,7 +82393,7 @@
       "unique_equipped_list": [
         0
       ],
-      "current_dispatch_bonus": 9497514,
+      "current_dispatch_bonus": 9804766,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -82385,7 +82409,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 27214030,
+      "current_dispatch_bonus": 27559683,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -82402,7 +82426,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 8280749,
+      "current_dispatch_bonus": 8630367,
       "connect_rank": 0,
       "connect_rank_limit": 3
     }
@@ -82436,6 +82460,10 @@
   "chr": 1597471200,
   "cbs": 1608926400,
   "cbsa": 1625032800,
+  "sre_term": {
+    "sre_id": 4,
+    "term": 0
+  },
   "banner_linked_pack_list": [
     {
       "id": 137,
@@ -82556,5 +82584,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1786445453
+  "last_modified": 1786522437
 }

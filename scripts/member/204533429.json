@@ -4,7 +4,7 @@
     "user_name": "Main",
     "user_comment": "Discord：　sylvryce",
     "team_level": 388,
-    "user_stamina": 187,
+    "user_stamina": 373,
     "max_stamina": 446,
     "team_exp": 1427733,
     "favorite_unit_id": 109901,
@@ -72056,8 +72056,8 @@
     5141,
     5144
   ],
-  "can_free_gacha": 0,
-  "can_campaign_gacha": 0,
+  "can_free_gacha": 1,
+  "can_campaign_gacha": 1,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
     {
@@ -82809,10 +82809,33 @@
       ]
     }
   ],
-  "daily_reset_time": 1786910400,
+  "daily_reset_time": 1786996800,
+  "cf": {
+    "fortune_id": 10016,
+    "rank": 1,
+    "seed": 680274190,
+    "unit_list": [
+      106801,
+      109201,
+      106501,
+      133101
+    ],
+    "scenario_id": 28
+  },
   "login_bonus_list": {
     "first": [],
-    "normal": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 1048,
+        "rap": 1,
+        "count_num": 13,
+        "type": "normal",
+        "reward_type": 2,
+        "reward_id": 25021,
+        "reward_count": 5000
+      }
+    ],
     "campaign": [],
     "lottery": [],
     "adv": [],
@@ -82820,6 +82843,8 @@
     "birthday": [],
     "story_read_process": []
   },
+  "receive_caravan_dice_count": 1,
+  "receive_labyrinth_passport_count": 1,
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -82839,8 +82864,8 @@
       ]
     }
   ],
-  "present_count": 67,
-  "clan_like_count": 1,
+  "present_count": 73,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 107501,
@@ -82855,7 +82880,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 19324308,
+      "current_dispatch_bonus": 19655927,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -82871,7 +82896,7 @@
       "unique_equipped_list": [
         0
       ],
-      "current_dispatch_bonus": 11410168,
+      "current_dispatch_bonus": 11681432,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -82887,7 +82912,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 29259289,
+      "current_dispatch_bonus": 29560797,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -82904,7 +82929,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 10290951,
+      "current_dispatch_bonus": 10595851,
       "connect_rank": 0,
       "connect_rank_limit": 3
     }
@@ -82922,7 +82947,7 @@
   },
   "csc": {
     "weekly": {
-      "count": 14884,
+      "count": 0,
       "max": 37500
     }
   },
@@ -83099,13 +83124,13 @@
       "unit_id": 101601,
       "position": 1,
       "support_start_time": 1784075091,
-      "friend_support_reward": 15500000
+      "friend_support_reward": 16000000
     },
     {
       "unit_id": 106001,
       "position": 2,
       "support_start_time": 1786276493,
-      "friend_support_reward": 3000000
+      "friend_support_reward": 3500000
     }
   ],
   "wac_start_time": 1644868800,
@@ -83116,5 +83141,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1786881962
+  "last_modified": 1786948919
 }

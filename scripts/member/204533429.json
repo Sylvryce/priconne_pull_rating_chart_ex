@@ -4,7 +4,7 @@
     "user_name": "Main",
     "user_comment": "Discord：　sylvryce",
     "team_level": 388,
-    "user_stamina": 203,
+    "user_stamina": 376,
     "max_stamina": 446,
     "team_exp": 1427733,
     "favorite_unit_id": 109901,
@@ -18,7 +18,7 @@
   },
   "user_jewel": {
     "jewel": 750,
-    "free_jewel": 63370,
+    "free_jewel": 63410,
     "paid_jewel": 750
   },
   "user_gold": {
@@ -26,7 +26,7 @@
     "gold_id_pay": 0
   },
   "user_gold_bank_info": {
-    "bank_gold": 14545964825,
+    "bank_gold": 14547164825,
     "highest_bank_gold": 15269194867
   },
   "unit_list": [
@@ -42436,7 +42436,7 @@
     {
       "type": 2,
       "id": 20004,
-      "stock": 208752
+      "stock": 208761
     },
     {
       "type": 2,
@@ -42471,12 +42471,12 @@
     {
       "type": 2,
       "id": 22003,
-      "stock": 33599
+      "stock": 33607
     },
     {
       "type": 2,
       "id": 23001,
-      "stock": 138265
+      "stock": 138269
     },
     {
       "type": 2,
@@ -42566,7 +42566,7 @@
     {
       "type": 2,
       "id": 26202,
-      "stock": 7744920
+      "stock": 7764920
     },
     {
       "type": 2,
@@ -44351,7 +44351,7 @@
     {
       "type": 2,
       "id": 50003,
-      "stock": 30581
+      "stock": 30589
     },
     {
       "type": 2,
@@ -45686,12 +45686,12 @@
     {
       "type": 2,
       "id": 90007,
-      "stock": 16921705
+      "stock": 16931705
     },
     {
       "type": 2,
       "id": 90008,
-      "stock": 41469
+      "stock": 41869
     },
     {
       "type": 2,
@@ -72275,8 +72275,8 @@
     5141,
     5144
   ],
-  "can_free_gacha": 0,
-  "can_campaign_gacha": 0,
+  "can_free_gacha": 1,
+  "can_campaign_gacha": 1,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
     {
@@ -83028,10 +83028,33 @@
       ]
     }
   ],
-  "daily_reset_time": 1787083200,
+  "daily_reset_time": 1787169600,
+  "cf": {
+    "fortune_id": 10016,
+    "rank": 3,
+    "seed": -437786706,
+    "unit_list": [
+      131101,
+      136201,
+      103701,
+      117001
+    ],
+    "scenario_id": 8
+  },
   "login_bonus_list": {
     "first": [],
-    "normal": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 1050,
+        "rap": 1,
+        "count_num": 15,
+        "type": "normal",
+        "reward_type": 2,
+        "reward_id": 24001,
+        "reward_count": 1
+      }
+    ],
     "campaign": [],
     "lottery": [],
     "adv": [],
@@ -83039,6 +83062,8 @@
     "birthday": [],
     "story_read_process": []
   },
+  "receive_caravan_dice_count": 1,
+  "receive_labyrinth_passport_count": 1,
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -83058,8 +83083,8 @@
       ]
     }
   ],
-  "present_count": 64,
-  "clan_like_count": 1,
+  "present_count": 65,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 107501,
@@ -83074,7 +83099,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 20213085,
+      "current_dispatch_bonus": 20521802,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -83090,7 +83115,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 12359787,
+      "current_dispatch_bonus": 12616929,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -83106,7 +83131,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 30067363,
+      "current_dispatch_bonus": 30348048,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -83123,7 +83148,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 11108117,
+      "current_dispatch_bonus": 11391960,
       "connect_rank": 0,
       "connect_rank_limit": 3
     }
@@ -83318,13 +83343,13 @@
       "unit_id": 101601,
       "position": 1,
       "support_start_time": 1784075091,
-      "friend_support_reward": 16500000
+      "friend_support_reward": 17000000
     },
     {
       "unit_id": 106001,
       "position": 2,
       "support_start_time": 1786276493,
-      "friend_support_reward": 4000000
+      "friend_support_reward": 4500000
     }
   ],
   "wac_start_time": 1644868800,
@@ -83335,5 +83360,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1787061409
+  "last_modified": 1787123741
 }

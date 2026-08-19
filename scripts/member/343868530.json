@@ -4,7 +4,7 @@
     "user_name": "Quartzo",
     "user_comment": "よろしくお願いします。",
     "team_level": 388,
-    "user_stamina": 202,
+    "user_stamina": 401,
     "max_stamina": 446,
     "team_exp": 1427733,
     "favorite_unit_id": 101001,
@@ -18,11 +18,11 @@
   },
   "user_jewel": {
     "jewel": 0,
-    "free_jewel": 89434,
+    "free_jewel": 89554,
     "paid_jewel": 0
   },
   "user_gold": {
-    "gold_id_free": 956764214,
+    "gold_id_free": 960364214,
     "gold_id_pay": 0
   },
   "user_gold_bank_info": {
@@ -46973,7 +46973,7 @@
     {
       "type": 2,
       "id": 20004,
-      "stock": 308112
+      "stock": 308136
     },
     {
       "type": 2,
@@ -47023,7 +47023,7 @@
     {
       "type": 2,
       "id": 22003,
-      "stock": 36571
+      "stock": 36595
     },
     {
       "type": 2,
@@ -47058,7 +47058,7 @@
     {
       "type": 2,
       "id": 25011,
-      "stock": 325869
+      "stock": 330869
     },
     {
       "type": 2,
@@ -47073,17 +47073,17 @@
     {
       "type": 2,
       "id": 25014,
-      "stock": 331398
+      "stock": 336398
     },
     {
       "type": 2,
       "id": 25015,
-      "stock": 343304
+      "stock": 353304
     },
     {
       "type": 2,
       "id": 25021,
-      "stock": 821918
+      "stock": 824918
     },
     {
       "type": 2,
@@ -47133,7 +47133,7 @@
     {
       "type": 2,
       "id": 26202,
-      "stock": 10862930
+      "stock": 10922930
     },
     {
       "type": 2,
@@ -49048,7 +49048,7 @@
     {
       "type": 2,
       "id": 50003,
-      "stock": 95856
+      "stock": 95880
     },
     {
       "type": 2,
@@ -50678,12 +50678,12 @@
     {
       "type": 2,
       "id": 90007,
-      "stock": 34322155
+      "stock": 34352155
     },
     {
       "type": 2,
       "id": 90008,
-      "stock": 52611
+      "stock": 53811
     },
     {
       "type": 2,
@@ -90293,8 +90293,8 @@
     5141,
     5144
   ],
-  "can_free_gacha": 0,
-  "can_campaign_gacha": 0,
+  "can_free_gacha": 1,
+  "can_campaign_gacha": 1,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
     {
@@ -101317,10 +101317,33 @@
       ]
     }
   ],
-  "daily_reset_time": 1787083200,
+  "daily_reset_time": 1787169600,
+  "cf": {
+    "fortune_id": 10016,
+    "rank": 1,
+    "seed": -1622002698,
+    "unit_list": [
+      127101,
+      111401,
+      127701,
+      107901
+    ],
+    "scenario_id": 17
+  },
   "login_bonus_list": {
     "first": [],
-    "normal": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 1987,
+        "rap": 1,
+        "count_num": 7,
+        "type": "normal",
+        "reward_type": 2,
+        "reward_id": 25014,
+        "reward_count": 10000
+      }
+    ],
     "campaign": [],
     "lottery": [],
     "adv": [],
@@ -101328,6 +101351,7 @@
     "birthday": [],
     "story_read_process": []
   },
+  "receive_caravan_dice_count": 1,
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -101347,8 +101371,8 @@
       ]
     }
   ],
-  "present_count": 16,
-  "clan_like_count": 1,
+  "present_count": 28,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 100601,
@@ -101362,7 +101386,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 2365942,
+      "current_dispatch_bonus": 2686475,
       "connect_rank": 9,
       "connect_rank_limit": 9
     },
@@ -101378,7 +101402,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 2404692,
+      "current_dispatch_bonus": 2730477,
       "connect_rank": 9,
       "connect_rank_limit": 9
     },
@@ -101394,7 +101418,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 2450292,
+      "current_dispatch_bonus": 2782257,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -101410,7 +101434,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 2182461,
+      "current_dispatch_bonus": 2478146,
       "connect_rank": 15,
       "connect_rank_limit": 15
     }
@@ -101633,5 +101657,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1787026592
+  "last_modified": 1787098450
 }

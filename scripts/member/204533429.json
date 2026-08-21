@@ -4,7 +4,7 @@
     "user_name": "Main",
     "user_comment": "Discord：　sylvryce",
     "team_level": 388,
-    "user_stamina": 179,
+    "user_stamina": 370,
     "max_stamina": 446,
     "team_exp": 1427733,
     "favorite_unit_id": 109901,
@@ -72371,8 +72371,8 @@
     5147,
     5150
   ],
-  "can_free_gacha": 0,
-  "can_campaign_gacha": 0,
+  "can_free_gacha": 1,
+  "can_campaign_gacha": 1,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
     {
@@ -83120,10 +83120,33 @@
       ]
     }
   ],
-  "daily_reset_time": 1787256000,
+  "daily_reset_time": 1787342400,
+  "cf": {
+    "fortune_id": 10016,
+    "rank": 3,
+    "seed": 127633618,
+    "unit_list": [
+      106101,
+      137101,
+      113101,
+      105501
+    ],
+    "scenario_id": 2
+  },
   "login_bonus_list": {
     "first": [],
-    "normal": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 1052,
+        "rap": 1,
+        "count_num": 2,
+        "type": "normal",
+        "reward_type": 2,
+        "reward_id": 25012,
+        "reward_count": 10000
+      }
+    ],
     "campaign": [],
     "lottery": [],
     "adv": [],
@@ -83131,6 +83154,8 @@
     "birthday": [],
     "story_read_process": []
   },
+  "receive_caravan_dice_count": 1,
+  "receive_labyrinth_passport_count": 1,
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -83150,8 +83175,8 @@
       ]
     }
   ],
-  "present_count": 63,
-  "clan_like_count": 1,
+  "present_count": 69,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 107501,
@@ -83166,7 +83191,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 21024736,
+      "current_dispatch_bonus": 21364919,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -83182,7 +83207,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 13035842,
+      "current_dispatch_bonus": 13319193,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -83198,7 +83223,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 30805314,
+      "current_dispatch_bonus": 31114607,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -83215,7 +83240,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 11854371,
+      "current_dispatch_bonus": 12167144,
       "connect_rank": 0,
       "connect_rank_limit": 3
     }
@@ -83427,5 +83452,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1787225285
+  "last_modified": 1787293969
 }

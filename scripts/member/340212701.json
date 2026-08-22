@@ -4,7 +4,7 @@
     "user_name": "Kishi",
     "user_comment": "Kiran☆　｜　Discord：kishi4824",
     "team_level": 388,
-    "user_stamina": 9,
+    "user_stamina": 67,
     "max_stamina": 446,
     "team_exp": 1427733,
     "favorite_unit_id": 101201,
@@ -18,7 +18,7 @@
   },
   "user_jewel": {
     "jewel": 0,
-    "free_jewel": 83319,
+    "free_jewel": 83369,
     "paid_jewel": 0
   },
   "user_gold": {
@@ -1527,33 +1527,7 @@
       "ex_equip_slot": [
         {
           "slot": 1,
-          "serial_id": 12153,
-          "sub_status": [
-            {
-              "slot_number": 1,
-              "status": 13,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 2,
-              "status": 13,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 3,
-              "status": 13,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 4,
-              "status": 13,
-              "step": 5,
-              "is_lock": 1
-            }
-          ]
+          "serial_id": 1415
         },
         {
           "slot": 2,
@@ -37758,7 +37732,33 @@
       "ex_equip_slot": [
         {
           "slot": 1,
-          "serial_id": 1415
+          "serial_id": 12153,
+          "sub_status": [
+            {
+              "slot_number": 1,
+              "status": 13,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 2,
+              "status": 13,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 3,
+              "status": 13,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 4,
+              "status": 13,
+              "step": 5,
+              "is_lock": 1
+            }
+          ]
         },
         {
           "slot": 2,
@@ -43911,7 +43911,7 @@
       "deck_number": 2,
       "unit_id_1": 114701,
       "unit_id_2": 113401,
-      "unit_id_3": 101201,
+      "unit_id_3": 139101,
       "unit_id_4": 132001,
       "unit_id_5": 135001,
       "general_property_1": null,
@@ -48332,7 +48332,7 @@
     {
       "type": 2,
       "id": 99009,
-      "stock": 85
+      "stock": 86
     },
     {
       "type": 2,
@@ -91618,9 +91618,6 @@
   },
   "max_storage_num": 200,
   "campaign_list": [
-    3243,
-    3244,
-    3279,
     3513,
     3516,
     3517,
@@ -91631,7 +91628,6 @@
     3522,
     3523,
     3524,
-    3525,
     3526,
     3527,
     3528,
@@ -91644,7 +91640,6 @@
     3535,
     3536,
     3537,
-    3538,
     3539,
     3540,
     3541,
@@ -91662,8 +91657,8 @@
     5147,
     5150
   ],
-  "can_free_gacha": 0,
-  "can_campaign_gacha": 0,
+  "can_free_gacha": 1,
+  "can_campaign_gacha": 1,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
     {
@@ -100412,7 +100407,19 @@
       ]
     }
   ],
-  "daily_reset_time": 1787428800,
+  "daily_reset_time": 1787515200,
+  "cf": {
+    "fortune_id": 10016,
+    "rank": 4,
+    "seed": -920773895,
+    "unit_list": [
+      135901,
+      127101,
+      110501,
+      106601
+    ],
+    "scenario_id": 28
+  },
   "login_bonus_list": {
     "first": [],
     "normal": [],
@@ -100442,8 +100449,8 @@
       ]
     }
   ],
-  "present_count": 19,
-  "clan_like_count": 1,
+  "present_count": 22,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 135201,
@@ -100457,7 +100464,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 8422815,
+      "current_dispatch_bonus": 8506033,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -100471,7 +100478,7 @@
       "dispatch_count": 2,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 4131801,
+      "current_dispatch_bonus": 4216894,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -100485,7 +100492,7 @@
       "dispatch_count": 17,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 18915720,
+      "current_dispatch_bonus": 18999503,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -100501,7 +100508,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 11533436,
+      "current_dispatch_bonus": 11619529,
       "connect_rank": 15,
       "connect_rank_limit": 15
     }
@@ -100719,5 +100726,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1787416529
+  "last_modified": 1787437403
 }

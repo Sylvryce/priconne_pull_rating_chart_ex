@@ -4,7 +4,7 @@
     "user_name": "Quartzo",
     "user_comment": "よろしくお願いします。",
     "team_level": 388,
-    "user_stamina": 192,
+    "user_stamina": 365,
     "max_stamina": 446,
     "team_exp": 1427733,
     "favorite_unit_id": 101001,
@@ -11305,7 +11305,33 @@
         },
         {
           "slot": 2,
-          "serial_id": 8526
+          "serial_id": 16132,
+          "sub_status": [
+            {
+              "slot_number": 1,
+              "status": 13,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 2,
+              "status": 13,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 3,
+              "status": 13,
+              "step": 5,
+              "is_lock": 1
+            },
+            {
+              "slot_number": 4,
+              "status": 13,
+              "step": 5,
+              "is_lock": 1
+            }
+          ]
         },
         {
           "slot": 3,
@@ -14331,33 +14357,7 @@
         },
         {
           "slot": 2,
-          "serial_id": 16132,
-          "sub_status": [
-            {
-              "slot_number": 1,
-              "status": 13,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 2,
-              "status": 13,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 3,
-              "status": 13,
-              "step": 5,
-              "is_lock": 1
-            },
-            {
-              "slot_number": 4,
-              "status": 13,
-              "step": 5,
-              "is_lock": 1
-            }
-          ]
+          "serial_id": 8526
         },
         {
           "slot": 3,
@@ -90719,8 +90719,8 @@
     5147,
     5150
   ],
-  "can_free_gacha": 0,
-  "can_campaign_gacha": 0,
+  "can_free_gacha": 1,
+  "can_campaign_gacha": 1,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
     {
@@ -96147,6 +96147,10 @@
     "cleared_floor_num": 780,
     "last_login_schedule_id": 1057,
     "max_cleared_ex_quest_id": 72570780
+  },
+  "drj": {
+    "start_time": 1787540400,
+    "end_time": 1788188399
   },
   "user_my_party": [
     {
@@ -101747,10 +101751,33 @@
       ]
     }
   ],
-  "daily_reset_time": 1787515200,
+  "daily_reset_time": 1787601600,
+  "cf": {
+    "fortune_id": 10016,
+    "rank": 1,
+    "seed": 1676315290,
+    "unit_list": [
+      110301,
+      132401,
+      117101,
+      107101
+    ],
+    "scenario_id": 28
+  },
   "login_bonus_list": {
     "first": [],
-    "normal": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 1992,
+        "rap": 1,
+        "count_num": 12,
+        "type": "normal",
+        "reward_type": 2,
+        "reward_id": 25015,
+        "reward_count": 10000
+      }
+    ],
     "campaign": [],
     "lottery": [],
     "adv": [],
@@ -101777,8 +101804,8 @@
       ]
     }
   ],
-  "present_count": 16,
-  "clan_like_count": 1,
+  "present_count": 27,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 100601,
@@ -101792,7 +101819,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 4290163,
+      "current_dispatch_bonus": 4569020,
       "connect_rank": 9,
       "connect_rank_limit": 9
     },
@@ -101808,7 +101835,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 4360446,
+      "current_dispatch_bonus": 4643872,
       "connect_rank": 9,
       "connect_rank_limit": 9
     },
@@ -101824,7 +101851,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 4443144,
+      "current_dispatch_bonus": 4731946,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -101840,7 +101867,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 3957514,
+      "current_dispatch_bonus": 4214753,
       "connect_rank": 15,
       "connect_rank_limit": 15
     }
@@ -101858,7 +101885,7 @@
   },
   "csc": {
     "weekly": {
-      "count": 26800,
+      "count": 0,
       "max": 37500
     }
   },
@@ -102063,5 +102090,7 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1787457964
+  "add_present_count": 1,
+  "upper_limit_flag": true,
+  "last_modified": 1787520478
 }

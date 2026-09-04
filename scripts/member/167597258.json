@@ -4,7 +4,7 @@
     "user_name": "Yuuki",
     "user_comment": "EN　Refugee",
     "team_level": 388,
-    "user_stamina": 133,
+    "user_stamina": 443,
     "max_stamina": 446,
     "team_exp": 1427733,
     "favorite_unit_id": 129001,
@@ -14,15 +14,15 @@
       "emblem_id": 10201834,
       "ex_value": 0
     },
-    "stamina_full_recovery_time": 1788545218
+    "stamina_full_recovery_time": 1788475430
   },
   "user_jewel": {
     "jewel": 0,
-    "free_jewel": 103836,
+    "free_jewel": 103856,
     "paid_jewel": 0
   },
   "user_gold": {
-    "gold_id_free": 479607286,
+    "gold_id_free": 481202008,
     "gold_id_pay": 0
   },
   "user_gold_bank_info": {
@@ -45358,22 +45358,22 @@
     {
       "type": 2,
       "id": 20001,
-      "stock": 2996
+      "stock": 3007
     },
     {
       "type": 2,
       "id": 20002,
-      "stock": 2680
+      "stock": 2681
     },
     {
       "type": 2,
       "id": 20003,
-      "stock": 525
+      "stock": 527
     },
     {
       "type": 2,
       "id": 20004,
-      "stock": 183266
+      "stock": 183278
     },
     {
       "type": 2,
@@ -45413,7 +45413,7 @@
     {
       "type": 2,
       "id": 23001,
-      "stock": 131478
+      "stock": 131507
     },
     {
       "type": 2,
@@ -45433,12 +45433,12 @@
     {
       "type": 2,
       "id": 25011,
-      "stock": 522268
+      "stock": 523268
     },
     {
       "type": 2,
       "id": 25012,
-      "stock": 501177
+      "stock": 502177
     },
     {
       "type": 2,
@@ -45458,7 +45458,7 @@
     {
       "type": 2,
       "id": 25021,
-      "stock": 1131808
+      "stock": 1132058
     },
     {
       "type": 2,
@@ -47218,12 +47218,12 @@
     {
       "type": 2,
       "id": 50002,
-      "stock": 21
+      "stock": 22
     },
     {
       "type": 2,
       "id": 50003,
-      "stock": 33603
+      "stock": 33610
     },
     {
       "type": 2,
@@ -47724,6 +47724,11 @@
       "type": 2,
       "id": 61761,
       "stock": 1
+    },
+    {
+      "type": 2,
+      "id": 62201,
+      "stock": 138
     },
     {
       "type": 2,
@@ -48588,12 +48593,12 @@
     {
       "type": 2,
       "id": 90007,
-      "stock": 25037930
+      "stock": 25038770
     },
     {
       "type": 2,
       "id": 90008,
-      "stock": 271046
+      "stock": 271676
     },
     {
       "type": 2,
@@ -48693,7 +48698,7 @@
     {
       "type": 2,
       "id": 99013,
-      "stock": 25
+      "stock": 26
     },
     {
       "type": 2,
@@ -101888,10 +101893,21 @@
       ]
     }
   ],
-  "daily_reset_time": 1788465600,
+  "daily_reset_time": 1788552000,
   "login_bonus_list": {
     "first": [],
-    "normal": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 1252,
+        "rap": 1,
+        "count_num": 7,
+        "type": "normal",
+        "reward_type": 2,
+        "reward_id": 25014,
+        "reward_count": 10000
+      }
+    ],
     "campaign": [],
     "lottery": [],
     "adv": [],
@@ -101899,7 +101915,6 @@
     "birthday": [],
     "story_read_process": []
   },
-  "receive_labyrinth_passport_count": 1,
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -101919,8 +101934,8 @@
       ]
     }
   ],
-  "present_count": 46,
-  "clan_like_count": 1,
+  "present_count": 56,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 123301,
@@ -101934,7 +101949,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 8551006,
+      "current_dispatch_bonus": 8736089,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -101948,7 +101963,7 @@
       "dispatch_count": 0,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 7772319,
+      "current_dispatch_bonus": 7940550,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -101965,7 +101980,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 29806451,
+      "current_dispatch_bonus": 29986693,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -101979,7 +101994,7 @@
       "dispatch_count": 1,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 8340247,
+      "current_dispatch_bonus": 8508817,
       "connect_rank": 15,
       "connect_rank_limit": 15
     }
@@ -101994,7 +102009,7 @@
   "voice": [],
   "csc": {
     "weekly": {
-      "count": 10700,
+      "count": 10930,
       "max": 15000
     }
   },
@@ -102142,5 +102157,7 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1788432557
+  "add_present_count": 1,
+  "upper_limit_flag": true,
+  "last_modified": 1788474553
 }

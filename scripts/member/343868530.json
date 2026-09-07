@@ -4,7 +4,7 @@
     "user_name": "Quartzo",
     "user_comment": "よろしくお願いします。",
     "team_level": 388,
-    "user_stamina": 242,
+    "user_stamina": 437,
     "max_stamina": 446,
     "team_exp": 1427733,
     "favorite_unit_id": 101001,
@@ -92291,7 +92291,7 @@
     5151,
     5152
   ],
-  "can_free_gacha": 0,
+  "can_free_gacha": 1,
   "can_campaign_gacha": 0,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
@@ -103384,10 +103384,21 @@
       ]
     }
   ],
-  "daily_reset_time": 1788811200,
+  "daily_reset_time": 1788897600,
   "login_bonus_list": {
     "first": [],
-    "normal": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 2007,
+        "rap": 1,
+        "count_num": 12,
+        "type": "normal",
+        "reward_type": 2,
+        "reward_id": 25015,
+        "reward_count": 10000
+      }
+    ],
     "campaign": [],
     "lottery": [],
     "adv": [],
@@ -103414,8 +103425,8 @@
       ]
     }
   ],
-  "present_count": 29,
-  "clan_like_count": 1,
+  "present_count": 44,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 100601,
@@ -103429,7 +103440,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 10061819,
+      "current_dispatch_bonus": 10374670,
       "connect_rank": 9,
       "connect_rank_limit": 9
     },
@@ -103445,7 +103456,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 10226685,
+      "current_dispatch_bonus": 10544663,
       "connect_rank": 9,
       "connect_rank_limit": 9
     },
@@ -103461,7 +103472,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 5744567,
+      "current_dispatch_bonus": 6040904,
       "connect_rank": 3,
       "connect_rank_limit": 3
     },
@@ -103477,7 +103488,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 5908853,
+      "current_dispatch_bonus": 6194885,
       "connect_rank": 15,
       "connect_rank_limit": 15
     }
@@ -103648,5 +103659,7 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1788751854
+  "add_present_count": 1,
+  "upper_limit_flag": true,
+  "last_modified": 1788821990
 }

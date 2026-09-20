@@ -4,7 +4,7 @@
     "user_name": "Joker",
     "user_comment": "I　like　Rei　and　Neneka",
     "team_level": 391,
-    "user_stamina": 141,
+    "user_stamina": 266,
     "max_stamina": 449,
     "team_exp": 1441008,
     "favorite_unit_id": 133801,
@@ -86763,8 +86763,6 @@
     3245,
     3246,
     3281,
-    3571,
-    3572,
     3573,
     3574,
     3575,
@@ -86783,7 +86781,7 @@
     5151,
     5152
   ],
-  "can_free_gacha": 0,
+  "can_free_gacha": 1,
   "can_campaign_gacha": 0,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
@@ -95429,10 +95427,21 @@
       ]
     }
   ],
-  "daily_reset_time": 1789934400,
+  "daily_reset_time": 1790020800,
   "login_bonus_list": {
     "first": [],
-    "normal": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 1308,
+        "rap": 1,
+        "count_num": 3,
+        "type": "normal",
+        "reward_type": 2,
+        "reward_id": 25021,
+        "reward_count": 5000
+      }
+    ],
     "campaign": [],
     "lottery": [],
     "adv": [],
@@ -95440,6 +95449,7 @@
     "birthday": [],
     "story_read_process": []
   },
+  "receive_caravan_dice_count": 1,
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -95459,8 +95469,8 @@
       ]
     }
   ],
-  "present_count": 1,
-  "clan_like_count": 1,
+  "present_count": 10,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 136001,
@@ -95472,7 +95482,7 @@
       "dispatch_count": 0,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 13573392,
+      "current_dispatch_bonus": 13749508,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -95486,7 +95496,7 @@
       "dispatch_count": 0,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 13774860,
+      "current_dispatch_bonus": 13953592,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -95502,7 +95512,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 8457074,
+      "current_dispatch_bonus": 8643499,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -95516,7 +95526,7 @@
       "dispatch_count": 29,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 24240439,
+      "current_dispatch_bonus": 24417540,
       "connect_rank": 15,
       "connect_rank_limit": 15
     }
@@ -95534,7 +95544,7 @@
   },
   "csc": {
     "weekly": {
-      "count": 2301,
+      "count": 0,
       "max": 15000
     }
   },
@@ -95691,5 +95701,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1789893787
+  "last_modified": 1789938803
 }

@@ -4,7 +4,7 @@
     "user_name": "Dracox",
     "user_comment": "Dracox＃2126　EX　Global　player",
     "team_level": 391,
-    "user_stamina": 13,
+    "user_stamina": 113,
     "max_stamina": 449,
     "team_exp": 1441008,
     "favorite_unit_id": 137901,
@@ -46999,22 +46999,22 @@
     {
       "type": 2,
       "id": 81202,
-      "stock": 116
+      "stock": 8
     },
     {
       "type": 2,
       "id": 81203,
-      "stock": 128
+      "stock": 20
     },
     {
       "type": 2,
       "id": 81204,
-      "stock": 86
+      "stock": 2
     },
     {
       "type": 2,
       "id": 81205,
-      "stock": 154
+      "stock": 18
     },
     {
       "type": 2,
@@ -47049,22 +47049,22 @@
     {
       "type": 2,
       "id": 81402,
-      "stock": 193
+      "stock": 85
     },
     {
       "type": 2,
       "id": 81403,
-      "stock": 138
+      "stock": 30
     },
     {
       "type": 2,
       "id": 81404,
-      "stock": 126
+      "stock": 6
     },
     {
       "type": 2,
       "id": 81405,
-      "stock": 135
+      "stock": 11
     },
     {
       "type": 2,
@@ -47149,22 +47149,22 @@
     {
       "type": 2,
       "id": 82402,
-      "stock": 179
+      "stock": 71
     },
     {
       "type": 2,
       "id": 82403,
-      "stock": 145
+      "stock": 1
     },
     {
       "type": 2,
       "id": 82404,
-      "stock": 136
+      "stock": 4
     },
     {
       "type": 2,
       "id": 82405,
-      "stock": 124
+      "stock": 8
     },
     {
       "type": 2,
@@ -47278,18 +47278,13 @@
     },
     {
       "type": 2,
-      "id": 84103,
-      "stock": 108
-    },
-    {
-      "type": 2,
       "id": 84104,
-      "stock": 111
+      "stock": 3
     },
     {
       "type": 2,
       "id": 84105,
-      "stock": 134
+      "stock": 2
     },
     {
       "type": 2,
@@ -47524,22 +47519,22 @@
     {
       "type": 2,
       "id": 86302,
-      "stock": 116
+      "stock": 8
     },
     {
       "type": 2,
       "id": 86303,
-      "stock": 120
+      "stock": 12
     },
     {
       "type": 2,
       "id": 86304,
-      "stock": 134
+      "stock": 2
     },
     {
       "type": 2,
       "id": 86305,
-      "stock": 135
+      "stock": 15
     },
     {
       "type": 2,
@@ -90028,11 +90023,22 @@
   },
   "max_storage_num": 200,
   "campaign_list": [
-    3573,
-    3574,
     3575,
-    3576,
-    3577,
+    3578,
+    3579,
+    3580,
+    3581,
+    3582,
+    3583,
+    3584,
+    3585,
+    3586,
+    3587,
+    3588,
+    3589,
+    3590,
+    3591,
+    3592,
     3593,
     3594,
     3595,
@@ -90058,7 +90064,7 @@
     5151,
     5152
   ],
-  "can_free_gacha": 0,
+  "can_free_gacha": 1,
   "can_campaign_gacha": 0,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
@@ -98934,11 +98940,11 @@
       "slot_level_1": 7,
       "enhance_level_1": 4,
       "slot_level_2": 7,
-      "enhance_level_2": 4,
+      "enhance_level_2": 5,
       "slot_level_3": 7,
       "enhance_level_3": 4,
       "slot_level_4": 7,
-      "enhance_level_4": 4
+      "enhance_level_4": 5
     },
     {
       "unit_role_id": 2,
@@ -98949,7 +98955,7 @@
       "slot_level_3": 7,
       "enhance_level_3": 4,
       "slot_level_4": 7,
-      "enhance_level_4": 4
+      "enhance_level_4": 5
     },
     {
       "unit_role_id": 3,
@@ -98965,7 +98971,7 @@
     {
       "unit_role_id": 4,
       "slot_level_1": 7,
-      "enhance_level_1": 4,
+      "enhance_level_1": 5,
       "slot_level_2": 7,
       "enhance_level_2": 4,
       "slot_level_3": 7,
@@ -98991,7 +98997,7 @@
       "slot_level_2": 7,
       "enhance_level_2": 4,
       "slot_level_3": 7,
-      "enhance_level_3": 4,
+      "enhance_level_3": 5,
       "slot_level_4": 7,
       "enhance_level_4": 4
     },
@@ -99018,7 +99024,7 @@
       "enhance_level_4": 4
     }
   ],
-  "princess_knight_rank_exp": 60627120,
+  "princess_knight_rank_exp": 60639620,
   "seven_story_list": [
     {
       "event_id": 10201,
@@ -100349,10 +100355,21 @@
       ]
     }
   ],
-  "daily_reset_time": 1790280000,
+  "daily_reset_time": 1790366400,
   "login_bonus_list": {
     "first": [],
-    "normal": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 1259,
+        "rap": 1,
+        "count_num": 14,
+        "type": "normal",
+        "reward_type": 8,
+        "reward_id": 91002,
+        "reward_count": 100
+      }
+    ],
     "campaign": [],
     "lottery": [],
     "adv": [],
@@ -100360,6 +100377,7 @@
     "birthday": [],
     "story_read_process": []
   },
+  "receive_caravan_dice_count": 1,
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -100379,8 +100397,8 @@
       ]
     }
   ],
-  "present_count": 10,
-  "clan_like_count": 1,
+  "present_count": 15,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 130101,
@@ -100394,7 +100412,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 198387270,
+      "current_dispatch_bonus": 198534870,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -100410,7 +100428,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 86570776,
+      "current_dispatch_bonus": 86718028,
       "connect_rank": 9,
       "connect_rank_limit": 9
     },
@@ -100424,7 +100442,7 @@
       "dispatch_count": 2,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 10940407,
+      "current_dispatch_bonus": 11085313,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -100438,17 +100456,14 @@
       "dispatch_count": 0,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 20700466,
+      "current_dispatch_bonus": 20846350,
       "connect_rank": 15,
       "connect_rank_limit": 15
     }
   ],
   "clan_battle": {
     "now_open": 1,
-    "is_interval": 1,
-    "mode_change_limit_time": 1790132399,
-    "mode_change_limit_start_time": 1789700400,
-    "mode_change_limit_remind_time": 1790045999
+    "is_interval": 0
   },
   "voice": {
     "birthday": 825,
@@ -100457,7 +100472,7 @@
   "csc": {
     "weekly": {
       "count": 5164,
-      "max": 15000
+      "max": 22500
     }
   },
   "part_maintenance_status": [],
@@ -100613,5 +100628,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1790248779
+  "last_modified": 1790284492
 }

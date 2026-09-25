@@ -4,7 +4,7 @@
     "user_name": "Quartzo",
     "user_comment": "よろしくお願いします。",
     "team_level": 391,
-    "user_stamina": 298,
+    "user_stamina": 397,
     "max_stamina": 449,
     "team_exp": 1441008,
     "favorite_unit_id": 101001,
@@ -93551,11 +93551,22 @@
   },
   "max_storage_num": 2550,
   "campaign_list": [
-    3573,
-    3574,
     3575,
-    3576,
-    3577,
+    3578,
+    3579,
+    3580,
+    3581,
+    3582,
+    3583,
+    3584,
+    3585,
+    3586,
+    3587,
+    3588,
+    3589,
+    3590,
+    3591,
+    3592,
     3593,
     3594,
     3595,
@@ -93581,7 +93592,7 @@
     5151,
     5152
   ],
-  "can_free_gacha": 0,
+  "can_free_gacha": 1,
   "can_campaign_gacha": 0,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
@@ -104674,10 +104685,21 @@
       ]
     }
   ],
-  "daily_reset_time": 1790280000,
+  "daily_reset_time": 1790366400,
   "login_bonus_list": {
     "first": [],
-    "normal": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 2024,
+        "rap": 1,
+        "count_num": 14,
+        "type": "normal",
+        "reward_type": 8,
+        "reward_id": 91002,
+        "reward_count": 100
+      }
+    ],
     "campaign": [],
     "lottery": [],
     "adv": [],
@@ -104685,6 +104707,7 @@
     "birthday": [],
     "story_read_process": []
   },
+  "receive_caravan_dice_count": 1,
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -104704,8 +104727,8 @@
       ]
     }
   ],
-  "present_count": 20,
-  "clan_like_count": 1,
+  "present_count": 22,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 100601,
@@ -104719,7 +104742,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 16972440,
+      "current_dispatch_bonus": 17134271,
       "connect_rank": 9,
       "connect_rank_limit": 9
     },
@@ -104735,7 +104758,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 17063426,
+      "current_dispatch_bonus": 17226126,
       "connect_rank": 9,
       "connect_rank_limit": 9
     },
@@ -104751,7 +104774,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 12105485,
+      "current_dispatch_bonus": 12257079,
       "connect_rank": 3,
       "connect_rank_limit": 3
     },
@@ -104767,17 +104790,14 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 12047139,
+      "current_dispatch_bonus": 12193435,
       "connect_rank": 15,
       "connect_rank_limit": 15
     }
   ],
   "clan_battle": {
     "now_open": 1,
-    "is_interval": 1,
-    "mode_change_limit_time": 1790132399,
-    "mode_change_limit_start_time": 1789700400,
-    "mode_change_limit_remind_time": 1790045999
+    "is_interval": 0
   },
   "voice": {
     "birthday": 518,
@@ -104786,7 +104806,7 @@
   "csc": {
     "weekly": {
       "count": 5220,
-      "max": 15000
+      "max": 22500
     }
   },
   "part_maintenance_status": [],
@@ -104938,5 +104958,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1790251741
+  "last_modified": 1790287551
 }

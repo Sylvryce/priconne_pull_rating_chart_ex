@@ -4,7 +4,7 @@
     "user_name": "Joker",
     "user_comment": "I　like　Rei　and　Neneka",
     "team_level": 391,
-    "user_stamina": 89,
+    "user_stamina": 225,
     "max_stamina": 449,
     "team_exp": 1441008,
     "favorite_unit_id": 133801,
@@ -86017,7 +86017,7 @@
     5151,
     5152
   ],
-  "can_free_gacha": 0,
+  "can_free_gacha": 1,
   "can_campaign_gacha": 0,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
@@ -90498,10 +90498,6 @@
     "last_login_schedule_id": 1057,
     "max_cleared_ex_quest_id": 72570780
   },
-  "drj": {
-    "start_time": 1790132400,
-    "end_time": 1790780399
-  },
   "user_my_quest": [
     {
       "tab_number": 1,
@@ -90509,7 +90505,8 @@
       "skip_count": 6,
       "skip_list": [
         13022002,
-        13020003
+        13020003,
+        12035003
       ]
     },
     {
@@ -94189,11 +94186,43 @@
       ]
     }
   ],
-  "daily_reset_time": 1790798400,
+  "daily_reset_time": 1790884800,
   "login_bonus_list": {
     "first": [],
-    "normal": [],
-    "campaign": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 1318,
+        "rap": 1,
+        "count_num": 13,
+        "type": "normal",
+        "reward_type": 2,
+        "reward_id": 25021,
+        "reward_count": 5000
+      }
+    ],
+    "campaign": [
+      {
+        "campaign_id": 40024,
+        "total_count": 2,
+        "rap": 1,
+        "count_num": 2,
+        "type": "campaign",
+        "reward_type": 2,
+        "reward_id": 25201,
+        "reward_count": 50
+      },
+      {
+        "campaign_id": 40024,
+        "total_count": 2,
+        "rap": 1,
+        "count_num": 2,
+        "type": "campaign",
+        "reward_type": 12,
+        "reward_id": 94002,
+        "reward_count": 2000000
+      }
+    ],
     "lottery": [],
     "adv": [],
     "countdown": [],
@@ -95789,6 +95818,15 @@
       "tab_name": "6＊"
     }
   ],
+  "silent_reward_list": [
+    {
+      "id": 23004,
+      "type": 2,
+      "count": 10,
+      "stock": 10,
+      "received": 10
+    }
+  ],
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -96050,8 +96088,8 @@
       "exec_count": 1
     }
   ],
-  "present_count": 9,
-  "clan_like_count": 1,
+  "present_count": 22,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 136001,
@@ -96063,7 +96101,7 @@
       "dispatch_count": 0,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 16927273,
+      "current_dispatch_bonus": 17119262,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -96077,7 +96115,7 @@
       "dispatch_count": 0,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 17178547,
+      "current_dispatch_bonus": 17373388,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -96093,7 +96131,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 1091177,
+      "current_dispatch_bonus": 1290453,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -96109,7 +96147,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 7639698,
+      "current_dispatch_bonus": 7856387,
       "connect_rank": 15,
       "connect_rank_limit": 15
     }
@@ -96302,5 +96340,7 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1790751031
+  "add_present_count": 1,
+  "upper_limit_flag": true,
+  "last_modified": 1790800103
 }

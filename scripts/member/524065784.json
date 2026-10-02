@@ -4,7 +4,7 @@
     "user_name": "Dracox",
     "user_comment": "Dracox＃2126　EX　Global　player",
     "team_level": 391,
-    "user_stamina": 20,
+    "user_stamina": 169,
     "max_stamina": 449,
     "team_exp": 1441008,
     "favorite_unit_id": 137901,
@@ -89721,11 +89721,11 @@
       "exec_count": 0
     },
     "recover_stamina": {
-      "count": 37,
+      "count": 40,
       "max_count": 40,
-      "exec_count": 3,
+      "exec_count": 0,
       "recovery": 120,
-      "cost": 60
+      "cost": 40
     }
   },
   "ini_setting": {
@@ -99372,17 +99372,50 @@
       ]
     }
   ],
-  "daily_reset_time": 1790884800,
+  "daily_reset_time": 1790971200,
   "login_bonus_list": {
     "first": [],
-    "normal": [],
-    "campaign": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 1266,
+        "rap": 1,
+        "count_num": 6,
+        "type": "normal",
+        "reward_type": 8,
+        "reward_id": 91002,
+        "reward_count": 50
+      }
+    ],
+    "campaign": [
+      {
+        "campaign_id": 40024,
+        "total_count": 3,
+        "rap": 1,
+        "count_num": 3,
+        "type": "campaign",
+        "reward_type": 2,
+        "reward_id": 25205,
+        "reward_count": 50
+      },
+      {
+        "campaign_id": 40024,
+        "total_count": 3,
+        "rap": 1,
+        "count_num": 3,
+        "type": "campaign",
+        "reward_type": 12,
+        "reward_id": 94002,
+        "reward_count": 2000000
+      }
+    ],
     "lottery": [],
     "adv": [],
     "countdown": [],
     "birthday": [],
     "story_read_process": []
   },
+  "receive_caravan_dice_count": 1,
   "my_party_list": [
     {
       "tab_number": 1,
@@ -105819,6 +105852,15 @@
       "tab_name": "CB"
     }
   ],
+  "silent_reward_list": [
+    {
+      "id": 23004,
+      "type": 2,
+      "count": 10,
+      "stock": 10,
+      "received": 10
+    }
+  ],
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -106100,8 +106142,8 @@
       "exec_count": 1
     }
   ],
-  "present_count": 6,
-  "clan_like_count": 1,
+  "present_count": 19,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 130101,
@@ -106115,7 +106157,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 203249473,
+      "current_dispatch_bonus": 203474092,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -106131,7 +106173,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 89044289,
+      "current_dispatch_bonus": 89265753,
       "connect_rank": 9,
       "connect_rank_limit": 9
     },
@@ -106145,7 +106187,7 @@
       "dispatch_count": 5,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 15050229,
+      "current_dispatch_bonus": 15268164,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -106159,7 +106201,7 @@
       "dispatch_count": 0,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 23151002,
+      "current_dispatch_bonus": 23370408,
       "connect_rank": 15,
       "connect_rank_limit": 15
     }
@@ -106352,5 +106394,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1790848725
+  "last_modified": 1790902441
 }

@@ -4,7 +4,7 @@
     "user_name": "KazooKid",
     "user_comment": "あ",
     "team_level": 391,
-    "user_stamina": 109,
+    "user_stamina": 213,
     "max_stamina": 449,
     "team_exp": 1441008,
     "favorite_unit_id": 140101,
@@ -17,12 +17,12 @@
     "stamina_full_recovery_time": 1791596977
   },
   "user_jewel": {
-    "jewel": 178221,
-    "free_jewel": 12120,
-    "paid_jewel": 178221
+    "jewel": 178171,
+    "free_jewel": 12300,
+    "paid_jewel": 178171
   },
   "user_gold": {
-    "gold_id_free": 297907404,
+    "gold_id_free": 273007404,
     "gold_id_pay": 0
   },
   "user_gold_bank_info": {
@@ -21319,8 +21319,8 @@
         {
           "id": 131722,
           "is_slot": 1,
-          "enhancement_level": 1,
-          "enhancement_pt": 60,
+          "enhancement_level": 3,
+          "enhancement_pt": 95,
           "rank": 1
         }
       ],
@@ -21587,8 +21587,8 @@
         {
           "id": 131742,
           "is_slot": 1,
-          "enhancement_level": 1,
-          "enhancement_pt": 60,
+          "enhancement_level": 2,
+          "enhancement_pt": 75,
           "rank": 1
         }
       ],
@@ -53610,7 +53610,7 @@
     {
       "type": 2,
       "id": 20003,
-      "stock": 415
+      "stock": 424
     },
     {
       "type": 2,
@@ -53655,7 +53655,7 @@
     {
       "type": 2,
       "id": 22002,
-      "stock": 275
+      "stock": 280
     },
     {
       "type": 2,
@@ -55364,6 +55364,11 @@
     },
     {
       "type": 2,
+      "id": 31388,
+      "stock": 15
+    },
+    {
+      "type": 2,
       "id": 31389,
       "stock": 15
     },
@@ -55600,7 +55605,7 @@
     {
       "type": 2,
       "id": 32029,
-      "stock": 40
+      "stock": 5
     },
     {
       "type": 2,
@@ -55690,7 +55695,7 @@
     {
       "type": 2,
       "id": 32054,
-      "stock": 32
+      "stock": 17
     },
     {
       "type": 2,
@@ -57905,12 +57910,12 @@
     {
       "type": 2,
       "id": 90004,
-      "stock": 218275
+      "stock": 218285
     },
     {
       "type": 2,
       "id": 90005,
-      "stock": 29385
+      "stock": 29389
     },
     {
       "type": 2,
@@ -57945,7 +57950,7 @@
     {
       "type": 2,
       "id": 90012,
-      "stock": 6027
+      "stock": 6053
     },
     {
       "type": 2,
@@ -62407,7 +62412,7 @@
     {
       "type": 4,
       "id": 140001,
-      "stock": 922
+      "stock": 925
     },
     {
       "type": 4,
@@ -104116,7 +104121,7 @@
     5151,
     5152
   ],
-  "can_free_gacha": 0,
+  "can_free_gacha": 1,
   "can_campaign_gacha": 0,
   "can_guarantee_gacha": 0,
   "guarantee_gacha_counter_list": [
@@ -104126,6 +104131,11 @@
     }
   ],
   "gacha_point_info_list": [
+    {
+      "exchange_id": 471,
+      "current_point": 1,
+      "max_point": 200
+    },
     {
       "exchange_id": 472,
       "current_point": 9,
@@ -113806,17 +113816,50 @@
       ]
     }
   ],
-  "daily_reset_time": 1791489600,
+  "daily_reset_time": 1791576000,
   "login_bonus_list": {
     "first": [],
-    "normal": [],
-    "campaign": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 2413,
+        "rap": 1,
+        "count_num": 13,
+        "type": "normal",
+        "reward_type": 2,
+        "reward_id": 25021,
+        "reward_count": 5000
+      }
+    ],
+    "campaign": [
+      {
+        "campaign_id": 40024,
+        "total_count": 10,
+        "rap": 1,
+        "count_num": 10,
+        "type": "campaign",
+        "reward_type": 2,
+        "reward_id": 25204,
+        "reward_count": 25
+      },
+      {
+        "campaign_id": 40024,
+        "total_count": 10,
+        "rap": 1,
+        "count_num": 10,
+        "type": "campaign",
+        "reward_type": 12,
+        "reward_id": 94002,
+        "reward_count": 2000000
+      }
+    ],
     "lottery": [],
     "adv": [],
     "countdown": [],
     "birthday": [],
     "story_read_process": []
   },
+  "receive_caravan_dice_count": 1,
   "my_party_list": [
     {
       "tab_number": 1,
@@ -117664,6 +117707,15 @@
       "tab_name": "Fast"
     }
   ],
+  "silent_reward_list": [
+    {
+      "id": 23004,
+      "type": 2,
+      "count": 10,
+      "stock": 10,
+      "received": 10
+    }
+  ],
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -117960,8 +118012,8 @@
       "exec_count": 1
     }
   ],
-  "present_count": 12,
-  "clan_like_count": 1,
+  "present_count": 8,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 126801,
@@ -117975,7 +118027,7 @@
       "unique_equipped_list": [
         0
       ],
-      "current_dispatch_bonus": 18858829,
+      "current_dispatch_bonus": 18998829,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -117991,7 +118043,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 22122846,
+      "current_dispatch_bonus": 22287078,
       "connect_rank": 0,
       "connect_rank_limit": 3
     },
@@ -118007,7 +118059,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 5722815,
+      "current_dispatch_bonus": 5887702,
       "connect_rank": 6,
       "connect_rank_limit": 6
     },
@@ -118021,7 +118073,7 @@
       "dispatch_count": 94,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 57124871,
+      "current_dispatch_bonus": 57276127,
       "connect_rank": 15,
       "connect_rank_limit": 15
     }
@@ -118200,5 +118252,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1791474856
+  "last_modified": 1791512326
 }

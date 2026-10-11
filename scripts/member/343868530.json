@@ -4,7 +4,7 @@
     "user_name": "Quartzo",
     "user_comment": "よろしくお願いします。",
     "team_level": 391,
-    "user_stamina": 201,
+    "user_stamina": 262,
     "max_stamina": 449,
     "team_exp": 1441008,
     "favorite_unit_id": 101001,
@@ -95558,7 +95558,7 @@
     5151,
     5152
   ],
-  "can_free_gacha": 0,
+  "can_free_gacha": 1,
   "can_campaign_gacha": 0,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
@@ -105457,10 +105457,21 @@
       ]
     }
   ],
-  "daily_reset_time": 1791662400,
+  "daily_reset_time": 1791748800,
   "login_bonus_list": {
     "first": [],
-    "normal": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 2040,
+        "rap": 1,
+        "count_num": 15,
+        "type": "normal",
+        "reward_type": 2,
+        "reward_id": 24001,
+        "reward_count": 1
+      }
+    ],
     "campaign": [],
     "lottery": [],
     "adv": [],
@@ -105468,6 +105479,7 @@
     "birthday": [],
     "story_read_process": []
   },
+  "receive_caravan_dice_count": 1,
   "my_party_list": [
     {
       "tab_number": 1,
@@ -110222,6 +110234,15 @@
       "tab_name": "DEF　PA"
     }
   ],
+  "silent_reward_list": [
+    {
+      "id": 23004,
+      "type": 2,
+      "count": 10,
+      "stock": 40,
+      "received": 10
+    }
+  ],
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -110523,8 +110544,8 @@
       "exec_count": 1
     }
   ],
-  "present_count": 30,
-  "clan_like_count": 1,
+  "present_count": 32,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 100601,
@@ -110538,7 +110559,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 23312091,
+      "current_dispatch_bonus": 23411023,
       "connect_rank": 9,
       "connect_rank_limit": 9
     },
@@ -110554,7 +110575,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 23437072,
+      "current_dispatch_bonus": 23536535,
       "connect_rank": 9,
       "connect_rank_limit": 9
     },
@@ -110570,7 +110591,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 18044078,
+      "current_dispatch_bonus": 18136751,
       "connect_rank": 3,
       "connect_rank_limit": 3
     },
@@ -110586,7 +110607,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 17778165,
+      "current_dispatch_bonus": 17867599,
       "connect_rank": 15,
       "connect_rank_limit": 15
     }
@@ -110775,5 +110796,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1791654537
+  "last_modified": 1791676428
 }

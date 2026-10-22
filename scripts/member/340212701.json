@@ -4,7 +4,7 @@
     "user_name": "Kishi",
     "user_comment": "Kiran☆　｜　Discord：kishi4824",
     "team_level": 394,
-    "user_stamina": 19,
+    "user_stamina": 268,
     "max_stamina": 452,
     "team_exp": 1454283,
     "favorite_unit_id": 101201,
@@ -26,7 +26,7 @@
     "gold_id_pay": 0
   },
   "user_gold_bank_info": {
-    "bank_gold": 21449328917,
+    "bank_gold": 21449788917,
     "highest_bank_gold": 21535086497
   },
   "unit_list": [
@@ -45968,7 +45968,7 @@
     {
       "type": 2,
       "id": 20003,
-      "stock": 235
+      "stock": 254
     },
     {
       "type": 2,
@@ -49378,7 +49378,7 @@
     {
       "type": 2,
       "id": 90002,
-      "stock": 5383576
+      "stock": 5383686
     },
     {
       "type": 2,
@@ -91001,7 +91001,7 @@
     5151,
     5152
   ],
-  "can_free_gacha": 0,
+  "can_free_gacha": 1,
   "can_campaign_gacha": 0,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
@@ -98846,10 +98846,21 @@
       ]
     }
   ],
-  "daily_reset_time": 1792612800,
+  "daily_reset_time": 1792699200,
   "login_bonus_list": {
     "first": [],
-    "normal": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 1364,
+        "rap": 1,
+        "count_num": 14,
+        "type": "normal",
+        "reward_type": 8,
+        "reward_id": 91002,
+        "reward_count": 100
+      }
+    ],
     "campaign": [],
     "lottery": [],
     "adv": [],
@@ -98857,6 +98868,7 @@
     "birthday": [],
     "story_read_process": []
   },
+  "receive_caravan_dice_count": 1,
   "my_party_list": [
     {
       "tab_number": 1,
@@ -103536,6 +103548,15 @@
       "tab_name": "PvP2"
     }
   ],
+  "silent_reward_list": [
+    {
+      "id": 23004,
+      "type": 2,
+      "count": 10,
+      "stock": 40,
+      "received": 10
+    }
+  ],
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -103862,8 +103883,8 @@
       "exec_count": 1
     }
   ],
-  "present_count": 12,
-  "clan_like_count": 1,
+  "present_count": 23,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 135201,
@@ -103877,7 +103898,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 30353084,
+      "current_dispatch_bonus": 30719433,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -103891,7 +103912,7 @@
       "dispatch_count": 7,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 28739424,
+      "current_dispatch_bonus": 29114053,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -103907,7 +103928,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 3363595,
+      "current_dispatch_bonus": 3768787,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -103921,7 +103942,7 @@
       "dispatch_count": 21,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 31012838,
+      "current_dispatch_bonus": 31370809,
       "connect_rank": 15,
       "connect_rank_limit": 15
     }
@@ -104105,5 +104126,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1792576493
+  "last_modified": 1792665975
 }

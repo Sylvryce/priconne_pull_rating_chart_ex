@@ -4,7 +4,7 @@
     "user_name": "Joker",
     "user_comment": "I　like　Rei　and　Neneka",
     "team_level": 394,
-    "user_stamina": 204,
+    "user_stamina": 389,
     "max_stamina": 452,
     "team_exp": 1454283,
     "favorite_unit_id": 133801,
@@ -85924,7 +85924,7 @@
       "max_stock_count": 30
     },
     "recover_challenge_count": {
-      "recovery": 6,
+      "recovery": 3,
       "recovery_max_count": 1,
       "cost": [
         50
@@ -86167,7 +86167,7 @@
     },
     "talent_quest": {
       "daily_bonus_use_limit_count": 0,
-      "daily_clear_limit_count": 15,
+      "daily_clear_limit_count": 10,
       "recovery_max_count": 1,
       "recovery_cost": 50
     },
@@ -86199,24 +86199,20 @@
   },
   "max_storage_num": 200,
   "campaign_list": [
-    3616,
-    3617,
-    3618,
-    3619,
-    3620,
-    3621,
-    3622,
-    3623,
-    3624,
-    3625,
-    3626,
-    3627,
     3629,
-    3630,
-    3631,
-    3632,
-    3633,
-    3634,
+    3635,
+    3636,
+    3637,
+    3638,
+    3639,
+    3640,
+    3641,
+    3642,
+    3643,
+    3644,
+    3645,
+    3646,
+    3647,
     5049,
     5050,
     5051,
@@ -86230,7 +86226,7 @@
     5151,
     5152
   ],
-  "can_free_gacha": 0,
+  "can_free_gacha": 1,
   "can_campaign_gacha": 0,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
@@ -90743,6 +90739,10 @@
     "last_login_schedule_id": 1057,
     "max_cleared_ex_quest_id": 72570780
   },
+  "drj": {
+    "start_time": 1792810800,
+    "end_time": 1793458799
+  },
   "user_my_quest": [
     {
       "tab_number": 1,
@@ -94426,10 +94426,21 @@
       ]
     }
   ],
-  "daily_reset_time": 1792785600,
+  "daily_reset_time": 1792872000,
   "login_bonus_list": {
     "first": [],
-    "normal": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 1340,
+        "rap": 1,
+        "count_num": 5,
+        "type": "normal",
+        "reward_type": 2,
+        "reward_id": 25013,
+        "reward_count": 10000
+      }
+    ],
     "campaign": [],
     "lottery": [],
     "adv": [],
@@ -94437,6 +94448,7 @@
     "birthday": [],
     "story_read_process": []
   },
+  "receive_caravan_dice_count": 1,
   "my_party_list": [
     {
       "tab_number": 1,
@@ -96026,6 +96038,15 @@
       "tab_name": "6＊"
     }
   ],
+  "silent_reward_list": [
+    {
+      "id": 23004,
+      "type": 2,
+      "count": 10,
+      "stock": 230,
+      "received": 10
+    }
+  ],
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -96307,8 +96328,8 @@
       "exec_count": 1
     }
   ],
-  "present_count": 0,
-  "clan_like_count": 1,
+  "present_count": 10,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 136001,
@@ -96320,7 +96341,7 @@
       "dispatch_count": 0,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 25016586,
+      "current_dispatch_bonus": 25279963,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -96334,7 +96355,7 @@
       "dispatch_count": 0,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 25361802,
+      "current_dispatch_bonus": 25628814,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -96350,7 +96371,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 9271305,
+      "current_dispatch_bonus": 9544559,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -96366,7 +96387,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 16611517,
+      "current_dispatch_bonus": 16908482,
       "connect_rank": 15,
       "connect_rank_limit": 15
     }
@@ -96385,7 +96406,7 @@
   "csc": {
     "weekly": {
       "count": 3300,
-      "max": 22500
+      "max": 15000
     }
   },
   "part_maintenance_status": [],
@@ -96559,5 +96580,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1792737369
+  "last_modified": 1792803833
 }

@@ -4,7 +4,7 @@
     "user_name": "Dracox",
     "user_comment": "Dracox＃2126　EX　Global　player",
     "team_level": 394,
-    "user_stamina": 64,
+    "user_stamina": 127,
     "max_stamina": 452,
     "team_exp": 1454283,
     "favorite_unit_id": 137901,
@@ -91986,6 +91986,22 @@
     3645,
     3646,
     3647,
+    3648,
+    3649,
+    3650,
+    3651,
+    3652,
+    3653,
+    3655,
+    3656,
+    3657,
+    3658,
+    3659,
+    3660,
+    3661,
+    3662,
+    3663,
+    3664,
     5049,
     5050,
     5051,
@@ -91999,7 +92015,7 @@
     5151,
     5152
   ],
-  "can_free_gacha": 0,
+  "can_free_gacha": 1,
   "can_campaign_gacha": 0,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
@@ -101296,10 +101312,21 @@
       ]
     }
   ],
-  "daily_reset_time": 1792958400,
+  "daily_reset_time": 1793044800,
   "login_bonus_list": {
     "first": [],
-    "normal": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 1290,
+        "rap": 1,
+        "count_num": 15,
+        "type": "normal",
+        "reward_type": 2,
+        "reward_id": 24001,
+        "reward_count": 1
+      }
+    ],
     "campaign": [],
     "lottery": [],
     "adv": [],
@@ -101307,6 +101334,7 @@
     "birthday": [],
     "story_read_process": []
   },
+  "receive_caravan_dice_count": 1,
   "my_party_list": [
     {
       "tab_number": 1,
@@ -107433,6 +107461,15 @@
       "tab_name": "CB"
     }
   ],
+  "silent_reward_list": [
+    {
+      "id": 23004,
+      "type": 2,
+      "count": 10,
+      "stock": 10,
+      "received": 10
+    }
+  ],
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -107804,8 +107841,8 @@
       "exec_count": 1
     }
   ],
-  "present_count": 22,
-  "clan_like_count": 1,
+  "present_count": 23,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 130101,
@@ -107819,7 +107856,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 214619377,
+      "current_dispatch_bonus": 214715491,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -107835,7 +107872,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 100070502,
+      "current_dispatch_bonus": 100166396,
       "connect_rank": 9,
       "connect_rank_limit": 9
     },
@@ -107849,7 +107886,7 @@
       "dispatch_count": 5,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 24165664,
+      "current_dispatch_bonus": 24260119,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -107863,17 +107900,14 @@
       "dispatch_count": 0,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 32514654,
+      "current_dispatch_bonus": 32609721,
       "connect_rank": 15,
       "connect_rank_limit": 15
     }
   ],
   "clan_battle": {
     "now_open": 1,
-    "is_interval": 1,
-    "mode_change_limit_time": 1792810799,
-    "mode_change_limit_start_time": 1792378800,
-    "mode_change_limit_remind_time": 1792724399
+    "is_interval": 0
   },
   "voice": {
     "birthday": 825,
@@ -107881,8 +107915,8 @@
   },
   "csc": {
     "weekly": {
-      "count": 13505,
-      "max": 15000
+      "count": 0,
+      "max": 22500
     }
   },
   "part_maintenance_status": [],
@@ -108056,5 +108090,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1792947044
+  "last_modified": 1792969754
 }

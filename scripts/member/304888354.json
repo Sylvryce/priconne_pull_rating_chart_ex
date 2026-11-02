@@ -4,7 +4,7 @@
     "user_name": "Sam",
     "user_comment": "Im　back",
     "team_level": 394,
-    "user_stamina": 113,
+    "user_stamina": 384,
     "max_stamina": 452,
     "team_exp": 1454283,
     "favorite_unit_id": 114001,
@@ -14,15 +14,15 @@
       "emblem_id": 10201409,
       "ex_value": 0
     },
-    "stamina_full_recovery_time": 1793666440
+    "stamina_full_recovery_time": 1793625760
   },
   "user_jewel": {
     "jewel": 3365,
-    "free_jewel": 104450,
+    "free_jewel": 104690,
     "paid_jewel": 3365
   },
   "user_gold": {
-    "gold_id_free": 680163901,
+    "gold_id_free": 681754401,
     "gold_id_pay": 24000
   },
   "user_gold_bank_info": {
@@ -52750,22 +52750,22 @@
     {
       "type": 2,
       "id": 20001,
-      "stock": 259
+      "stock": 260
     },
     {
       "type": 2,
       "id": 20002,
-      "stock": 1074
+      "stock": 1076
     },
     {
       "type": 2,
       "id": 20003,
-      "stock": 445
+      "stock": 464
     },
     {
       "type": 2,
       "id": 20004,
-      "stock": 316665
+      "stock": 316675
     },
     {
       "type": 2,
@@ -52795,7 +52795,7 @@
     {
       "type": 2,
       "id": 22002,
-      "stock": 276
+      "stock": 284
     },
     {
       "type": 2,
@@ -52805,7 +52805,7 @@
     {
       "type": 2,
       "id": 23001,
-      "stock": 160319
+      "stock": 160346
     },
     {
       "type": 2,
@@ -52910,7 +52910,7 @@
     {
       "type": 2,
       "id": 26202,
-      "stock": 13888580
+      "stock": 13896930
     },
     {
       "type": 2,
@@ -52920,12 +52920,12 @@
     {
       "type": 2,
       "id": 26205,
-      "stock": 399
+      "stock": 403
     },
     {
       "type": 2,
       "id": 26206,
-      "stock": 264
+      "stock": 265
     },
     {
       "type": 2,
@@ -52940,12 +52940,12 @@
     {
       "type": 2,
       "id": 26209,
-      "stock": 275
+      "stock": 277
     },
     {
       "type": 2,
       "id": 26210,
-      "stock": 184
+      "stock": 186
     },
     {
       "type": 2,
@@ -52960,7 +52960,7 @@
     {
       "type": 2,
       "id": 26303,
-      "stock": 53
+      "stock": 55
     },
     {
       "type": 2,
@@ -54880,12 +54880,12 @@
     {
       "type": 2,
       "id": 50001,
-      "stock": 5
+      "stock": 6
     },
     {
       "type": 2,
       "id": 50003,
-      "stock": 66657
+      "stock": 66660
     },
     {
       "type": 2,
@@ -56195,7 +56195,7 @@
     {
       "type": 2,
       "id": 90008,
-      "stock": 53271
+      "stock": 53371
     },
     {
       "type": 2,
@@ -56295,7 +56295,7 @@
     {
       "type": 2,
       "id": 97003,
-      "stock": 3000
+      "stock": 3100
     },
     {
       "type": 2,
@@ -94068,6 +94068,20 @@
       "enhancement_pt": 0,
       "rank": 0,
       "protection_flag": 1
+    },
+    {
+      "serial_id": 21102,
+      "ex_equipment_id": 4106502,
+      "enhancement_pt": 0,
+      "rank": 0,
+      "protection_flag": 1
+    },
+    {
+      "serial_id": 21103,
+      "ex_equipment_id": 4302530,
+      "enhancement_pt": 0,
+      "rank": 0,
+      "protection_flag": 1
     }
   ],
   "user_clan_battle_ex_equip_restriction": [],
@@ -94561,7 +94575,7 @@
     5151,
     5152
   ],
-  "can_free_gacha": 0,
+  "can_free_gacha": 1,
   "can_campaign_gacha": 0,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
@@ -104720,17 +104734,40 @@
       ]
     }
   ],
-  "daily_reset_time": 1793563200,
+  "daily_reset_time": 1793649600,
   "login_bonus_list": {
     "first": [],
-    "normal": [],
-    "campaign": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 1311,
+        "rap": 1,
+        "count_num": 6,
+        "type": "normal",
+        "reward_type": 8,
+        "reward_id": 91002,
+        "reward_count": 50
+      }
+    ],
+    "campaign": [
+      {
+        "campaign_id": 40025,
+        "total_count": 3,
+        "rap": 1,
+        "count_num": 3,
+        "type": "campaign",
+        "reward_type": 2,
+        "reward_id": 26207,
+        "reward_count": 50
+      }
+    ],
     "lottery": [],
     "adv": [],
     "countdown": [],
     "birthday": [],
     "story_read_process": []
   },
+  "receive_caravan_dice_count": 1,
   "my_party_list": [
     {
       "tab_number": 1,
@@ -105856,6 +105893,16 @@
       "tab_name": "DEF"
     }
   ],
+  "receive_labyrinth_passport_count": 1,
+  "silent_reward_list": [
+    {
+      "id": 23004,
+      "type": 2,
+      "count": 10,
+      "stock": 240,
+      "received": 10
+    }
+  ],
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -106157,8 +106204,8 @@
       "exec_count": 1
     }
   ],
-  "present_count": 11,
-  "clan_like_count": 1,
+  "present_count": 7,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 104401,
@@ -106172,7 +106219,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 3685099,
+      "current_dispatch_bonus": 3954132,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -106188,7 +106235,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 3696371,
+      "current_dispatch_bonus": 3966231,
       "connect_rank": 9,
       "connect_rank_limit": 9
     },
@@ -106204,7 +106251,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 11113265,
+      "current_dispatch_bonus": 11356661,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -106218,7 +106265,7 @@
       "dispatch_count": 48,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 28881333,
+      "current_dispatch_bonus": 29111776,
       "connect_rank": 15,
       "connect_rank_limit": 15
     }
@@ -106236,7 +106283,7 @@
   },
   "csc": {
     "weekly": {
-      "count": 12390,
+      "count": 0,
       "max": 15000
     }
   },
@@ -106386,5 +106433,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1793544465
+  "last_modified": 1793601458
 }

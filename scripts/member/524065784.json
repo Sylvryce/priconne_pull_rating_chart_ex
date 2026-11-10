@@ -4,7 +4,7 @@
     "user_name": "Dracox",
     "user_comment": "Dracox＃2126　EX　Global　player",
     "team_level": 394,
-    "user_stamina": 161,
+    "user_stamina": 398,
     "max_stamina": 452,
     "team_exp": 1454283,
     "favorite_unit_id": 137901,
@@ -36102,7 +36102,16 @@
           "enhancement_pt": 1800
         }
       ],
-      "unique_equip_slot": [],
+      "unique_equip_slot": [
+        {
+          "id": 133621,
+          "is_slot": 0,
+          "enhancement_level": 0,
+          "enhancement_pt": 0,
+          "rank": 0,
+          "is_specialized": 0
+        }
+      ],
       "ex_equip_slot": [
         {
           "slot": 1,
@@ -93086,10 +93095,8 @@
   "max_storage_num": 200,
   "campaign_list": [
     3282,
-    3665,
-    3666,
-    3667,
-    3668,
+    3669,
+    3670,
     5049,
     5050,
     5051,
@@ -93108,8 +93115,8 @@
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
     {
-      "gacha_id": "70173",
-      "remain_exec_count": 3
+      "gacha_id": "70174",
+      "remain_exec_count": 1
     }
   ],
   "gacha_point_info_list": [
@@ -100917,7 +100924,7 @@
       }
     ],
     "team_skill_latest_node": {
-      "node_id": 121,
+      "node_id": 124,
       "enhance_level": 1
     },
     "princess_knight_rank_exp": 62052120
@@ -102419,10 +102426,21 @@
       ]
     }
   ],
-  "daily_reset_time": 1794254400,
+  "daily_reset_time": 1794340800,
   "login_bonus_list": {
     "first": [],
-    "normal": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 1305,
+        "rap": 1,
+        "count_num": 15,
+        "type": "normal",
+        "reward_type": 2,
+        "reward_id": 24001,
+        "reward_count": 1
+      }
+    ],
     "campaign": [],
     "lottery": [],
     "adv": [],
@@ -102430,6 +102448,7 @@
     "birthday": [],
     "story_read_process": []
   },
+  "receive_caravan_dice_count": 1,
   "my_party_list": [
     {
       "tab_number": 1,
@@ -108502,6 +108521,16 @@
       "tab_name": "CB"
     }
   ],
+  "receive_labyrinth_passport_count": 1,
+  "silent_reward_list": [
+    {
+      "id": 23004,
+      "type": 2,
+      "count": 10,
+      "stock": 20,
+      "received": 10
+    }
+  ],
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -108873,7 +108902,7 @@
       "exec_count": 1
     }
   ],
-  "present_count": 35,
+  "present_count": 44,
   "clan_like_count": 0,
   "dispatch_units": [
     {
@@ -108888,7 +108917,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 220000248,
+      "current_dispatch_bonus": 220360778,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -108904,7 +108933,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 105439084,
+      "current_dispatch_bonus": 105798791,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -108918,7 +108947,7 @@
       "dispatch_count": 5,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 29453734,
+      "current_dispatch_bonus": 29808046,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -108935,7 +108964,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 2139217,
+      "current_dispatch_bonus": 2541690,
       "connect_rank": 6,
       "connect_rank_limit": 6
     }
@@ -109117,5 +109146,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1794218285
+  "last_modified": 1794303461
 }

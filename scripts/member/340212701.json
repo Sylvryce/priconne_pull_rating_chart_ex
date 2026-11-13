@@ -4,7 +4,7 @@
     "user_name": "Kishi",
     "user_comment": "Kiran☆　｜　Discord：kishi4824",
     "team_level": 394,
-    "user_stamina": 717,
+    "user_stamina": 357,
     "max_stamina": 452,
     "team_exp": 1454283,
     "favorite_unit_id": 101201,
@@ -14,15 +14,15 @@
       "emblem_id": 11150040,
       "ex_value": 0
     },
-    "stamina_full_recovery_time": 1794511343
+    "stamina_full_recovery_time": 1794602523
   },
   "user_jewel": {
     "jewel": 0,
-    "free_jewel": 83509,
+    "free_jewel": 83794,
     "paid_jewel": 0
   },
   "user_gold": {
-    "gold_id_free": 987400805,
+    "gold_id_free": 995636882,
     "gold_id_pay": 0
   },
   "user_gold_bank_info": {
@@ -46376,22 +46376,22 @@
     {
       "type": 2,
       "id": 20001,
-      "stock": 2052
+      "stock": 2061
     },
     {
       "type": 2,
       "id": 20002,
-      "stock": 5011
+      "stock": 5024
     },
     {
       "type": 2,
       "id": 20003,
-      "stock": 1265
+      "stock": 1294
     },
     {
       "type": 2,
       "id": 20004,
-      "stock": 319984
+      "stock": 319994
     },
     {
       "type": 2,
@@ -46466,17 +46466,17 @@
     {
       "type": 2,
       "id": 22002,
-      "stock": 311
+      "stock": 316
     },
     {
       "type": 2,
       "id": 22003,
-      "stock": 25328
+      "stock": 25330
     },
     {
       "type": 2,
       "id": 23001,
-      "stock": 180401
+      "stock": 180392
     },
     {
       "type": 2,
@@ -46487,11 +46487,6 @@
       "type": 2,
       "id": 23003,
       "stock": 300
-    },
-    {
-      "type": 2,
-      "id": 23004,
-      "stock": 10
     },
     {
       "type": 2,
@@ -46516,7 +46511,7 @@
     {
       "type": 2,
       "id": 25013,
-      "stock": 1521700
+      "stock": 1531700
     },
     {
       "type": 2,
@@ -46576,7 +46571,7 @@
     {
       "type": 2,
       "id": 26202,
-      "stock": 38662160
+      "stock": 38730630
     },
     {
       "type": 2,
@@ -46586,17 +46581,17 @@
     {
       "type": 2,
       "id": 26205,
-      "stock": 349
+      "stock": 411
     },
     {
       "type": 2,
       "id": 26206,
-      "stock": 136
+      "stock": 192
     },
     {
       "type": 2,
       "id": 26207,
-      "stock": 321
+      "stock": 329
     },
     {
       "type": 2,
@@ -46606,7 +46601,7 @@
     {
       "type": 2,
       "id": 26209,
-      "stock": 191
+      "stock": 193
     },
     {
       "type": 2,
@@ -46616,17 +46611,17 @@
     {
       "type": 2,
       "id": 26301,
-      "stock": 464
+      "stock": 521
     },
     {
       "type": 2,
       "id": 26302,
-      "stock": 132
+      "stock": 172
     },
     {
       "type": 2,
       "id": 26303,
-      "stock": 18
+      "stock": 32
     },
     {
       "type": 2,
@@ -48371,12 +48366,12 @@
     {
       "type": 2,
       "id": 50002,
-      "stock": 3
+      "stock": 4
     },
     {
       "type": 2,
       "id": 50003,
-      "stock": 37762
+      "stock": 37788
     },
     {
       "type": 2,
@@ -48961,7 +48956,7 @@
     {
       "type": 2,
       "id": 62211,
-      "stock": 320
+      "stock": 475
     },
     {
       "type": 2,
@@ -49831,12 +49826,12 @@
     {
       "type": 2,
       "id": 90007,
-      "stock": 20151355
+      "stock": 20152075
     },
     {
       "type": 2,
       "id": 90008,
-      "stock": 113560
+      "stock": 114360
     },
     {
       "type": 2,
@@ -49936,7 +49931,7 @@
     {
       "type": 2,
       "id": 97003,
-      "stock": 3150
+      "stock": 3950
     },
     {
       "type": 2,
@@ -91864,7 +91859,7 @@
     5151,
     5152
   ],
-  "can_free_gacha": 0,
+  "can_free_gacha": 1,
   "can_campaign_gacha": 0,
   "can_guarantee_gacha": 1,
   "guarantee_gacha_counter_list": [
@@ -99781,10 +99776,21 @@
       ]
     }
   ],
-  "daily_reset_time": 1794513600,
+  "daily_reset_time": 1794600000,
   "login_bonus_list": {
     "first": [],
-    "normal": [],
+    "normal": [
+      {
+        "campaign_id": 30000,
+        "total_count": 1386,
+        "rap": 1,
+        "count_num": 6,
+        "type": "normal",
+        "reward_type": 8,
+        "reward_id": 91002,
+        "reward_count": 50
+      }
+    ],
     "campaign": [],
     "lottery": [],
     "adv": [],
@@ -99792,6 +99798,7 @@
     "birthday": [],
     "story_read_process": []
   },
+  "receive_caravan_dice_count": 1,
   "my_party_list": [
     {
       "tab_number": 1,
@@ -104781,6 +104788,15 @@
       "tab_name": "PvP2"
     }
   ],
+  "silent_reward_list": [
+    {
+      "id": 23004,
+      "type": 2,
+      "count": 10,
+      "stock": 10,
+      "received": 10
+    }
+  ],
   "mre_story_list": [
     {
       "mre_id": 30001,
@@ -105107,8 +105123,8 @@
       "exec_count": 1
     }
   ],
-  "present_count": 14,
-  "clan_like_count": 1,
+  "present_count": 11,
+  "clan_like_count": 0,
   "dispatch_units": [
     {
       "unit_id": 135201,
@@ -105122,7 +105138,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 41659535,
+      "current_dispatch_bonus": 41893907,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -105136,7 +105152,7 @@
       "dispatch_count": 7,
       "dispatch_status": 1,
       "unique_equipped_list": [],
-      "current_dispatch_bonus": 36840133,
+      "current_dispatch_bonus": 37079803,
       "connect_rank": 15,
       "connect_rank_limit": 15
     },
@@ -105152,7 +105168,7 @@
       "unique_equipped_list": [
         1
       ],
-      "current_dispatch_bonus": 2265934,
+      "current_dispatch_bonus": 2503972,
       "connect_rank": 6,
       "connect_rank_limit": 6
     },
@@ -105169,7 +105185,7 @@
         1,
         1
       ],
-      "current_dispatch_bonus": 10479461,
+      "current_dispatch_bonus": 10736587,
       "connect_rank": 15,
       "connect_rank_limit": 15
     }
@@ -105187,7 +105203,7 @@
   },
   "csc": {
     "weekly": {
-      "count": 5040,
+      "count": 5840,
       "max": 15000
     }
   },
@@ -105250,31 +105266,31 @@
       "id": 187,
       "remaining_count": 1,
       "start_time": 1745982000,
-      "end_time": 1898575199
+      "end_time": 1794797999
     },
     {
       "id": 188,
       "remaining_count": 1,
       "start_time": 1745982000,
-      "end_time": 1898575199
+      "end_time": 1794797999
     },
     {
       "id": 205,
       "remaining_count": 1,
       "start_time": 1755237600,
-      "end_time": 1898575199
+      "end_time": 1794797999
     },
     {
       "id": 206,
       "remaining_count": 1,
       "start_time": 1755237600,
-      "end_time": 1898575199
+      "end_time": 1794797999
     },
     {
       "id": 234,
       "remaining_count": 1,
       "start_time": 1767150000,
-      "end_time": 1898575199
+      "end_time": 1794797999
     },
     {
       "id": 293,
@@ -105342,5 +105358,5 @@
     "wave_answer_time": 20,
     "wave_interval_time": 1
   },
-  "last_modified": 1794511346
+  "last_modified": 1794568591
 }
